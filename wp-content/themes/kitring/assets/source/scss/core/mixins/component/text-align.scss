@@ -1,0 +1,104 @@
+.de-text {
+	&-left {
+		&\@xs {
+			@media (max-width: $breakpoint-small - 1) {
+				text-align: left !important;
+				* {
+					text-align: left !important;
+				}
+			}
+		}
+		&\@s {
+			@media (min-width: $breakpoint-small) and (max-width: $breakpoint-medium - 1) {
+				text-align: left !important;
+				* {
+					text-align: left !important;
+				}
+			}
+		}
+		&\@m {
+			@media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large - 1) {
+				text-align: left !important;
+				* {
+					text-align: left !important;
+				}
+			}
+		}
+		&\@l {
+			@media (min-width: $breakpoint-large) {
+				text-align: left !important;
+				* {
+					text-align: left !important;
+				}
+			}
+		}
+	}
+	&-center {
+		&\@xs {
+			@media (max-width: $breakpoint-small - 1) {
+				text-align: center !important;
+				* {
+					text-align: center !important;
+				}
+			}
+		}
+		&\@s {
+			@media (min-width: $breakpoint-small) and (max-width: $breakpoint-medium - 1) {
+				text-align: center !important;
+				* {
+					text-align: center !important;
+				}
+			}
+		}
+		&\@m {
+			@media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large - 1) {
+				text-align: center !important;
+				* {
+					text-align: center !important;
+				}
+			}
+		}
+		&\@l {
+			@media (min-width: $breakpoint-large) {
+				text-align: center !important;
+				* {
+					text-align: center !important;
+				}
+			}
+		}
+	}
+	&-right {
+		&\@xs {
+			@media (max-width: $breakpoint-small - 1) {
+				text-align: right !important;
+				* {
+					text-align: right !important;
+				}
+			}
+		}
+		&\@s {
+			@media (min-width: $breakpoint-small) and (max-width: $breakpoint-medium - 1) {
+				text-align: right !important;
+				* {
+					text-align: right !important;
+				}
+			}
+		}
+		&\@m {
+			@media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large - 1) {
+				text-align: right !important;
+				* {
+					text-align: right !important;
+				}
+			}
+		}
+		&\@l {
+			@media (min-width: $breakpoint-large) {
+				text-align: right !important;
+				* {
+					text-align: right !important;
+				}
+			}
+		}
+	}
+}

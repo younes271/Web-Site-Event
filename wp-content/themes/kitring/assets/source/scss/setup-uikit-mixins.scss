@@ -1,0 +1,107 @@
+/* 
+ * OVERRIDE UI-KIT ONLY ON THIS FILE
+ * TO TRACK CHANGES HAVE BEEN MADE
+ * PLACE CSS PROPERTY HERE
+ * Override Example
+ * REMOVE IF UNUSED
+*/
+
+@mixin hook-padding-misc() {
+	/* Padding Extra Small
+	 ========================================================================== */
+	.uk-padding-xsmall {
+		padding: $global-xsmall-gutter;
+	}
+	/* Padding Extra Large
+	 ========================================================================== */
+	.uk-padding-xlarge {
+		padding: $global-xlarge-gutter;
+	}
+}
+
+@mixin hook-margin-misc() {
+	/* Margin Extra Small
+	 ========================================================================== */
+	.uk-margin-xsmall {
+		margin-bottom: $global-xsmall-gutter;
+	}
+	*+.uk-margin-xsmall {
+		margin-top: $global-xsmall-gutter !important;
+	}
+	.uk-margin-xsmall-top {
+		margin-top: $global-xsmall-gutter !important;
+	}
+	.uk-margin-xsmall-bottom {
+		margin-bottom: $global-xsmall-gutter !important;
+	}
+	.uk-margin-xsmall-left {
+		margin-left: $global-xsmall-gutter !important;
+	}
+	.uk-margin-xsmall-right {
+		margin-right: $global-xsmall-gutter !important;
+	}
+}
+
+@mixin hook-utility-misc() {
+	.de-box-shadow-small {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+			box-shadow: $global-small-box-shadow;
+		}
+	}
+	.de-box-shadow-medium {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+			box-shadow: $global-medium-box-shadow;
+		}
+	}
+	.de-box-shadow-large {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+			box-shadow: $global-large-box-shadow;
+		}
+	}
+	.de-box-shadow-xlarge {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+			box-shadow: $global-xlarge-box-shadow;
+		}
+	}
+	.uk-navbar-nav {
+		>li {
+			>[class*="de-box-shadow"] {
+				&::after {
+					left: -30px;
+				}
+			}
+		}
+	}
+}
+
+@mixin hook-iconnav-item() {
+	box-shadow: none !important;
+}

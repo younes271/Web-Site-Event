@@ -1,0 +1,57 @@
+.de-header-search {
+	h2 {
+		margin: 0;
+	}
+	input[type="text"] {
+		font-size: inherit;
+		line-height: 2.5;
+		padding: 0;
+		border: 0;
+		border-bottom-width: 1px;
+		border-style: solid;
+		opacity: .5;
+		transition: .3s;
+		&:focus {
+			opacity: 1;
+		}
+	}
+	.entry {
+		&-info {
+			font-size: .875em;
+			img {
+				width: 40px;
+				height: 40px;
+				border-radius: 100em;
+				margin-right: 6px;
+			}
+		}
+		&-categories {
+			a {
+				&::after {
+					content: ',';
+				}
+				&:last-child {
+					&::after {
+						content: '';
+					}
+				}
+			}
+		}
+		&-title {
+			margin-top: 0;
+			margin-bottom: 0.2em;
+			&--uppercase {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.admin-bar {
+	.uk-modal {
+		top: 46px;
+		@media (min-width: $breakpoint-medium) {
+			top: 32px;
+		}
+	}
+}

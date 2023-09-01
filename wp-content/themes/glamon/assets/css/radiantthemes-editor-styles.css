@@ -1,0 +1,22 @@
+body{
+    font-family:"Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color:#09276f;
+}
+
+blockquote{
+    margin-left:0;
+    margin-right:0;
+    padding-left:30px;
+    border-left:3px rgba(0,0,0,0.15) solid;
+	font-size:105%;
+	line-height:110%;
+}
+
+table thead tr th,
+table tbody tr td,
+table tbody tr th{
+	padding:10px 10px 10px 10px;
+}

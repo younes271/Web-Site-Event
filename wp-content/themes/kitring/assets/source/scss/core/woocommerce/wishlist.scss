@@ -1,0 +1,130 @@
+.de-woo-wishlist {
+	overflow: hidden;
+	&__item {
+		padding-top: 20px;
+		border-top: 1px solid #eee;
+		margin-top: 20px;
+		&-inner {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-align: center;
+			align-items: center;
+			-ms-flex-pack: justify;
+			justify-content: space-between;
+		}
+		&:first-child {
+			padding-top: 0;
+			border-top: 0;
+			margin-top: 0;
+		}
+		a > [class^="df-"] {
+			margin: 0;
+		}
+		.product-price {
+			> span {
+				font-size: .875em;
+				line-height: 1.2;
+			}
+		}
+		.product-stock-status {
+			> span {
+				font-size: .875em;
+				border: 1px solid #eee;
+				padding: 3px 12px;
+				border-radius: 100em;
+				white-space: nowrap;
+			}
+		}
+		.product-thumbnail {
+			width: 100px;
+		}
+		@media screen and (max-width: 1023px) {
+			&-inner {
+				position: relative;
+				text-align: center;
+			}
+			.product-remove {
+				position: absolute;
+				top: 0;
+				right: 0;
+				line-height: 1;
+			}
+			.product-thumbnail {
+				margin-bottom: 10px;
+			}
+			.product-price {
+				margin-bottom: 10px;
+			}
+			.product-stock-status {
+				margin-bottom: 10px;
+			}
+		}
+		@media screen and ( min-width: $breakpoint-medium ) {
+			&-inner {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			.product-remove {
+				width: 35px;
+			}
+			.product-thumbnail {
+				width: 85px;
+				margin-right: 40px;
+			}
+			.product-name {
+				width: 42%;
+				> h5 {
+					margin: 0;
+				}
+			}
+			.product-price {
+				width: 110px;
+			}
+			.product-stock-status {
+				width: 110px;
+			}
+			.product-add-to-cart {
+				width: 185px;
+				display: flex;
+				justify-content: flex-end;
+			}
+		}
+		&-button {
+			width: 100%;
+			padding: .813em 0;
+			text-align: center;
+			letter-spacing: 1px;
+		}
+	}
+	&__empty {
+		text-align: center;
+		&-icon {
+			font-size: 5em;
+			line-height: 1;
+			margin-bottom: 30px;
+		}
+		h1 {
+			font-weight: 400;
+		}
+	}
+	&__share {
+		margin-top: 60px;
+		text-align: center;
+		ul {
+			margin: 0;
+			height: auto;
+			li {
+				display: inline-block;
+				&:last-child {
+					a > [class^="df-"] {
+						margin-right: 0;
+					}
+				}
+			}
+			a {
+				font-size: 22px;
+			}
+		}
+	}
+}

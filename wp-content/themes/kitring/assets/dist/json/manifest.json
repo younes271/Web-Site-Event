@@ -1,0 +1,21 @@
+{
+					"display": "standalone",
+					"orientation": "portrait",
+					"short_name": "kitringtestversion2.6",
+					"name": "kitringtestversion2.6 - Just another WordPress site",
+					"start_url": "http://localhost:8080/kitringtestversion2.6/?utm_source=homescreen",
+					"theme_color": "#000000",
+					"background_color": "#000000",
+					"icons": [
+						{
+						"src": "http://localhost:8080/kitringtestversion2.6/wp-content/themes/kitring/favicon.png",
+						"type": "image/png",
+						"sizes": "192x192"
+						},
+						{
+						"src": "http://localhost:8080/kitringtestversion2.6/wp-content/themes/kitring/favicon.png",
+						"type": "image/png",
+						"sizes": "512x512"
+						}
+					]
+				}

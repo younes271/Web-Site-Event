@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# GDPR Notice
+--------------------------------------------------------------*/
+
+.gdpr-notice{
+	position:fixed;
+	bottom:0;
+	z-index:99;
+	margin:0;
+	padding:20px 30px 17px 20px;
+	border:none;
+	border-radius:0;
+	font-weight:300;
+	color:#fff;
+
+	&.i-am-hidden{
+		display:none;
+	}
+
+	.close{
+	    top:-12px;
+	}
+
+	> .row{
+		display:flex;
+		flex-wrap:wrap;
+		align-items:center;
+
+		> div[class*='col-']{
+		}
+
+	}
+
+	p{
+		margin:0;
+	}
+
+	.btn{
+	}
+
+}

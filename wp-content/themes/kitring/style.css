@@ -1,0 +1,54 @@
+/*
+Theme Name: Kitring
+Theme URI: https://dahzthemes.com/kitring/
+Author: Dahz Theme
+Author URI:  https://dahzthemes.com/kitring/
+Description: Kitring is designed specifically for a hairdresser, barber shop, beauty center, and hair salon to make your website beautiful instantly. Kitring helps you to reflect your business in professional and modern vibes of your online presence. This theme is also responsive, mobile-friendly, and integrated with Booked plugin so that you’re always ready to invite your visitors to book your services on any device.
+Version: 2.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: kitring
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, featured-images, theme-options
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+kitring is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.bypostauthor > article .fn:after {
+	content: "\f304";
+	left: 3px;
+	position: relative;
+	top: 5px;
+}

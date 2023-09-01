@@ -1,0 +1,42 @@
+@media (min-width: $breakpoint-medium) {
+	.de-content-framed {
+		position: relative;
+		&:before {
+			z-index: 999;
+			content: '';
+			position: fixed;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			display: block;
+			width: 100%;
+		}
+		.page-wrapper {
+			margin-top: 0;
+			&:before {
+				content: "";
+				z-index: 999;
+				content: '';
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	.admin-bar .de-content-framed .page-wrapper:before {
+		top: 32px;
+	}
+
+}
+.de-site {
+	position: relative;
+}
+
+
+.error-404__image {
+	margin-bottom: 50px;
+}

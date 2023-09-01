@@ -1,0 +1,54 @@
+.de-btn {
+	&--slide {
+		&-left {
+			&::after {
+				transform: translateX(-150%) skew(15deg);
+			}
+			&:hover {
+				&::after {
+					transform: none;
+				}
+			}
+		}
+		&-right {
+			&::after {
+				transform: translateX(150%) skew(-15deg);
+			}
+			&:hover {
+				&::after {
+					transform: none;
+				}
+			}
+		}
+		&-top {
+			&::after {
+				transform: translateY(-105%);
+			}
+			&:hover {
+				&::before {
+					background-color: #000; /* Remove if needed */
+				}
+				&::after {
+					transform: none;
+				}
+			}
+		}
+		&-bottom {
+			&::before,
+			&::after {
+				transition: transform .3s, border-color .3s, background-color .6s;
+			}
+			&::after {
+				transform: translateY(105%);
+			}
+			&:hover {
+				&::before {
+					background-color: #000; /* Remove if needed */
+				}
+				&::after {
+					transform: none;
+				}
+			}
+		}
+	}
+}

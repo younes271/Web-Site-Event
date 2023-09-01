@@ -1,0 +1,4287 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Glamon\n"
+"POT-Creation-Date: 2019-05-10 18:53+0530\n"
+"PO-Revision-Date: 2019-05-10 18:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:28 404.php:123
+msgid "404"
+msgstr ""
+
+#: 404.php:125
+msgid "Opps! Page is not available"
+msgstr ""
+
+#: 404.php:126
+msgid "We're not being able to find the page you're looking for"
+msgstr ""
+
+#: 404.php:127 inc/redux-framework/options-init.php:8354
+msgid "Back To Home"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One Comment"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:57 comments.php:88
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:60 comments.php:91
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:106
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:119
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:120
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:121
+msgid "Website"
+msgstr ""
+
+#: comments.php:124
+msgid "Your Comment"
+msgstr ""
+
+#: functions.php:87
+msgid "Primary"
+msgstr ""
+
+#: functions.php:88
+msgid "Side Panel Menu"
+msgstr ""
+
+#: functions.php:89
+msgid "Flyout Menu"
+msgstr ""
+
+#: functions.php:90
+msgid "Slideout Menu"
+msgstr ""
+
+#: functions.php:179 functions.php:350
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:252 inc/redux-framework/options-init.php:9432
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:254 functions.php:268
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:266
+msgid "Product | Sidebar"
+msgstr ""
+
+#: functions.php:280
+msgid "Hamburger | Sidebar"
+msgstr ""
+
+#: functions.php:282
+msgid ""
+"Add widgets for \"Hamburger\" menu from here. To turn it on/off please "
+"navigate to \"Theme Options > Header\" and select \"Hamburger\" for "
+"respetive header styles."
+msgstr ""
+
+#: functions.php:674
+msgid "Checkout"
+msgstr ""
+
+#: functions.php:795 functions.php:806 functions.php:833
+msgid "Home"
+msgstr ""
+
+#: functions.php:826
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: functions.php:841
+msgid "Archive by category \""
+msgstr ""
+
+#: functions.php:843
+msgid "Search results for \""
+msgstr ""
+
+#: functions.php:921
+msgid "Posts tagged \""
+msgstr ""
+
+#: functions.php:925
+msgid "Articles posted by "
+msgstr ""
+
+#: functions.php:927 inc/redux-framework/options-init.php:8305
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:934
+msgid "Page"
+msgstr ""
+
+#: functions.php:955
+msgid "Demo One"
+msgstr ""
+
+#: inc/footer/footer-style-default.php:26
+msgid "© "
+msgstr ""
+
+#: inc/footer/footer-style-default.php:26
+msgid " Glamon Theme. RadiantThemes "
+msgstr ""
+
+#: inc/header/banner.php:559 inc/header/theme-banner.php:559
+msgid "Events"
+msgstr ""
+
+#. translators: category name.
+#: inc/header/banner.php:730 inc/header/theme-banner.php:730
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#. translators: Author Name.
+#: inc/header/banner.php:748 inc/header/theme-banner.php:748
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#. translators: Tag Name.
+#: inc/header/banner.php:764 inc/header/theme-banner.php:764
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#. translators: Date.
+#: inc/header/banner.php:783 inc/header/theme-banner.php:783
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. translators: Month and Date.
+#: inc/header/banner.php:789 inc/header/theme-banner.php:789
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/header/banner.php:790 inc/header/theme-banner.php:790
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. translators: Month Date, Year.
+#: inc/header/banner.php:795 inc/header/theme-banner.php:795
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/header/banner.php:796 inc/header/theme-banner.php:796
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/header/banner.php:799 inc/header/theme-banner.php:799
+msgid "Archives"
+msgstr ""
+
+#: inc/header/banner.php:916 inc/header/header-style-six.php:171
+#: inc/header/header-style-two.php:170 inc/header/theme-banner.php:916
+#: inc/redux-framework/options-init.php:8873
+msgid "Search"
+msgstr ""
+
+#: inc/header/header-style-fifteen.php:82 inc/header/header-style-one.php:70
+#: inc/header/header-style-sixteen.php:91 inc/header/header-style-ten.php:149
+#: inc/header/header-style-thirteen.php:92
+msgid "Search..."
+msgstr ""
+
+#: inc/header/header-style-five.php:101
+msgid "Follow Us On"
+msgstr ""
+
+#: inc/header/header-style-four.php:144
+msgid "Type someting to search..."
+msgstr ""
+
+#: inc/header/header-style-six.php:178 inc/header/header-style-two.php:177
+msgid "Type to search..."
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:17
+#: inc/radiantthemes-dashboard/welcome.php:16
+msgid "Welcome to "
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:18
+#: inc/radiantthemes-dashboard/welcome.php:17
+msgid " is now installed and ready to use!"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:19
+#: inc/radiantthemes-dashboard/welcome.php:18
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:22
+#: inc/radiantthemes-dashboard/welcome.php:21
+msgid "Dashboard"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:23
+#: inc/radiantthemes-dashboard/welcome.php:22
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:25
+#: inc/radiantthemes-dashboard/welcome.php:24
+msgid "Demo Importer"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:28
+#: inc/radiantthemes-dashboard/welcome.php:27
+#: inc/redux-framework/options-init.php:30
+#: inc/redux-framework/options-init.php:31
+msgid "Theme Options"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:36
+msgid "These below plugins are required"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:37
+msgid "Activate all plugins"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/install-plugins.php:56
+msgid "Activated"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/rt-admin.php:48
+#: inc/radiantthemes-dashboard/rt-admin.php:158
+msgid "radiantthemes"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:122
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:126
+msgid "DOCUMENTATION"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:134
+msgid "Theme Support"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:138
+msgid "OPEN SUPPORT TICKET"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:148
+msgid "System Status"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:152
+msgid "WP Memory Limit"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:158
+#: inc/radiantthemes-dashboard/welcome.php:161
+#: inc/radiantthemes-dashboard/welcome.php:169
+#: inc/radiantthemes-dashboard/welcome.php:172
+#: inc/radiantthemes-dashboard/welcome.php:180
+#: inc/radiantthemes-dashboard/welcome.php:183
+#: inc/radiantthemes-dashboard/welcome.php:195
+#: inc/radiantthemes-dashboard/welcome.php:204
+#: inc/radiantthemes-dashboard/welcome.php:207
+#: inc/radiantthemes-dashboard/welcome.php:215
+#: inc/radiantthemes-dashboard/welcome.php:218
+msgid "Currently:"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:159
+msgid "(min:256M)"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:165
+msgid "Upload Max. Filesize"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:170
+#: inc/radiantthemes-dashboard/welcome.php:181
+msgid "(min:64M)"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:176
+msgid "Max. Post Size"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:187
+msgid "Max. Execution Time"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:193
+msgid "(min:300)"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:199
+msgid "PHP Max. Input Vars"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:205
+msgid "(min:2000)"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:211
+msgid "PHP Max. Input Time"
+msgstr ""
+
+#: inc/radiantthemes-dashboard/welcome.php:216
+msgid "(min:1000)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:27
+msgid "Powered By: RadiantThemes Customizer"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:103
+#: inc/redux-framework/options-init.php:401
+#: inc/redux-framework/options-init.php:1265
+msgid "General"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:112
+msgid "Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:122
+msgid "Layout Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:132
+msgid "Layout Type"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:133
+msgid ""
+"Select layout type. (Please Note: Please set \"Row stretch\" to \"Default\" "
+"from WPBakery Page Builder \"Row Settings\"/\"Section Settings\" for \"Boxed"
+"\" layout.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:145
+msgid "Boxed Width"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:146
+msgid "Select Boxed width. Min is 1000px, Max is 1400px and Default is 1200px."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:165
+msgid "Boxed Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:166
+msgid ""
+"Applies for Boxed layout. (Please Note: This can be overright by setting "
+"section background color.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:187
+msgid "Body Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:188
+msgid ""
+"Choose a background for the theme. (Please Note: This can be overright by "
+"setting section background color.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:204
+msgid "Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:214
+msgid "Color Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:224
+msgid "Color Scheme Type"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:225
+msgid "Select color scheme type"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:237
+#: inc/redux-framework/options-init.php:337
+msgid "Select Theme Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:238
+#: inc/redux-framework/options-init.php:338
+msgid ""
+"From here you can choose theme color for your website. (Please Note: This "
+"will set preset color scheme on your theme. You can replace color(s) from "
+"each element settings.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:339
+msgid "Select alpha value if you want to use alpha in selected areas."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:360
+#: inc/redux-framework/options-init.php:369
+msgid "Favicon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:370
+msgid "You can upload Favicon on your website. (.ico 32x32 pixels)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:379
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:380
+msgid "apple-touch-icon.png 192x192 pixels"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:393
+msgid "Fonts"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:402
+msgid "This will be the default font of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:425
+msgid "H1"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:426
+msgid "This will be the default font for all H1 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:453
+msgid "H2"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:454
+msgid "This will be the default font for all H2 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:481
+msgid "H3"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:482
+msgid "This will be the default font for all H3 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:509
+msgid "H4"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:510
+msgid "This will be the default font for all H4 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:537
+msgid "H5"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:538
+msgid "This will be the default font for all H5 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:565
+msgid "H6"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:566
+msgid "This will be the default font for all H6 tags of your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:605
+#: inc/redux-framework/options-init.php:612
+msgid "Custom Font "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:630
+msgid "Font Name"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:631
+msgid "Give this any custom Name"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:640
+msgid "WOFF "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:654
+msgid "WOFF2 "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:668
+msgid "TTF "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:681
+msgid "SVG "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:694
+msgid "EOT "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:723
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:726
+msgid "Upload Custom Fonts."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:735
+msgid "Custom Slug"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:745
+msgid "Change Custom Post Type Slug"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:753
+msgid "Portfolio"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:754
+#: inc/redux-framework/options-init.php:762
+#: inc/redux-framework/options-init.php:770
+#: inc/redux-framework/options-init.php:778
+#: inc/redux-framework/options-init.php:786
+#: inc/redux-framework/options-init.php:794
+msgid ""
+"The slug name cannot be the same as a page name. Make sure to regenerate "
+"permalinks, after making changes."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:761
+#: inc/redux-framework/options-init.php:9227
+msgid "Team"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:769
+msgid "Case Study"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:777
+msgid "Property"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:785
+msgid "Department"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:793
+msgid "Tour"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:805
+msgid "Preloader"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:815
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:825
+msgid "Activate Preloader"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:826
+msgid "Choose if want to activate Preloader or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:827
+#: inc/redux-framework/options-init.php:958
+#: inc/redux-framework/options-init.php:1036
+#: inc/redux-framework/options-init.php:1134
+#: inc/redux-framework/options-init.php:1426
+#: inc/redux-framework/options-init.php:1452
+#: inc/redux-framework/options-init.php:1544
+#: inc/redux-framework/options-init.php:1653
+#: inc/redux-framework/options-init.php:1686
+#: inc/redux-framework/options-init.php:1697
+#: inc/redux-framework/options-init.php:1708
+#: inc/redux-framework/options-init.php:1767
+#: inc/redux-framework/options-init.php:1849
+#: inc/redux-framework/options-init.php:1875
+#: inc/redux-framework/options-init.php:1967
+#: inc/redux-framework/options-init.php:2062
+#: inc/redux-framework/options-init.php:2095
+#: inc/redux-framework/options-init.php:2106
+#: inc/redux-framework/options-init.php:2117
+#: inc/redux-framework/options-init.php:2176
+#: inc/redux-framework/options-init.php:2309
+#: inc/redux-framework/options-init.php:2457
+#: inc/redux-framework/options-init.php:2477
+#: inc/redux-framework/options-init.php:2503
+#: inc/redux-framework/options-init.php:2637
+#: inc/redux-framework/options-init.php:2697
+#: inc/redux-framework/options-init.php:2759
+#: inc/redux-framework/options-init.php:2855
+#: inc/redux-framework/options-init.php:2910
+#: inc/redux-framework/options-init.php:2943
+#: inc/redux-framework/options-init.php:2954
+#: inc/redux-framework/options-init.php:3035
+#: inc/redux-framework/options-init.php:3127
+#: inc/redux-framework/options-init.php:3331
+#: inc/redux-framework/options-init.php:3455
+#: inc/redux-framework/options-init.php:3532
+#: inc/redux-framework/options-init.php:3626
+#: inc/redux-framework/options-init.php:3718
+#: inc/redux-framework/options-init.php:3817
+#: inc/redux-framework/options-init.php:4021
+#: inc/redux-framework/options-init.php:4113
+#: inc/redux-framework/options-init.php:4208
+#: inc/redux-framework/options-init.php:4235
+#: inc/redux-framework/options-init.php:4395
+#: inc/redux-framework/options-init.php:4489
+#: inc/redux-framework/options-init.php:4522
+#: inc/redux-framework/options-init.php:4587
+#: inc/redux-framework/options-init.php:4679
+#: inc/redux-framework/options-init.php:4788
+#: inc/redux-framework/options-init.php:4853
+#: inc/redux-framework/options-init.php:4994
+#: inc/redux-framework/options-init.php:5067
+#: inc/redux-framework/options-init.php:5278
+#: inc/redux-framework/options-init.php:5370
+#: inc/redux-framework/options-init.php:5566
+#: inc/redux-framework/options-init.php:5631
+#: inc/redux-framework/options-init.php:5711
+#: inc/redux-framework/options-init.php:5803
+#: inc/redux-framework/options-init.php:5897
+#: inc/redux-framework/options-init.php:6062
+#: inc/redux-framework/options-init.php:6233
+#: inc/redux-framework/options-init.php:6298
+#: inc/redux-framework/options-init.php:6378
+#: inc/redux-framework/options-init.php:6470
+#: inc/redux-framework/options-init.php:6566
+#: inc/redux-framework/options-init.php:6648
+#: inc/redux-framework/options-init.php:6737
+#: inc/redux-framework/options-init.php:6820
+#: inc/redux-framework/options-init.php:6831
+#: inc/redux-framework/options-init.php:6849
+#: inc/redux-framework/options-init.php:6889
+#: inc/redux-framework/options-init.php:6907
+#: inc/redux-framework/options-init.php:7038
+#: inc/redux-framework/options-init.php:7233
+#: inc/redux-framework/options-init.php:7314
+#: inc/redux-framework/options-init.php:7859
+#: inc/redux-framework/options-init.php:7900
+#: inc/redux-framework/options-init.php:8578
+#: inc/redux-framework/options-init.php:8724
+#: inc/redux-framework/options-init.php:9156
+#: inc/redux-framework/options-init.php:9165
+#: inc/redux-framework/options-init.php:9175
+#: inc/redux-framework/options-init.php:9185
+#: inc/redux-framework/options-init.php:9195
+#: inc/redux-framework/options-init.php:9205
+#: inc/redux-framework/options-init.php:9215
+msgid "Yes"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:828
+#: inc/redux-framework/options-init.php:959
+#: inc/redux-framework/options-init.php:1037
+#: inc/redux-framework/options-init.php:1135
+#: inc/redux-framework/options-init.php:1427
+#: inc/redux-framework/options-init.php:1453
+#: inc/redux-framework/options-init.php:1545
+#: inc/redux-framework/options-init.php:1654
+#: inc/redux-framework/options-init.php:1687
+#: inc/redux-framework/options-init.php:1698
+#: inc/redux-framework/options-init.php:1709
+#: inc/redux-framework/options-init.php:1768
+#: inc/redux-framework/options-init.php:1850
+#: inc/redux-framework/options-init.php:1876
+#: inc/redux-framework/options-init.php:1968
+#: inc/redux-framework/options-init.php:2063
+#: inc/redux-framework/options-init.php:2096
+#: inc/redux-framework/options-init.php:2107
+#: inc/redux-framework/options-init.php:2118
+#: inc/redux-framework/options-init.php:2177
+#: inc/redux-framework/options-init.php:2310
+#: inc/redux-framework/options-init.php:2458
+#: inc/redux-framework/options-init.php:2478
+#: inc/redux-framework/options-init.php:2504
+#: inc/redux-framework/options-init.php:2638
+#: inc/redux-framework/options-init.php:2698
+#: inc/redux-framework/options-init.php:2760
+#: inc/redux-framework/options-init.php:2856
+#: inc/redux-framework/options-init.php:2911
+#: inc/redux-framework/options-init.php:2944
+#: inc/redux-framework/options-init.php:2955
+#: inc/redux-framework/options-init.php:3036
+#: inc/redux-framework/options-init.php:3128
+#: inc/redux-framework/options-init.php:3332
+#: inc/redux-framework/options-init.php:3456
+#: inc/redux-framework/options-init.php:3533
+#: inc/redux-framework/options-init.php:3627
+#: inc/redux-framework/options-init.php:3719
+#: inc/redux-framework/options-init.php:3818
+#: inc/redux-framework/options-init.php:4022
+#: inc/redux-framework/options-init.php:4114
+#: inc/redux-framework/options-init.php:4209
+#: inc/redux-framework/options-init.php:4236
+#: inc/redux-framework/options-init.php:4396
+#: inc/redux-framework/options-init.php:4490
+#: inc/redux-framework/options-init.php:4523
+#: inc/redux-framework/options-init.php:4588
+#: inc/redux-framework/options-init.php:4680
+#: inc/redux-framework/options-init.php:4789
+#: inc/redux-framework/options-init.php:4854
+#: inc/redux-framework/options-init.php:4995
+#: inc/redux-framework/options-init.php:5068
+#: inc/redux-framework/options-init.php:5279
+#: inc/redux-framework/options-init.php:5371
+#: inc/redux-framework/options-init.php:5567
+#: inc/redux-framework/options-init.php:5632
+#: inc/redux-framework/options-init.php:5712
+#: inc/redux-framework/options-init.php:5804
+#: inc/redux-framework/options-init.php:5898
+#: inc/redux-framework/options-init.php:6063
+#: inc/redux-framework/options-init.php:6234
+#: inc/redux-framework/options-init.php:6299
+#: inc/redux-framework/options-init.php:6379
+#: inc/redux-framework/options-init.php:6471
+#: inc/redux-framework/options-init.php:6567
+#: inc/redux-framework/options-init.php:6649
+#: inc/redux-framework/options-init.php:6738
+#: inc/redux-framework/options-init.php:6821
+#: inc/redux-framework/options-init.php:6832
+#: inc/redux-framework/options-init.php:6850
+#: inc/redux-framework/options-init.php:6890
+#: inc/redux-framework/options-init.php:6908
+#: inc/redux-framework/options-init.php:7039
+#: inc/redux-framework/options-init.php:7234
+#: inc/redux-framework/options-init.php:7315
+#: inc/redux-framework/options-init.php:7860
+#: inc/redux-framework/options-init.php:7901
+#: inc/redux-framework/options-init.php:8579
+#: inc/redux-framework/options-init.php:8725
+#: inc/redux-framework/options-init.php:9157
+#: inc/redux-framework/options-init.php:9166
+#: inc/redux-framework/options-init.php:9176
+#: inc/redux-framework/options-init.php:9186
+#: inc/redux-framework/options-init.php:9196
+#: inc/redux-framework/options-init.php:9206
+#: inc/redux-framework/options-init.php:9216
+msgid "No"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:836
+msgid "Preloader Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:837
+msgid "Select Style of the Preloader. (Powered By: \"Loading.io\")"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:866
+msgid "Preloader Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:867
+msgid "Pick a background color for the Preloader."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:888
+msgid "Preloader Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:889
+msgid "Pick a color for the Preloader."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:913
+msgid "Preloader Timeout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:914
+msgid ""
+"Select preloader timeout after successful page load. Min is 100ms, Max is "
+"3000ms and Default is 500ms."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:936
+msgid "Page Transition"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:946
+msgid "Page Transition Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:956
+msgid "Activate Page Transition"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:957
+msgid ""
+"Choose if want to activate Page Transition or not. (Please Note: Preloader "
+"option will not work if you enable this.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:967
+#: inc/redux-framework/options-init.php:1065
+#: inc/redux-framework/options-init.php:1143
+#: inc/redux-framework/options-init.php:7983
+msgid "Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:968
+msgid "Pick a color for the Page Transition."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:989
+msgid "Loader Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:990
+msgid "Pick a color for the Page Transition Loader."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1014
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1024
+msgid "Scroll To Top Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1034
+msgid "Activate Scroll To Top"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1035
+msgid "Choose if want to activate Scroll To Top or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1045
+msgid "Direction"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1046
+msgid "Select Direction of the Scroll To Top."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1066
+msgid "Pick a background color for the Scroll To Top."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1087
+#: inc/redux-framework/options-init.php:8130
+msgid "Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1088
+msgid "Pick a icon color for the Scroll To Top."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1112
+msgid "GDPR Notice"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1122
+msgid "GDPR Notice Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1132
+msgid "Activate GDPR Notice"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1133
+msgid "Choose if want to activate GDPR Notice or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1144
+msgid "Pick a background color for the GDPR Notice."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1165
+msgid "GDPR Notice Typography"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1166
+msgid "This will be the default font of GDPR Notice."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1197
+msgid "GDPR Notice Content"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1198
+msgid "Enter content to show on GDPR Notice."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1213
+msgid "GDPR Notice Button Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1214
+msgid "Enter Button Text for GDPR Notice button."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1229
+msgid "GDPR Notice Button Link"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1230
+msgid "Enter Button Link for GDPR Notice button."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1256
+msgid "Header"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1275
+#: inc/redux-framework/options-init.php:1285
+msgid "Header Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1286
+msgid ""
+"Select Header Style (Header will be changed as per selection || N.B.: You "
+"can change header even from page to page)."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1289
+#: inc/redux-framework/options-init.php:1291
+msgid "Default Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1294
+#: inc/redux-framework/options-init.php:1296
+#: inc/redux-framework/options-init.php:9128
+#: inc/redux-framework/options-init.php:9257
+msgid "Style One"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1299
+#: inc/redux-framework/options-init.php:1301
+#: inc/redux-framework/options-init.php:9133
+msgid "Style Two"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1304
+#: inc/redux-framework/options-init.php:1306
+msgid "Style Three"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1309
+#: inc/redux-framework/options-init.php:1311
+msgid "Style Four"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1314
+#: inc/redux-framework/options-init.php:1316
+msgid "Style Five"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1319
+#: inc/redux-framework/options-init.php:1321
+msgid "Style Six"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1324
+#: inc/redux-framework/options-init.php:1326
+msgid "Style Seven"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1329
+#: inc/redux-framework/options-init.php:1331
+msgid "Style Eight"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1334
+#: inc/redux-framework/options-init.php:1336
+msgid "Style Nine"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1339
+#: inc/redux-framework/options-init.php:1341
+msgid "Style Ten"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1344
+#: inc/redux-framework/options-init.php:1346
+msgid "Style Eleven"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1349
+#: inc/redux-framework/options-init.php:1351
+msgid "Style Twelve"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1354
+#: inc/redux-framework/options-init.php:1356
+msgid "Style Thirteen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1359
+#: inc/redux-framework/options-init.php:1361
+msgid "Style Fourteen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1364
+#: inc/redux-framework/options-init.php:1366
+msgid "Style Fifteen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1369
+#: inc/redux-framework/options-init.php:1371
+msgid "Style Sixteen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1374
+#: inc/redux-framework/options-init.php:1376
+msgid "Style Seventeen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1379
+#: inc/redux-framework/options-init.php:1381
+msgid "Style Eightteen"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1393
+msgid "Header Default Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1401
+#: inc/redux-framework/options-init.php:1435
+#: inc/redux-framework/options-init.php:1501
+#: inc/redux-framework/options-init.php:1858
+#: inc/redux-framework/options-init.php:1924
+#: inc/redux-framework/options-init.php:2256
+#: inc/redux-framework/options-init.php:2367
+#: inc/redux-framework/options-init.php:2486
+#: inc/redux-framework/options-init.php:2552
+#: inc/redux-framework/options-init.php:2680
+#: inc/redux-framework/options-init.php:3176
+#: inc/redux-framework/options-init.php:3314
+#: inc/redux-framework/options-init.php:3380
+#: inc/redux-framework/options-init.php:3504
+#: inc/redux-framework/options-init.php:3866
+#: inc/redux-framework/options-init.php:4004
+#: inc/redux-framework/options-init.php:4070
+#: inc/redux-framework/options-init.php:4359
+#: inc/redux-framework/options-init.php:4728
+#: inc/redux-framework/options-init.php:4916
+#: inc/redux-framework/options-init.php:4977
+#: inc/redux-framework/options-init.php:5043
+#: inc/redux-framework/options-init.php:5261
+#: inc/redux-framework/options-init.php:5327
+#: inc/redux-framework/options-init.php:5694
+#: inc/redux-framework/options-init.php:5760
+#: inc/redux-framework/options-init.php:5962
+#: inc/redux-framework/options-init.php:6111
+#: inc/redux-framework/options-init.php:6361
+#: inc/redux-framework/options-init.php:6427
+#: inc/redux-framework/options-init.php:6631
+#: inc/redux-framework/options-init.php:6697
+#: inc/redux-framework/options-init.php:7021
+#: inc/redux-framework/options-init.php:7087
+#: inc/redux-framework/options-init.php:7197
+msgid "Main Header Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1402
+msgid "Applies for main header. (Applies for header \"Style Default\" only)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1416
+msgid "Header One Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1424
+#: inc/redux-framework/options-init.php:1847
+#: inc/redux-framework/options-init.php:2475
+msgid "Floating Option"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1425
+#: inc/redux-framework/options-init.php:1848
+#: inc/redux-framework/options-init.php:2476
+msgid "Choose if you want the header to be floated (position:absolute) or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1436
+#: inc/redux-framework/options-init.php:1859
+#: inc/redux-framework/options-init.php:2257
+#: inc/redux-framework/options-init.php:2272
+#: inc/redux-framework/options-init.php:2368
+#: inc/redux-framework/options-init.php:2383
+#: inc/redux-framework/options-init.php:2487
+#: inc/redux-framework/options-init.php:2681
+#: inc/redux-framework/options-init.php:3315
+#: inc/redux-framework/options-init.php:3505
+#: inc/redux-framework/options-init.php:4005
+#: inc/redux-framework/options-init.php:4360
+#: inc/redux-framework/options-init.php:4917
+#: inc/redux-framework/options-init.php:4978
+#: inc/redux-framework/options-init.php:5262
+#: inc/redux-framework/options-init.php:5695
+#: inc/redux-framework/options-init.php:5963
+#: inc/redux-framework/options-init.php:6362
+#: inc/redux-framework/options-init.php:6632
+#: inc/redux-framework/options-init.php:7022
+#: inc/redux-framework/options-init.php:7198
+msgid "Applies for main header."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1450
+#: inc/redux-framework/options-init.php:1873
+#: inc/redux-framework/options-init.php:2501
+#: inc/redux-framework/options-init.php:2695
+#: inc/redux-framework/options-init.php:3125
+#: inc/redux-framework/options-init.php:3329
+#: inc/redux-framework/options-init.php:3815
+#: inc/redux-framework/options-init.php:4019
+#: inc/redux-framework/options-init.php:4677
+#: inc/redux-framework/options-init.php:4992
+#: inc/redux-framework/options-init.php:5276
+#: inc/redux-framework/options-init.php:5709
+#: inc/redux-framework/options-init.php:6060
+#: inc/redux-framework/options-init.php:6376
+#: inc/redux-framework/options-init.php:6646
+#: inc/redux-framework/options-init.php:7036
+msgid "Sticky Option"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1451
+#: inc/redux-framework/options-init.php:1874
+#: inc/redux-framework/options-init.php:2502
+#: inc/redux-framework/options-init.php:2696
+#: inc/redux-framework/options-init.php:3126
+#: inc/redux-framework/options-init.php:3330
+#: inc/redux-framework/options-init.php:3816
+#: inc/redux-framework/options-init.php:4020
+#: inc/redux-framework/options-init.php:4678
+#: inc/redux-framework/options-init.php:4993
+#: inc/redux-framework/options-init.php:5277
+#: inc/redux-framework/options-init.php:5710
+#: inc/redux-framework/options-init.php:6061
+#: inc/redux-framework/options-init.php:6377
+#: inc/redux-framework/options-init.php:6647
+#: inc/redux-framework/options-init.php:7037
+msgid "Choose if you want the header to be \"Sticky\" or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1461
+#: inc/redux-framework/options-init.php:1884
+#: inc/redux-framework/options-init.php:2512
+#: inc/redux-framework/options-init.php:2706
+#: inc/redux-framework/options-init.php:3136
+#: inc/redux-framework/options-init.php:3340
+#: inc/redux-framework/options-init.php:3826
+#: inc/redux-framework/options-init.php:4030
+#: inc/redux-framework/options-init.php:4688
+#: inc/redux-framework/options-init.php:5003
+#: inc/redux-framework/options-init.php:5287
+#: inc/redux-framework/options-init.php:5720
+#: inc/redux-framework/options-init.php:6071
+#: inc/redux-framework/options-init.php:6387
+#: inc/redux-framework/options-init.php:6657
+#: inc/redux-framework/options-init.php:7047
+msgid "Select Sticky Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1462
+msgid "Select Sticky Style for header \"Style One\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1481
+#: inc/redux-framework/options-init.php:1904
+#: inc/redux-framework/options-init.php:2532
+#: inc/redux-framework/options-init.php:2726
+#: inc/redux-framework/options-init.php:3156
+#: inc/redux-framework/options-init.php:3360
+#: inc/redux-framework/options-init.php:3846
+#: inc/redux-framework/options-init.php:4050
+#: inc/redux-framework/options-init.php:4708
+#: inc/redux-framework/options-init.php:5023
+#: inc/redux-framework/options-init.php:5307
+#: inc/redux-framework/options-init.php:5740
+#: inc/redux-framework/options-init.php:6091
+#: inc/redux-framework/options-init.php:6407
+#: inc/redux-framework/options-init.php:6677
+#: inc/redux-framework/options-init.php:7067
+msgid "Sticky Delay"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1482
+#: inc/redux-framework/options-init.php:1905
+#: inc/redux-framework/options-init.php:2533
+#: inc/redux-framework/options-init.php:2727
+#: inc/redux-framework/options-init.php:3157
+#: inc/redux-framework/options-init.php:3361
+#: inc/redux-framework/options-init.php:3847
+#: inc/redux-framework/options-init.php:4051
+#: inc/redux-framework/options-init.php:4709
+#: inc/redux-framework/options-init.php:5024
+#: inc/redux-framework/options-init.php:5308
+#: inc/redux-framework/options-init.php:5741
+#: inc/redux-framework/options-init.php:6408
+#: inc/redux-framework/options-init.php:6678
+#: inc/redux-framework/options-init.php:7068
+msgid ""
+"Select sticky delay value. Min is 200px, Max is 2000px and Default is 500px."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1502
+#: inc/redux-framework/options-init.php:1925
+#: inc/redux-framework/options-init.php:2553
+#: inc/redux-framework/options-init.php:3177
+#: inc/redux-framework/options-init.php:3381
+#: inc/redux-framework/options-init.php:3867
+#: inc/redux-framework/options-init.php:4071
+#: inc/redux-framework/options-init.php:4729
+#: inc/redux-framework/options-init.php:5044
+#: inc/redux-framework/options-init.php:5328
+#: inc/redux-framework/options-init.php:5761
+#: inc/redux-framework/options-init.php:6112
+#: inc/redux-framework/options-init.php:6428
+#: inc/redux-framework/options-init.php:6698
+#: inc/redux-framework/options-init.php:7088
+msgid "Applies for main header when it is sticky."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1523
+#: inc/redux-framework/options-init.php:1946
+#: inc/redux-framework/options-init.php:2288
+#: inc/redux-framework/options-init.php:2409
+#: inc/redux-framework/options-init.php:2574
+#: inc/redux-framework/options-init.php:2746
+#: inc/redux-framework/options-init.php:3198
+#: inc/redux-framework/options-init.php:3402
+#: inc/redux-framework/options-init.php:3519
+#: inc/redux-framework/options-init.php:3888
+#: inc/redux-framework/options-init.php:4092
+#: inc/redux-framework/options-init.php:4374
+#: inc/redux-framework/options-init.php:4931
+#: inc/redux-framework/options-init.php:5349
+#: inc/redux-framework/options-init.php:5782
+#: inc/redux-framework/options-init.php:5977
+#: inc/redux-framework/options-init.php:6133
+#: inc/redux-framework/options-init.php:6449
+#: inc/redux-framework/options-init.php:6719
+#: inc/redux-framework/options-init.php:7109
+#: inc/redux-framework/options-init.php:7212
+msgid "Logo"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1524
+#: inc/redux-framework/options-init.php:1947
+#: inc/redux-framework/options-init.php:2289
+#: inc/redux-framework/options-init.php:2410
+#: inc/redux-framework/options-init.php:2575
+#: inc/redux-framework/options-init.php:3403
+#: inc/redux-framework/options-init.php:4093
+#: inc/redux-framework/options-init.php:4375
+#: inc/redux-framework/options-init.php:4932
+#: inc/redux-framework/options-init.php:5350
+#: inc/redux-framework/options-init.php:5783
+#: inc/redux-framework/options-init.php:6450
+#: inc/redux-framework/options-init.php:6720
+#: inc/redux-framework/options-init.php:7110
+#: inc/redux-framework/options-init.php:7213
+msgid "You can upload logo on your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1534
+#: inc/redux-framework/options-init.php:1957
+#: inc/redux-framework/options-init.php:2299
+#: inc/redux-framework/options-init.php:2420
+#: inc/redux-framework/options-init.php:2585
+#: inc/redux-framework/options-init.php:3413
+#: inc/redux-framework/options-init.php:4103
+#: inc/redux-framework/options-init.php:4385
+#: inc/redux-framework/options-init.php:4942
+#: inc/redux-framework/options-init.php:5360
+#: inc/redux-framework/options-init.php:5793
+#: inc/redux-framework/options-init.php:6460
+#: inc/redux-framework/options-init.php:6727
+#: inc/redux-framework/options-init.php:7120
+#: inc/redux-framework/options-init.php:7223
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1535
+#: inc/redux-framework/options-init.php:1958
+#: inc/redux-framework/options-init.php:2300
+#: inc/redux-framework/options-init.php:2421
+#: inc/redux-framework/options-init.php:2586
+#: inc/redux-framework/options-init.php:3414
+#: inc/redux-framework/options-init.php:4104
+#: inc/redux-framework/options-init.php:4386
+#: inc/redux-framework/options-init.php:4943
+#: inc/redux-framework/options-init.php:5361
+#: inc/redux-framework/options-init.php:5794
+#: inc/redux-framework/options-init.php:6461
+#: inc/redux-framework/options-init.php:6728
+#: inc/redux-framework/options-init.php:7121
+#: inc/redux-framework/options-init.php:7224
+msgid ""
+"Retina Logo should be 2x larger than original Logo. Your logo name should be "
+"\"your existing logo name on \"Logo\" field@2x.your existing logo extension "
+"on \"Logo\" field\". For example, if your \"Logo\" name is \"logo.png\", "
+"then your Retina logo name should be \"logo@2x.png\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1542
+#: inc/redux-framework/options-init.php:1965
+#: inc/redux-framework/options-init.php:2307
+#: inc/redux-framework/options-init.php:2757
+#: inc/redux-framework/options-init.php:3453
+#: inc/redux-framework/options-init.php:3530
+#: inc/redux-framework/options-init.php:4111
+#: inc/redux-framework/options-init.php:4393
+#: inc/redux-framework/options-init.php:5065
+#: inc/redux-framework/options-init.php:5368
+#: inc/redux-framework/options-init.php:5801
+#: inc/redux-framework/options-init.php:6468
+#: inc/redux-framework/options-init.php:6735
+#: inc/redux-framework/options-init.php:7231
+msgid "Single Page Mode"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1543
+#: inc/redux-framework/options-init.php:1966
+#: inc/redux-framework/options-init.php:2308
+#: inc/redux-framework/options-init.php:2758
+#: inc/redux-framework/options-init.php:3454
+#: inc/redux-framework/options-init.php:3531
+#: inc/redux-framework/options-init.php:4112
+#: inc/redux-framework/options-init.php:4394
+#: inc/redux-framework/options-init.php:5066
+#: inc/redux-framework/options-init.php:5369
+#: inc/redux-framework/options-init.php:5802
+#: inc/redux-framework/options-init.php:6469
+#: inc/redux-framework/options-init.php:6736
+#: inc/redux-framework/options-init.php:7232
+msgid ""
+"Choose if you want \"Single Page Mode\" option for navigation or not. "
+"(Please Note: If you trun this on then this menu will work only for single "
+"page system and remote links will not work.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1553
+#: inc/redux-framework/options-init.php:1976
+#: inc/redux-framework/options-init.php:2318
+#: inc/redux-framework/options-init.php:2428
+#: inc/redux-framework/options-init.php:2608
+#: inc/redux-framework/options-init.php:2768
+#: inc/redux-framework/options-init.php:3464
+#: inc/redux-framework/options-init.php:3541
+#: inc/redux-framework/options-init.php:4122
+#: inc/redux-framework/options-init.php:4404
+#: inc/redux-framework/options-init.php:5076
+#: inc/redux-framework/options-init.php:5379
+#: inc/redux-framework/options-init.php:5812
+#: inc/redux-framework/options-init.php:6032
+#: inc/redux-framework/options-init.php:6479
+#: inc/redux-framework/options-init.php:6746
+#: inc/redux-framework/options-init.php:7157
+#: inc/redux-framework/options-init.php:7242
+msgid "Menu Typography"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1554
+#: inc/redux-framework/options-init.php:1977
+#: inc/redux-framework/options-init.php:2319
+#: inc/redux-framework/options-init.php:2429
+#: inc/redux-framework/options-init.php:2609
+#: inc/redux-framework/options-init.php:2769
+#: inc/redux-framework/options-init.php:3465
+#: inc/redux-framework/options-init.php:3542
+#: inc/redux-framework/options-init.php:4123
+#: inc/redux-framework/options-init.php:4405
+#: inc/redux-framework/options-init.php:5077
+#: inc/redux-framework/options-init.php:5380
+#: inc/redux-framework/options-init.php:5813
+#: inc/redux-framework/options-init.php:6033
+#: inc/redux-framework/options-init.php:6480
+#: inc/redux-framework/options-init.php:6747
+#: inc/redux-framework/options-init.php:7158
+#: inc/redux-framework/options-init.php:7243
+msgid "Typography options for Menu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1580
+#: inc/redux-framework/options-init.php:2795
+msgid "Menu Underline Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1581
+#: inc/redux-framework/options-init.php:2796
+msgid "Applies for the menu underline."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1595
+#: inc/redux-framework/options-init.php:2004
+#: inc/redux-framework/options-init.php:2810
+#: inc/redux-framework/options-init.php:3568
+#: inc/redux-framework/options-init.php:4150
+#: inc/redux-framework/options-init.php:4431
+#: inc/redux-framework/options-init.php:5104
+#: inc/redux-framework/options-init.php:5407
+#: inc/redux-framework/options-init.php:5839
+#: inc/redux-framework/options-init.php:6506
+#: inc/redux-framework/options-init.php:6774
+#: inc/redux-framework/options-init.php:7269
+msgid "Submenu Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1596
+#: inc/redux-framework/options-init.php:2005
+#: inc/redux-framework/options-init.php:2811
+#: inc/redux-framework/options-init.php:3569
+#: inc/redux-framework/options-init.php:4151
+#: inc/redux-framework/options-init.php:4432
+#: inc/redux-framework/options-init.php:5105
+#: inc/redux-framework/options-init.php:5408
+#: inc/redux-framework/options-init.php:5840
+#: inc/redux-framework/options-init.php:6507
+#: inc/redux-framework/options-init.php:6775
+#: inc/redux-framework/options-init.php:7270
+msgid "Applies for the Submenu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1610
+#: inc/redux-framework/options-init.php:2019
+#: inc/redux-framework/options-init.php:2825
+#: inc/redux-framework/options-init.php:3583
+#: inc/redux-framework/options-init.php:4165
+#: inc/redux-framework/options-init.php:4446
+#: inc/redux-framework/options-init.php:5119
+#: inc/redux-framework/options-init.php:5422
+#: inc/redux-framework/options-init.php:5854
+#: inc/redux-framework/options-init.php:6521
+#: inc/redux-framework/options-init.php:6789
+#: inc/redux-framework/options-init.php:7284
+msgid "Submenu Typography"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1611
+#: inc/redux-framework/options-init.php:2020
+#: inc/redux-framework/options-init.php:2826
+#: inc/redux-framework/options-init.php:3584
+#: inc/redux-framework/options-init.php:4166
+#: inc/redux-framework/options-init.php:4447
+#: inc/redux-framework/options-init.php:5120
+#: inc/redux-framework/options-init.php:5423
+#: inc/redux-framework/options-init.php:5855
+#: inc/redux-framework/options-init.php:6522
+#: inc/redux-framework/options-init.php:6790
+#: inc/redux-framework/options-init.php:7285
+msgid "Typography options for Submenu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1638
+#: inc/redux-framework/options-init.php:2047
+#: inc/redux-framework/options-init.php:3611
+#: inc/redux-framework/options-init.php:4193
+#: inc/redux-framework/options-init.php:4474
+#: inc/redux-framework/options-init.php:5147
+#: inc/redux-framework/options-init.php:5450
+#: inc/redux-framework/options-init.php:5882
+#: inc/redux-framework/options-init.php:6549
+msgid "Menu Hover Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1639
+#: inc/redux-framework/options-init.php:2048
+#: inc/redux-framework/options-init.php:3217
+#: inc/redux-framework/options-init.php:3612
+#: inc/redux-framework/options-init.php:3907
+#: inc/redux-framework/options-init.php:4194
+#: inc/redux-framework/options-init.php:4475
+#: inc/redux-framework/options-init.php:5148
+#: inc/redux-framework/options-init.php:5451
+#: inc/redux-framework/options-init.php:5883
+#: inc/redux-framework/options-init.php:6550
+msgid "Applies for all menu items."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1651
+#: inc/redux-framework/options-init.php:2060
+#: inc/redux-framework/options-init.php:2635
+#: inc/redux-framework/options-init.php:2853
+#: inc/redux-framework/options-init.php:6847
+msgid "Display Cart Icon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1652
+msgid ""
+"Choose if you want \"cart\" icon in header or not. (Please Note: Only for "
+"header \"Style One\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1662
+#: inc/redux-framework/options-init.php:2071
+#: inc/redux-framework/options-init.php:2646
+#: inc/redux-framework/options-init.php:2864
+#: inc/redux-framework/options-init.php:2886
+#: inc/redux-framework/options-init.php:6865
+msgid "Cart Counter Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1663
+#: inc/redux-framework/options-init.php:2072
+#: inc/redux-framework/options-init.php:2647
+#: inc/redux-framework/options-init.php:2887
+#: inc/redux-framework/options-init.php:6866
+msgid "Applies for the cart counter."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1684
+#: inc/redux-framework/options-init.php:2093
+#: inc/redux-framework/options-init.php:2455
+#: inc/redux-framework/options-init.php:2908
+#: inc/redux-framework/options-init.php:4487
+#: inc/redux-framework/options-init.php:5895
+#: inc/redux-framework/options-init.php:6564
+#: inc/redux-framework/options-init.php:6829
+msgid "Display Search"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1685
+#: inc/redux-framework/options-init.php:2094
+#: inc/redux-framework/options-init.php:2456
+#: inc/redux-framework/options-init.php:2909
+#: inc/redux-framework/options-init.php:4488
+#: inc/redux-framework/options-init.php:5896
+#: inc/redux-framework/options-init.php:6565
+#: inc/redux-framework/options-init.php:6830
+msgid "Choose if you want \"Search\" option in header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1695
+#: inc/redux-framework/options-init.php:2104
+#: inc/redux-framework/options-init.php:2941
+#: inc/redux-framework/options-init.php:6887
+msgid "Display Hamburger Menu"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1696
+#: inc/redux-framework/options-init.php:2105
+#: inc/redux-framework/options-init.php:2942
+#: inc/redux-framework/options-init.php:6888
+msgid ""
+"Choose if you want \"Hamburger\" option in header or not. You add/remove "
+"widgets of \"Hamburger\" from \"Appearance > Widgets\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1706
+#: inc/redux-framework/options-init.php:2115
+#: inc/redux-framework/options-init.php:2952
+#: inc/redux-framework/options-init.php:6905
+msgid "Display Hamburger Menu On Mobile"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1707
+#: inc/redux-framework/options-init.php:2116
+#: inc/redux-framework/options-init.php:2953
+#: inc/redux-framework/options-init.php:6906
+msgid "Choose if you want \"Hamburger\" option on mobile or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1724
+#: inc/redux-framework/options-init.php:2133
+#: inc/redux-framework/options-init.php:2992
+#: inc/redux-framework/options-init.php:6923
+msgid "Hamburger Menu Width"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1725
+#: inc/redux-framework/options-init.php:2134
+#: inc/redux-framework/options-init.php:2993
+#: inc/redux-framework/options-init.php:6924
+msgid ""
+"Select hamburger menu width. Min is 200px, Max is 800px and Default is 550px."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1744
+#: inc/redux-framework/options-init.php:2153
+#: inc/redux-framework/options-init.php:3012
+#: inc/redux-framework/options-init.php:6943
+msgid "Hamburger Menu Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1745
+#: inc/redux-framework/options-init.php:2154
+#: inc/redux-framework/options-init.php:3013
+#: inc/redux-framework/options-init.php:6944
+msgid "Applies for hamburger menu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1765
+#: inc/redux-framework/options-init.php:2174
+#: inc/redux-framework/options-init.php:7312
+msgid "Display Mobile Menu"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1766
+#: inc/redux-framework/options-init.php:2175
+#: inc/redux-framework/options-init.php:7313
+msgid "Choose if you want \"Mobile Menu\" option in header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1776
+#: inc/redux-framework/options-init.php:2185
+#: inc/redux-framework/options-init.php:3044
+#: inc/redux-framework/options-init.php:3066
+#: inc/redux-framework/options-init.php:3635
+#: inc/redux-framework/options-init.php:3657
+#: inc/redux-framework/options-init.php:4260
+#: inc/redux-framework/options-init.php:4596
+#: inc/redux-framework/options-init.php:4618
+#: inc/redux-framework/options-init.php:5162
+#: inc/redux-framework/options-init.php:5465
+#: inc/redux-framework/options-init.php:5906
+#: inc/redux-framework/options-init.php:6575
+#: inc/redux-framework/options-init.php:6964
+#: inc/redux-framework/options-init.php:7323
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1777
+#: inc/redux-framework/options-init.php:2186
+#: inc/redux-framework/options-init.php:3045
+#: inc/redux-framework/options-init.php:3067
+#: inc/redux-framework/options-init.php:3281
+#: inc/redux-framework/options-init.php:3636
+#: inc/redux-framework/options-init.php:3658
+#: inc/redux-framework/options-init.php:3927
+#: inc/redux-framework/options-init.php:4261
+#: inc/redux-framework/options-init.php:4597
+#: inc/redux-framework/options-init.php:4619
+#: inc/redux-framework/options-init.php:5163
+#: inc/redux-framework/options-init.php:5466
+#: inc/redux-framework/options-init.php:5907
+#: inc/redux-framework/options-init.php:6152
+#: inc/redux-framework/options-init.php:6576
+#: inc/redux-framework/options-init.php:6965
+#: inc/redux-framework/options-init.php:7324
+msgid "Applies for mobile menu only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1798
+#: inc/redux-framework/options-init.php:2207
+#: inc/redux-framework/options-init.php:3088
+#: inc/redux-framework/options-init.php:3679
+#: inc/redux-framework/options-init.php:4275
+#: inc/redux-framework/options-init.php:4640
+#: inc/redux-framework/options-init.php:5177
+#: inc/redux-framework/options-init.php:5480
+#: inc/redux-framework/options-init.php:5921
+#: inc/redux-framework/options-init.php:6590
+#: inc/redux-framework/options-init.php:6979
+#: inc/redux-framework/options-init.php:7345
+msgid "Mobile Menu Typography"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1799
+#: inc/redux-framework/options-init.php:2208
+#: inc/redux-framework/options-init.php:3089
+#: inc/redux-framework/options-init.php:3680
+#: inc/redux-framework/options-init.php:4276
+#: inc/redux-framework/options-init.php:4641
+#: inc/redux-framework/options-init.php:5178
+#: inc/redux-framework/options-init.php:5481
+#: inc/redux-framework/options-init.php:5922
+#: inc/redux-framework/options-init.php:6591
+#: inc/redux-framework/options-init.php:6980
+#: inc/redux-framework/options-init.php:7346
+msgid "Typography options for mobile menu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1839
+msgid "Header Two Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:1885
+msgid "Select Sticky Style for header \"Style Two\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2061
+msgid ""
+"Choose if you want \"cart\" icon in header or not. (Please Note: Only for "
+"header \"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2248
+msgid "Header Three Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2271
+#: inc/redux-framework/options-init.php:2382
+msgid "Header Color Scheme"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2346
+msgid "Enter Copyright Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2347
+msgid "Applies for header \"Style Three\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2348
+msgid "Glamon Theme © All Rights Reserved"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2359
+msgid "Header Four Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2398
+msgid "Branding Icon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2399
+msgid "You can upload Branding Icon on your website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2467
+msgid "Header Five Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2513
+msgid "Select Sticky Style for header \"Style Five\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2593
+msgid "Flyout Menu Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2594
+msgid "Applies for flyout menu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2636
+msgid ""
+"Choose if you want \"cart\" icon in header or not. (Please Note: Only for "
+"header \"Style Five\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2672
+msgid "Header Six Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2707
+#: inc/redux-framework/options-init.php:3137
+msgid "Select Sticky Style for header \"Style Six\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2747
+#: inc/redux-framework/options-init.php:3520
+#: inc/redux-framework/options-init.php:5978
+msgid ""
+"You can upload logo on your website. (Please Note: If you want retina logo "
+"then you need a logo, which should be 2x larger than original Logo. Your "
+"logo name should be \"your existing logo name on \"Logo\" field@2x.your "
+"existing logo extension on \"Logo\" field\". For example, if your \"Logo\" "
+"name is \"logo.png\", then your Retina logo name should be \"logo@2x.png\". "
+"You need to upload retina logo along with normal logo on media."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2854
+msgid ""
+"Choose if you want \"cart\" icon in header or not. (Please Note: Only for "
+"header \"Style Six\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2865
+#: inc/redux-framework/options-init.php:3237
+msgid "Applies for the cart icon."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2919
+#: inc/redux-framework/options-init.php:4498
+msgid "Search Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2920
+#: inc/redux-framework/options-init.php:3259
+#: inc/redux-framework/options-init.php:4499
+msgid "Applies for the search icon."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2970
+msgid "Hamburger Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:2971
+msgid "Applies for the Hamburger icon background counter."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3033
+#: inc/redux-framework/options-init.php:3624
+#: inc/redux-framework/options-init.php:4585
+msgid "Enable Mobile Menu"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3034
+#: inc/redux-framework/options-init.php:3625
+#: inc/redux-framework/options-init.php:4586
+msgid "Choose if you want mobile menu on header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3199
+#: inc/redux-framework/options-init.php:3889
+#: inc/redux-framework/options-init.php:6134
+msgid "You can upload logo on your website' sticky header."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3216
+#: inc/redux-framework/options-init.php:3906
+msgid "Sticky Menu Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3236
+msgid "Sticky Cart Counter Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3258
+msgid "Sticky Search Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3280
+#: inc/redux-framework/options-init.php:3926
+#: inc/redux-framework/options-init.php:6151
+msgid "Sticky Mobile Menu Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3306
+msgid "Header Seven Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3341
+msgid "Select Sticky Style for header \"Style Seven\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3421
+#: inc/redux-framework/options-init.php:7128
+msgid "Flyout Menu Icon Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3422
+#: inc/redux-framework/options-init.php:7129
+msgid "Applies for the Flyout Menu icon background counter."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3436
+#: inc/redux-framework/options-init.php:6018
+#: inc/redux-framework/options-init.php:7143
+msgid "Flyout Menu Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3437
+#: inc/redux-framework/options-init.php:6019
+#: inc/redux-framework/options-init.php:7144
+msgid "Set Background for Flyout Menu."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3496
+msgid "Header Eight Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3716
+msgid "Display Button"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3717
+msgid "Choose if you want button on header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3727
+#: inc/redux-framework/options-init.php:3948
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3728
+#: inc/redux-framework/options-init.php:3750
+#: inc/redux-framework/options-init.php:3949
+#: inc/redux-framework/options-init.php:3971
+msgid "Applies for header \"Style Eight\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3749
+#: inc/redux-framework/options-init.php:8092
+msgid "Button Typography"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3783
+msgid "Button Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3784
+#: inc/redux-framework/options-init.php:3800
+msgid "Applies for header \"Style One\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3785
+msgid "Sign Up"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3799
+msgid "Button Link"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3801
+#: inc/redux-framework/options-init.php:4571
+#: inc/redux-framework/options-init.php:4837
+#: inc/redux-framework/options-init.php:4902
+#: inc/redux-framework/options-init.php:5615
+#: inc/redux-framework/options-init.php:5680
+#: inc/redux-framework/options-init.php:6282
+#: inc/redux-framework/options-init.php:6347
+#: inc/redux-framework/options-init.php:8428
+#: inc/redux-framework/options-init.php:8492
+#: inc/redux-framework/options-init.php:8556
+msgid "#"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3827
+msgid "Select Sticky Style for header \"Style Eight\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3970
+msgid "Button Font Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:3996
+msgid "Header Nine Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4031
+msgid "Select Sticky Style for header \"Style Nine\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4206
+msgid "Display Phone Number"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4207
+msgid "Choose if you want phone number on header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4217
+msgid "Phone Number"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4218
+#: inc/redux-framework/options-init.php:4245
+msgid "Applies for header \"Style Nine\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4219
+msgid "+888-123-4567"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4233
+msgid "Display Email"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4234
+msgid "Choose if you want email on header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4244
+#: inc/redux-framework/options-init.php:4341
+#: inc/redux-framework/options-init.php:4968
+#: inc/redux-framework/options-init.php:5243
+#: inc/redux-framework/options-init.php:5546
+msgid "Email"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4246
+#: inc/redux-framework/options-init.php:4343
+#: inc/redux-framework/options-init.php:5245
+msgid "info@example.com"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4309
+msgid "Header Ten Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4317
+#: inc/redux-framework/options-init.php:4762
+#: inc/redux-framework/options-init.php:5219
+#: inc/redux-framework/options-init.php:5522
+#: inc/redux-framework/options-init.php:6207
+msgid "Top Header Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4318
+#: inc/redux-framework/options-init.php:4763
+#: inc/redux-framework/options-init.php:5220
+#: inc/redux-framework/options-init.php:5523
+#: inc/redux-framework/options-init.php:6208
+msgid "Applies for top header."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4332
+#: inc/redux-framework/options-init.php:4950
+#: inc/redux-framework/options-init.php:5234
+msgid "Address"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4333
+#: inc/redux-framework/options-init.php:4342
+#: inc/redux-framework/options-init.php:4351
+#: inc/redux-framework/options-init.php:4554
+#: inc/redux-framework/options-init.php:4570
+msgid "Applies for header \"Style Ten\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4334
+#: inc/redux-framework/options-init.php:5236
+msgid "121 King St, Melbourne VIC 3000"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4350
+#: inc/redux-framework/options-init.php:4959
+#: inc/redux-framework/options-init.php:5252
+#: inc/redux-framework/options-init.php:5537
+msgid "Phone"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4352
+#: inc/redux-framework/options-init.php:5254
+msgid "888-123-4567"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4520
+#: inc/redux-framework/options-init.php:4786
+#: inc/redux-framework/options-init.php:4851
+#: inc/redux-framework/options-init.php:5564
+#: inc/redux-framework/options-init.php:6231
+msgid "Display Button One"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4521
+#: inc/redux-framework/options-init.php:4787
+#: inc/redux-framework/options-init.php:4852
+#: inc/redux-framework/options-init.php:5565
+#: inc/redux-framework/options-init.php:5630
+#: inc/redux-framework/options-init.php:6232
+#: inc/redux-framework/options-init.php:6297
+msgid "Choose if you want button one on header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4531
+#: inc/redux-framework/options-init.php:4797
+#: inc/redux-framework/options-init.php:4862
+#: inc/redux-framework/options-init.php:5575
+#: inc/redux-framework/options-init.php:6242
+msgid "Button One Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4532
+#: inc/redux-framework/options-init.php:4798
+#: inc/redux-framework/options-init.php:4863
+#: inc/redux-framework/options-init.php:5576
+#: inc/redux-framework/options-init.php:5641
+#: inc/redux-framework/options-init.php:6243
+#: inc/redux-framework/options-init.php:6308
+msgid "Applies for button one only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4553
+#: inc/redux-framework/options-init.php:4819
+#: inc/redux-framework/options-init.php:4884
+#: inc/redux-framework/options-init.php:5597
+#: inc/redux-framework/options-init.php:6264
+msgid "Button One Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4555
+msgid "Get a Free Quote"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4569
+#: inc/redux-framework/options-init.php:4835
+#: inc/redux-framework/options-init.php:4900
+#: inc/redux-framework/options-init.php:5613
+#: inc/redux-framework/options-init.php:6280
+msgid "Button One Link"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4689
+msgid "Select Sticky Style for header \"Style Ten\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4754
+msgid "Header Eleven Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4777
+#: inc/redux-framework/options-init.php:6222
+msgid "Top Note"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4778
+#: inc/redux-framework/options-init.php:4820
+#: inc/redux-framework/options-init.php:4836
+#: inc/redux-framework/options-init.php:4885
+#: inc/redux-framework/options-init.php:4901
+#: inc/redux-framework/options-init.php:4951
+#: inc/redux-framework/options-init.php:4960
+#: inc/redux-framework/options-init.php:4969
+msgid "Applies for header \"Style Eleven\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4779
+msgid "Welcome to Glamon Movers and Packers Services"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4821
+msgid "Get Free Quote"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:4886
+msgid "Contact Us Now"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5004
+msgid "Select Sticky Style for header \"Style Eleven\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5211
+msgid "Header Twelve Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5235
+#: inc/redux-framework/options-init.php:5244
+#: inc/redux-framework/options-init.php:5253
+msgid "Applies for header \"Style Twelve\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5288
+msgid "Select Sticky Style for header \"Style Twelve\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5514
+msgid "Header Thirteen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5538
+#: inc/redux-framework/options-init.php:5547
+#: inc/redux-framework/options-init.php:5556
+#: inc/redux-framework/options-init.php:5598
+#: inc/redux-framework/options-init.php:5614
+#: inc/redux-framework/options-init.php:5663
+#: inc/redux-framework/options-init.php:5679
+msgid "Applies for header \"Style Thirteen\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5539
+msgid "For Urget Help, Call Us: 888-123-4567"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5548
+msgid "Email: info@example.com"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5555
+msgid "Timing"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5557
+msgid "Opening Hours: Mon-Sat 9am-6pm"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5599
+#: inc/redux-framework/options-init.php:6266
+msgid "Career"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5629
+#: inc/redux-framework/options-init.php:6296
+msgid "Display Button Two"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5640
+#: inc/redux-framework/options-init.php:6307
+msgid "Button Two Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5662
+#: inc/redux-framework/options-init.php:6329
+msgid "Button Two Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5664
+#: inc/redux-framework/options-init.php:6331
+msgid "Contact Us"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5678
+#: inc/redux-framework/options-init.php:6345
+msgid "Button Two Link"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5721
+msgid "Select Sticky Style for header \"Style Thirteen\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5954
+msgid "Header Fourteen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5988
+msgid "Menu Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:5989
+#: inc/redux-framework/options-init.php:6004
+#: inc/redux-framework/options-init.php:6174
+msgid "Applies for the menu icon."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6003
+#: inc/redux-framework/options-init.php:6173
+msgid "Social Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6072
+msgid "Select Sticky Style for header \"Style Fourteen\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6092
+msgid ""
+"Select sticky delay value. Min is 200px, Max is 2000px and Default is 700px."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6199
+msgid "Header Fifteen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6223
+#: inc/redux-framework/options-init.php:6265
+#: inc/redux-framework/options-init.php:6281
+#: inc/redux-framework/options-init.php:6330
+#: inc/redux-framework/options-init.php:6346
+msgid "Applies for header \"Style Fifteen\" only."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6224
+msgid "Founded in 1920, On The Other Hand We Denounce."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6388
+msgid "Select Sticky Style for header \"Style Fifteen\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6623
+msgid "Header Sixteen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6658
+msgid "Select Sticky Style for header \"Style Sixteen\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6818
+msgid "Display Action Area"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6819
+msgid "Choose if you want \"Action Area\" option in header or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:6848
+msgid ""
+"Choose if you want \"cart\" icon in header or not. (Please Note: Only for "
+"header \"Style Sixteen\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7013
+msgid "Header Seventeen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7048
+msgid "Select Sticky Style for header \"Style Seventeen\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7189
+msgid "Header Eightteen Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7387
+msgid "Short Header"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7397
+msgid "Select Short Header"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7398
+msgid "Choose what kind of short header you want to set."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7401
+msgid "Banner-With-Breadcrumb"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7403
+msgid "Banner & Breadcrumb"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7406
+#: inc/redux-framework/options-init.php:7408
+msgid "Banner Only"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7411
+msgid "Breadcrumb-Only"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7413
+msgid "Breadcrumb Only"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7416
+#: inc/redux-framework/options-init.php:7418
+msgid "Banner None"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7431
+msgid "Inner Page Banner"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7438
+msgid "Inner Page Banner Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7439
+msgid ""
+"Set Background for Inner Page Banner. (Please Note: This is the default "
+"image of Inner Page Banner section. You can change background image on "
+"respective pages.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7456
+msgid "Inner Page Banner Border Bottom"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7457
+msgid "Set Border Bottom for Inner Page Banner."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7473
+msgid "Inner Page Banner Padding"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7474
+msgid "Set padding for inner page banner area."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7494
+msgid "Inner Page Banner Title Font"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7495
+msgid "This will be the default font of your inner page banner title."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7521
+msgid "Inner Page Banner Subtitle Font"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7522
+msgid "This will be the default font of your inner page banner subtitle."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7548
+msgid "Inner Page Banner Alignment"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7564
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7571
+msgid "Breadcrumb Arrow Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7572
+msgid "Select an icon for breadcrumb arrow."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7581
+msgid "Inner Page Banner Breadcrumb Font"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7582
+msgid "This will be the default font of your Inner Page Banner Breadcrumb."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7610
+msgid "Breadcrumb Padding"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7611
+msgid "Set padding for breadcrumb area."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7631
+msgid "Breadcrumb Alignment"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7647
+msgid "Footer"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7659
+#: inc/redux-framework/options-init.php:7666
+msgid "Footer Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7667
+msgid ""
+"Select footer style. (N.B.: Please set style for individual footer on their "
+"respective settings below.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7670
+#: inc/redux-framework/options-init.php:7672
+msgid "Default Footer"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7675
+#: inc/redux-framework/options-init.php:7841
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7677
+msgid "Custom Footer "
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7689
+msgid "Footer Default Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7704
+msgid "Hide footer widget area"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7719
+msgid "Footer Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7720
+msgid "Set Background for Footer."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7744
+msgid "Footer Main Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7745
+msgid "Pick a background color for the Footer Main Section."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7765
+msgid "Footer Main Border Bottom Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7766
+msgid "Set Border Bottom Color for Footer Main section."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7787
+msgid "Footer Copyright Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7788
+msgid "Pick a background color for the Footer Copyright Background."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7808
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7809
+msgid "Enter Copyright Text."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7810
+msgid "© 2019 Glamon Theme. RadiantThemes"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7829
+msgid "Custom Footer Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7857
+msgid "Stucking Option"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7858
+msgid "Choose if you want the stucking effect on footer or not."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7879
+msgid "Elements"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7888
+msgid "Scroll Bar"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7898
+msgid "Activate Custom Scrollbar"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7899
+msgid ""
+"Choose if Custom Scrollbar will be activate or not. (Please Note: This will "
+"take effect on infinity scroll areas but not for entire website.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7909
+msgid "Scroll Bar Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7910
+msgid "Pick a color for Scroll Bar."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7930
+msgid "Scroll Bar Width"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7931
+msgid "Set width for Scroll Bar."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7952
+msgid "Button"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7965
+msgid "Button Padding"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7966
+msgid "Allow padding for buttons."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7984
+msgid "Pick a background color for buttons."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7998
+msgid "Hover Background Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:7999
+msgid "Pick a background color for buttons hover."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8013
+msgid "Border"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8031
+msgid "Hover Border Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8052
+msgid "Border Radius"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8053
+msgid "Users can change the Border Radius for Buttons."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8068
+msgid "Theme Button Box Shadow"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8093
+msgid ""
+"Typography options for buttons. Remember, this will effect all buttons of "
+"this theme. (Please Note: This change will effect all theme buttons, "
+"including Radiants Buttons, Radiant Contact Form Button, Radiant Fancy Text "
+"Box Button.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8118
+msgid "Hover Font Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8119
+msgid "Select button hover font color."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8131
+#: inc/redux-framework/options-init.php:8146
+msgid ""
+"Applies only if Icon is present. (Please Note: This option will work only "
+"for \"Theme Button\" element.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8145
+msgid "Hover Icon Color"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8160
+msgid "Select Hover Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8161
+msgid ""
+"Select Hover Style of the \"Button\". (Please Note: This option will work "
+"only for \"Theme Button\" element.)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8181
+msgid "Contact Form"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8194
+msgid "Gap For Rows"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8195
+msgid "Users can change gap for rows."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8213
+msgid "Height Option for Input Fields"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8214
+msgid "Users can change height for Input Fields."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8231
+msgid "Height Option for Textarea Fields"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8232
+msgid "Users can change height for Textarea Fields."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8251
+msgid "Padding For Input Fields Focus"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8252
+msgid "Users can change padding for input fields focus."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8269
+msgid "Box Shadow For Input Fields"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8270
+msgid "Users can change the Box Shadow for input fields."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8296
+msgid "Pages"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8315
+msgid "404 Page Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8316
+msgid "Select 404 Page Style of the website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8332
+msgid "404 Error Style One Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8340
+#: inc/redux-framework/options-init.php:8405
+#: inc/redux-framework/options-init.php:8469
+#: inc/redux-framework/options-init.php:8533
+msgid "404 Error Content"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8341
+msgid ""
+"Enter content to show on 404 page body. (Applicable only for 404 Error "
+"\"Style One\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8352
+#: inc/redux-framework/options-init.php:8417
+#: inc/redux-framework/options-init.php:8481
+#: inc/redux-framework/options-init.php:8545
+msgid "404 Error Button Text"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8353
+#: inc/redux-framework/options-init.php:8362
+msgid "Applicable only for 404 Error \"Style One\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8361
+#: inc/redux-framework/options-init.php:8426
+#: inc/redux-framework/options-init.php:8490
+#: inc/redux-framework/options-init.php:8554
+msgid "404 Error Button Link"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8372
+msgid "404 Error Style Two Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8380
+#: inc/redux-framework/options-init.php:8444
+#: inc/redux-framework/options-init.php:8508
+msgid "404 Error Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8381
+msgid ""
+"Set Background for 404 Error. (Applicable only for 404 Error \"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8394
+#: inc/redux-framework/options-init.php:8458
+#: inc/redux-framework/options-init.php:8522
+msgid "404 Error Image"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8395
+msgid ""
+"You can 404 error image for your website. (Applicable only for 404 Error "
+"\"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8406
+msgid ""
+"Enter content to show on 404 page body. (Applicable only for 404 Error "
+"\"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8418
+#: inc/redux-framework/options-init.php:8427
+msgid "Applicable only for 404 Error \"Style Two\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8419
+#: inc/redux-framework/options-init.php:8483
+#: inc/redux-framework/options-init.php:8547
+msgid "Back To Home Page"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8436
+msgid "404 Error Style Three Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8445
+msgid ""
+"Set Background for 404 Error. (Applicable only for 404 Error \"Style Three"
+"\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8459
+msgid ""
+"You can 404 error image for your website. (Applicable only for 404 Error "
+"\"Style Three\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8470
+msgid ""
+"Enter content to show on 404 page body. (Applicable only for 404 Error "
+"\"Style Three\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8482
+#: inc/redux-framework/options-init.php:8491
+msgid "Applicable only for 404 Error \"Style Three\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8500
+msgid "404 Error Style Four Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8509
+msgid ""
+"Set Background for 404 Error. (Applicable only for 404 Error \"Style Four\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8523
+msgid ""
+"You can 404 error image for your website. (Applicable only for 404 Error "
+"\"Style Four\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8534
+msgid ""
+"Enter content to show on 404 page body. (Applicable only for 404 Error "
+"\"Style Four\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8546
+#: inc/redux-framework/options-init.php:8555
+msgid "Applicable only for 404 Error \"Style Four\"."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8566
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8576
+msgid "Activate Maintenance Mode?"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8577
+msgid "Choose if want to Activate Maintenance Mode."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8587
+msgid "Maintenance Mode Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8588
+msgid "Select Maintenance Mode Style of the website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8602
+msgid "Maintenance Mode Style One Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8610
+#: inc/redux-framework/options-init.php:8646
+#: inc/redux-framework/options-init.php:8682
+msgid "Maintenance Mode Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8611
+msgid ""
+"Set Background for Maintenance Mode. (Applicable only for Maintenance Mode "
+"\"Style One\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8625
+#: inc/redux-framework/options-init.php:8661
+#: inc/redux-framework/options-init.php:8697
+msgid "Maintenance Mode Content"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8626
+msgid ""
+"Enter content to show on Maintenance Mode body. (Applicable only for "
+"Maintenance Mode \"Style One\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8638
+msgid "Maintenance Mode Style Two Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8647
+msgid ""
+"Set Background for Maintenance Mode. (Applicable only for Maintenance Mode "
+"\"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8662
+msgid ""
+"Enter content to show on Maintenance Mode body. (Applicable only for "
+"Maintenance Mode \"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8674
+msgid "Maintenance Mode Style Three Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8683
+msgid ""
+"Set Background for Maintenance Mode. (Applicable only for Maintenance Mode "
+"\"Style Three\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8698
+msgid ""
+"Enter content to show on Maintenance Mode body. (Applicable only for "
+"Maintenance Mode \"Style Three\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8712
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8722
+msgid "Activate Coming Soon"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8723
+msgid "Choose if want to activate Coming Soon mode."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8733
+msgid "Launch Date & Time"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8734
+msgid "Enter Launch Date & Time."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8742
+msgid "Coming Soon Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8743
+msgid "Select Coming Soon Style of the website."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8757
+msgid "Coming Soon Style One Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8765
+#: inc/redux-framework/options-init.php:8803
+#: inc/redux-framework/options-init.php:8841
+msgid "Coming Soon Background"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8766
+msgid ""
+"Set Background for 404 Error. (Applicable only for Coming Soon \"Style One"
+"\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8782
+#: inc/redux-framework/options-init.php:8820
+#: inc/redux-framework/options-init.php:8858
+msgid "Coming Soon Content"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8783
+msgid ""
+"Enter content to show on Coming Soon page body. (Applicable only for Coming "
+"Soon \"Style One\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8795
+msgid "Coming Soon Style Two Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8804
+msgid ""
+"Set Background for 404 Error. (Applicable only for Coming Soon \"Style Two"
+"\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8821
+msgid ""
+"Enter content to show on Coming Soon page body. (Applicable only for Coming "
+"Soon \"Style Two\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8833
+msgid "Coming Soon Style Three Settings"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8842
+msgid ""
+"Set Background for 404 Error. (Applicable only for Coming Soon \"Style Three"
+"\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8859
+msgid ""
+"Enter content to show on Coming Soon page body. (Applicable only for Coming "
+"Soon \"Style Three\".)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8883
+msgid "Search Page Banner Image"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8884
+msgid "Select search page banner image"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8890
+msgid "Search Page Title"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8891
+msgid "Enter search page banner title"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8898
+msgid "Search Page Subtitle"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8899
+msgid "Enter search page banner subtitle"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8910
+msgid "Event"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8918
+msgid "Banner Details"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8919
+msgid "Select Banner options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8932
+msgid "Event Banner Image"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8933
+msgid "Select event banner image"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8950
+msgid "Event Title"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8951
+msgid "Enter event banner title"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8969
+msgid "Event Subtitle"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8970
+msgid "Enter event banner subtitle"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:8993
+msgid "Blog"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9002
+#: inc/redux-framework/options-init.php:9053
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9012
+msgid "Blog Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9013
+msgid "Select blog style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9018
+#: inc/redux-framework/options-init.php:9123
+#: inc/redux-framework/options-init.php:9686
+msgid "Default"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9023
+msgid "Classic"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9028
+msgid "Masonry"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9033
+msgid "List"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9038
+msgid "List (No Image)"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9043
+msgid "Standard"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9054
+msgid "Select blog layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9083
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9084
+msgid "Select sidebar width for blog pages."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9107
+msgid "Single Page Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9117
+msgid "Single Page Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9118
+msgid "Select blog single page style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9146
+msgid "Blog Options"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9154
+msgid "Social Sharing Box"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9155
+msgid ""
+"Select if you want to show Social Sharing icons on Blog Page (applicable for "
+"default structure)."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9163
+msgid "Author Information Box"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9164
+msgid "Select if you want to show author information on Blog Details Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9173
+msgid "Categories"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9174
+msgid ""
+"Select if you want to show the categories on both Blog Page and Blog Details "
+"Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9183
+msgid "Tags"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9184
+msgid ""
+"Select if you want to show the tags on both Blog Page and Blog Details Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9193
+msgid "Navigation"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9194
+msgid ""
+"Select if you want to previous and next navigation the Previous/Next "
+"Navigation on Blog Details Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9203
+msgid "Related Article"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9204
+msgid "Select if you want to show related article on Blog Details Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9213
+msgid "Comments"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9214
+msgid "Select if you want to show comments on Blog Details Page."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9236
+msgid "Team Details"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9246
+msgid "Team Details Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9247
+msgid "Select team details style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9252
+msgid "Blank"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9272
+msgid "Shop"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9281
+msgid "Product Listing"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9291
+msgid "Product Listing Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9292
+msgid "Select Product Listing Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9322
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9323
+msgid "Put number of products you wants to show per page"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9332
+msgid "Sidebar."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9333
+#: inc/redux-framework/options-init.php:9433
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9355
+msgid "Shop Box Style"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9356
+msgid "Select Style of the Shop Box."
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9399
+msgid "Product Details"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9409
+msgid "Product Details Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9410
+msgid "Select Product Details Layout"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9463
+msgid "Social Icons"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9473
+msgid "Open links in new window"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9474
+msgid "Open social links in new window"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9482
+msgid "Google +"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9483
+#: inc/redux-framework/options-init.php:9492
+#: inc/redux-framework/options-init.php:9501
+#: inc/redux-framework/options-init.php:9510
+#: inc/redux-framework/options-init.php:9519
+#: inc/redux-framework/options-init.php:9527
+#: inc/redux-framework/options-init.php:9535
+#: inc/redux-framework/options-init.php:9543
+#: inc/redux-framework/options-init.php:9551
+#: inc/redux-framework/options-init.php:9559
+#: inc/redux-framework/options-init.php:9567
+#: inc/redux-framework/options-init.php:9575
+#: inc/redux-framework/options-init.php:9583
+#: inc/redux-framework/options-init.php:9591
+#: inc/redux-framework/options-init.php:9599
+#: inc/redux-framework/options-init.php:9607
+msgid "Link to the profile page"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9491
+msgid "Facebook"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9500
+msgid "Twitter"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9509
+msgid "Vimeo"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9518
+msgid "YouTube"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9526
+msgid "Flickr"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9534
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9542
+msgid "Pinterest"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9550
+msgid "Xing"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9558
+msgid "Viadeo"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9566
+msgid "Vkontakte"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9574
+msgid "Tripadvisor"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9582
+msgid "Tumblr"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9590
+msgid "Behance"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9598
+msgid "Instagram"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9606
+msgid "Dribbble"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9614
+msgid "Skype"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9625
+#: inc/redux-framework/options-init.php:9635
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/redux-framework/options-init.php:9636
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:227
+msgid "Offset X"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:229
+msgid "X"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:245
+msgid "Offset Y"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:247
+msgid "Y"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:263
+msgid "Blur Radius"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:265
+msgid "Blur"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:281
+msgid "Spread Radius"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:283
+msgid "Spread"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:300
+msgid "Opacity .1 - 1"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:302
+msgid "Opacity"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:313
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:314
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:315
+msgid "Units"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:343
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:345
+msgid "Shadow Color"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:363
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:364
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:365
+msgid "Shadow Type"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/box_shadow/box_shadow/field_box_shadow.php:387
+msgid "Shadow Preview"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:66
+msgid "Slide"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:69
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:154
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:105
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:158
+msgid "external"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:109
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:164
+msgid "Upload"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:114
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:165
+#: woocommerce/wishlist-view.php:199
+msgid "Remove"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:122
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:173
+msgid "Title"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:125
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:176
+msgid "Description"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:133
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:184
+msgid "Button Title"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:135
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:186
+msgid "URL"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:148
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:199
+msgid "Delete"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/slides/slides/field_slides.php:202
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/upload/upload/field_upload.php:113
+msgid "Choose a File"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/upload/upload/field_upload.php:113
+msgid "Select File"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/upload/upload/field_upload.php:113
+msgid "Browse"
+msgstr ""
+
+#: inc/redux-framework/redux-extensions/extensions/upload/upload/field_upload.php:114
+msgid "Remove Upload"
+msgstr ""
+
+#: inc/single/single-default.php:84 inc/single/single-one.php:186
+#: inc/single/single-two.php:197
+msgid "Older Post"
+msgstr ""
+
+#: inc/single/single-default.php:92 inc/single/single-one.php:204
+#: inc/single/single-two.php:215
+msgid "Newer Post"
+msgstr ""
+
+#: inc/single/single-default.php:109
+msgid "Author"
+msgstr ""
+
+#: inc/single/single-one.php:54 inc/single/single-two.php:69
+msgid "Published By:"
+msgstr ""
+
+#: inc/single/single-one.php:61 inc/single/single-two.php:76
+msgid "Published On:"
+msgstr ""
+
+#: inc/single/single-one.php:69 inc/single/single-two.php:83
+msgid "Published In:"
+msgstr ""
+
+#: inc/single/single-one.php:233 inc/single/single-two.php:244
+msgid "Related Articles"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:62
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:83
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:93 template-parts/content-default.php:23
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:96 template-parts/content-three.php:36
+msgid "In"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/tgmpa/class-tgm-plugin-activation.php:914
+#: inc/tgmpa/class-tgm-plugin-activation.php:2628
+#: inc/tgmpa/class-tgm-plugin-activation.php:3678
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/tgmpa/class-tgm-plugin-activation.php:3257
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/tgmpa/class-tgm-plugin-activation.php:3050
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1021
+#: inc/tgmpa/class-tgm-plugin-activation.php:1024
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1208
+#: inc/tgmpa/class-tgm-plugin-activation.php:3046
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2069
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2360
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2363
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2379
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2382
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2402
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2408
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2417
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2429
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2475
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2479
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2487
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2577
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2585
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2593
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2605
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2628
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2643
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2644
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2648
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2649
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2699
+#: inc/tgmpa/class-tgm-plugin-activation.php:2712
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2704
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2706
+#, php-format
+msgid "Deactivate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2782
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2815
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2821
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2824
+msgid "Activate"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2855
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2857
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2898
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2900
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3006
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3032
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3256
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3599
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3601
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3605
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3607
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3607
+#: inc/tgmpa/class-tgm-plugin-activation.php:3615
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3607
+#: inc/tgmpa/class-tgm-plugin-activation.php:3615
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3608
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3613
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3615
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3616
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3618
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: page-templates/common-page.php:23 template-parts/content-page.php:27
+#: template-parts/content-single.php:51
+msgid "Pages:"
+msgstr ""
+
+#: single-radiant_footer.php:15
+msgid "This is test text for testing footer template."
+msgstr ""
+
+#: template-parts/content-default.php:51 template-parts/content-two.php:98
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-default.php:63
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: template-parts/content-default.php:65
+msgid "Share on Facebook"
+msgstr ""
+
+#: template-parts/content-default.php:66
+msgid "Share on Google+"
+msgstr ""
+
+#: template-parts/content-default.php:67
+msgid "Share on Twitter"
+msgstr ""
+
+#: template-parts/content-default.php:68
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: template-parts/content-default.php:69
+msgid "Share on Pinterest"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Oops! Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid ""
+"Sorry! but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid "Search Here..."
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single.php:40
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-three.php:16 template-parts/content.php:28
+msgid "No Image Found"
+msgstr ""
+
+#: template-parts/content-three.php:33
+msgid "Published On"
+msgstr ""
+
+#: template-parts/content-three.php:53
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/content-two.php:73
+msgid "by"
+msgstr ""
+
+#: template-parts/team-single-one.php:30
+msgid "Qualification"
+msgstr ""
+
+#: template-parts/team-single-one.php:34
+msgid "Contact Info"
+msgstr ""
+
+#: template-parts/team-single-one.php:38
+msgid "Make a Call"
+msgstr ""
+
+#: template-parts/team-single-one.php:41
+msgid "Send an Email"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:78
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:98
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:104
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:122
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:93
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:140
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:145
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/shop-box/shop-box-style-five.php:14
+#: woocommerce/shop-box/shop-box-style-four.php:14
+#: woocommerce/shop-box/shop-box-style-one.php:14
+#: woocommerce/shop-box/shop-box-style-six.php:14
+#: woocommerce/shop-box/shop-box-style-three.php:18
+#: woocommerce/shop-box/shop-box-style-two.php:14
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:51
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:58
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:71
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:121 woocommerce/wishlist-view.php:199
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:141
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:148
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:148
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:157
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:169
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:181
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:183
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:185
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:210
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:241
+msgid "Your email"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:251
+msgid "Ask for an estimate"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Glamon"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://glamon.radiantthemes.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Glamon WordPress Theme perfectly caters to the online business needs of all "
+"hair stylists, make-up artists and beauty-care professionals, who want to "
+"have a beautiful website of their own. This beauty care WP theme is best "
+"suited for hair styling experts, as they always desire that extensive "
+"presence in their local region among customers. With this Galmon WP theme, "
+"users can easily help build a WP site from scratch, with all the best "
+"navigation, UI/UX rich and mobile responsive features. This WordPress theme "
+"or web template helps for creating a fast loading website in a seamless way "
+"within hours, by integrating the best of plugins, tools and software. We’ve "
+"incorporated the latest short codes, portfolio elements, custom theme "
+"options, plugins and HTML coding in the making of this Glamon WordPress "
+"theme, which is flawlessly tailored for beauty care professionals and hair "
+"stylists across the globe."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "RadiantThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/radiantthemes"
+msgstr ""

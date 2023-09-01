@@ -1,0 +1,45 @@
+/* .de-search-result {
+	margin-bottom: 60px;
+	.page-content {
+		form {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 60px;
+		}
+		input {
+			&[type="search"] {
+				width: calc(100% - 60px);
+				height: 100%;
+				padding: 10px 20px;
+				border: 1px solid #ccc;
+				margin: 0;
+				font-size: .875em;
+				line-height: 1.75;
+				outline: none;
+				box-shadow: none;
+			}
+		}
+		button {
+			width: 60px;
+			height: 100%;
+			border: 1px solid #ccc;
+			border-left-color: transparent;
+			font-size: 1.25em;
+			color: #ccc;
+			background-color: transparent;
+			cursor: pointer;
+		}
+	}
+	.screen-reader-text {
+		display: none;
+	}
+} */
+
+// body {
+// 	&.search {
+// 		input[name="s"] {
+// 			margin-bottom: 20px;
+// 		}
+// 	}
+// }

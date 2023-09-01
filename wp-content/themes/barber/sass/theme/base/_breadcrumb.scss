@@ -1,0 +1,114 @@
+.fixed-header{
+	.side-breadcrumb {
+	  padding-top: 188px;
+	}
+}
+.side-breadcrumb + .wrapper{
+	padding-top: 100px;
+}
+.remove_space_br .side-breadcrumb + .wrapper{
+	padding-top: 0;
+}
+.side-breadcrumb{
+	padding: side-values(68px 0 30px);
+	text-align: center;
+	&:before{
+		background: #000;
+		opacity: 0.6;
+	}
+	.page-title{
+		h1{
+			text-transform: uppercase;
+			font-size: 32px;
+			color: #fff;
+			width: 80%;
+			margin: side-values(0 auto);
+		}
+	}
+	&.type-2{
+		border-top:1px solid #e5e5e5;
+		border-bottom:1px solid #e5e5e5;	
+		text-align: $left;
+		background:#f5f5f5;
+		padding: side-values(23px 0 24px);
+		.breadcrumb {
+			padding: side-values(0);
+		    font-size: 12px;
+		    margin-bottom: 0;
+		    color: #b1b1b1;
+		    li {
+		    	letter-spacing: 1px;
+		    	a{
+			    	color: #b1b1b1;
+			    	&:hover{
+			    		color: $primary_color;
+			    	}
+			    }
+		    }
+		    >li+li:before{
+		    	color: #b1b1b1;
+		    	content: "-";
+		    	padding: side-values(0 12px 0 14px);
+		    }
+		}
+	}
+	&.type-3{
+		padding: side-values(77px 0  154px);
+		&.has-overlay:before{
+			background:$primary_color;
+			opacity: 0.9;
+		}
+		.breadcrumb {
+		    font-size: 12px;
+		    li {
+		    	letter-spacing: 1px;
+		    	a:hover{
+		    		color: #000;
+		    	}
+		    }
+		    >li+li:before{
+		    	content: "-";
+		    	padding: side-values(0 12px 0 14px);
+		    }
+		}
+	}
+}
+.breadcrumb{
+	padding: side-values(13px 15px);
+	background: none;
+	font-size: 16px;
+	color: #fff;
+	li {
+		a{
+			color:#fff;
+			cursor: pointer;
+			&:hover{
+				color: $primary_color;
+			}
+		}
+	}
+	>li+li:before{
+		color: #fff;
+		padding: side-values(0 12px 0 17px);
+	}
+}
+.rev-btn.btn.btn-primary{
+	background: $primary_color !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-weight: 400 !important;
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    border-color: $primary_color !important;
+    i{
+    	margin-#{$left}: 13px !important;
+    }
+    &:hover{
+    	border: 1px solid #fff !important;
+    	background: #fff !important;
+    }
+}
+.main-color{
+	color: $primary_color !important;
+}

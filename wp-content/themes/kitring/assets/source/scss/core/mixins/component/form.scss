@@ -1,0 +1,67 @@
+/* input[type=date], */
+/* input[type=datetime], */
+/* input[type=datetime-local], */
+/* input[type=email], */
+/* input[type=month], */
+/* input[type=number], */
+/* input[type=password], */
+/* input[type=range], */
+/* input[type=search], */
+/* input[type=tel], */
+/* input[type=text], */
+/* input[type=time], */
+/* input[type=url], */
+/* input[type=week], */
+/* select, */
+/* textarea { */
+	/* width: 100%; */
+	/* min-height: 50px; */
+	/* padding: 10px; */
+	/* border-width: 1px; */
+	/* border-style: solid; */
+	/* outline: none; */
+	/* background: none; */
+	/* color: inherit; */
+	/* font-size: inherit; */
+	/* font-family: inherit; */
+	/* box-sizing: border-box; */
+	/* &:focus { */
+		/* border-width: 1px; */
+		/* border-style: solid; */
+	/* } */
+/* } */
+
+//label {
+	//font-weight: bold;
+//}
+
+form {
+	box-sizing: border-box;
+}
+//:focus {
+	//outline: 0;
+//}
+
+/* .select2-container .select2-selection--single { */
+	/* height: 50px; */
+/* } */
+/* .select2-container--default .select2-selection--single { */
+	/* border-radius: 0px; */
+/* } */
+/* .select2-container--default .select2-selection--single .select2-selection__rendered { */
+	/* line-height: 50px; */
+/* } */
+/* .select2-container--default .select2-selection--single .select2-selection__arrow { */
+	/* height: 50px; */
+	/* position: absolute; */
+	/* top: 1px; */
+	/* right: 14px; */
+	/* width: 20px; */
+/* } */
+/* .select2-container .select2-selection--single .select2-selection__rendered { */
+	/* padding-left: 15px; */
+/* } */
+
+abbr[title] {
+	margin-left: 5px;
+}

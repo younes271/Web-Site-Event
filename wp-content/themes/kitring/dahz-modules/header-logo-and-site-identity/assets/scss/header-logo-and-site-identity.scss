@@ -1,0 +1,26 @@
+.de-header__logo {
+	display: block;
+	&-media {
+		display: none;
+	}
+}
+
+.de-content--has-width {
+	&.de-site__has-fullwidth-header {
+		margin: inherit;
+		max-width: 100%;
+		.de-header__row {
+			max-width: none;
+		}
+		@media screen and (max-width: $breakpoint-medium - 1) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.de-header__row {
+			margin: inherit;
+			max-width: 100%;
+			padding-right: 40px;
+			padding-left: 40px;
+		}
+	}
+}

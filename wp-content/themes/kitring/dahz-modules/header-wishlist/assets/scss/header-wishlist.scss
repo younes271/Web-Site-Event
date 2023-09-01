@@ -1,0 +1,34 @@
+.de-header__wishlist {
+	&-btn {
+		display: flex;
+		align-items: center;
+		&--uppercase {
+			text-transform: uppercase;
+		}
+	}
+	&-counter {
+		&--text {
+			> span {
+				&::before {
+					content: '-';
+					margin-left: .35em;
+					margin-right: .35em;
+				}
+			}
+		}
+		&--circle {
+			> span {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 2.042em;
+				height: 2.042em;
+				border-radius: 100em;
+				margin-left: .5em;
+				font-size: .7em;
+				color: #fff !important;
+				background-color: #000 !important;
+			}
+		}
+	}
+}

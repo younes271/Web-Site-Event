@@ -1,0 +1,700 @@
+@import "variables";
+
+@font-face {
+  font-family: 'sobari';
+  src:  url('#{$icomoon-font-path}/sobari.eot?nwksv5');
+  src:  url('#{$icomoon-font-path}/sobari.eot?nwksv5#iefix') format('embedded-opentype'),
+    
+    url('#{$icomoon-font-path}/sobari.svg?nwksv5#sobari') format('svg'),
+    url('#{$icomoon-font-path}/sobari.woff?nwksv5') format('woff'),
+	url('#{$icomoon-font-path}/sobari.ttf?nwksv5') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="df-"], [class*=" df-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sobari' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.df-Home {
+  &:before {
+    content: $df-Home;
+  }
+}
+.df-Payment {
+  &:before {
+    content: $df-Payment;
+  }
+}
+.df-calendar {
+  &:before {
+    content: $df-calendar;
+  }
+}
+.df-google-plus {
+  &:before {
+    content: $df-google-plus;
+  }
+}
+.df-google {
+  &:before {
+    content: $df-google;
+  }
+}
+.df-facebook {
+  &:before {
+    content: $df-facebook;
+  }
+}
+.df-tumblr {
+  &:before {
+    content: $df-tumblr;
+  }
+}
+.df-twitter {
+  &:before {
+    content: $df-twitter;
+  }
+}
+.df-youtube {
+  &:before {
+    content: $df-youtube;
+  }
+}
+.df-snapchat {
+  &:before {
+    content: $df-snapchat;
+  }
+}
+.df-vimeo {
+  &:before {
+    content: $df-vimeo;
+  }
+}
+.df-vk {
+  &:before {
+    content: $df-vk;
+  }
+}
+.df-spotify {
+  &:before {
+    content: $df-spotify;
+  }
+}
+.df-pinterest {
+  &:before {
+    content: $df-pinterest;
+  }
+}
+.df-flickr {
+  &:before {
+    content: $df-flickr;
+  }
+}
+.df-linkedin {
+  &:before {
+    content: $df-linkedin;
+  }
+}
+.df-lastfm {
+  &:before {
+    content: $df-lastfm;
+  }
+}
+.df-behance {
+  &:before {
+    content: $df-behance;
+  }
+}
+.df-dribbble {
+  &:before {
+    content: $df-dribbble;
+  }
+}
+.df-soundcloud {
+  &:before {
+    content: $df-soundcloud;
+  }
+}
+.df-rss {
+  &:before {
+    content: $df-rss;
+  }
+}
+.df-weibo {
+  &:before {
+    content: $df-weibo;
+  }
+}
+.df-git {
+  &:before {
+    content: $df-git;
+  }
+}
+.df-github {
+  &:before {
+    content: $df-github;
+  }
+}
+.df-foursquare {
+  &:before {
+    content: $df-foursquare;
+  }
+}
+.df-medium {
+  &:before {
+    content: $df-medium;
+  }
+}
+.df-whatsapp {
+  &:before {
+    content: $df-whatsapp;
+  }
+}
+.df-hangout {
+  &:before {
+    content: $df-hangout;
+  }
+}
+.df-facebook-messenger {
+  &:before {
+    content: $df-facebook-messenger;
+  }
+}
+.df-instagram {
+  &:before {
+    content: $df-instagram;
+  }
+}
+.df-skype {
+  &:before {
+    content: $df-skype;
+  }
+}
+.df-mail {
+  &:before {
+    content: $df-mail;
+  }
+}
+.df-mail-open {
+  &:before {
+    content: $df-mail-open;
+  }
+}
+.df-map-marker {
+  &:before {
+    content: $df-map-marker;
+  }
+}
+.df-marker {
+  &:before {
+    content: $df-marker;
+  }
+}
+.df-gallery {
+  &:before {
+    content: $df-gallery;
+  }
+}
+.df-picture {
+  &:before {
+    content: $df-picture;
+  }
+}
+.df-gift {
+  &:before {
+    content: $df-gift;
+  }
+}
+.df-give-gift {
+  &:before {
+    content: $df-give-gift;
+  }
+}
+.df-heart-fill {
+  &:before {
+    content: $df-heart-fill;
+  }
+}
+.df-heart {
+  &:before {
+    content: $df-heart;
+  }
+}
+.df-account {
+  &:before {
+    content: $df-account;
+  }
+}
+.df-account-round {
+  &:before {
+    content: $df-account-round;
+  }
+}
+.df-logout {
+  &:before {
+    content: $df-logout;
+  }
+}
+.df-external-link {
+  &:before {
+    content: $df-external-link;
+  }
+}
+.df-cart-bag {
+  &:before {
+    content: $df-cart-bag;
+  }
+}
+.df-cart {
+  &:before {
+    content: $df-cart;
+  }
+}
+.df-cart-checkout {
+  &:before {
+    content: $df-cart-checkout;
+  }
+}
+.df-cart-loaded {
+  &:before {
+    content: $df-cart-loaded;
+  }
+}
+.df-help {
+  &:before {
+    content: $df-help;
+  }
+}
+.df-attention {
+  &:before {
+    content: $df-attention;
+  }
+}
+.df-info {
+  &:before {
+    content: $df-info;
+  }
+}
+.df-ok {
+  &:before {
+    content: $df-ok;
+  }
+}
+.df-cancel {
+  &:before {
+    content: $df-cancel;
+  }
+}
+.df-error {
+  &:before {
+    content: $df-error;
+  }
+}
+.df-delete-message {
+  &:before {
+    content: $df-delete-message;
+  }
+}
+.df-about {
+  &:before {
+    content: $df-about;
+  }
+}
+.df-speech-bubble {
+  &:before {
+    content: $df-speech-bubble;
+  }
+}
+.df-chat {
+  &:before {
+    content: $df-chat;
+  }
+}
+.df-document {
+  &:before {
+    content: $df-document;
+  }
+}
+.df-edit-square {
+  &:before {
+    content: $df-edit-square;
+  }
+}
+.df-edit {
+  &:before {
+    content: $df-edit;
+  }
+}
+.df-delete-x {
+  &:before {
+    content: $df-delete-x;
+  }
+}
+.df-checked {
+  &:before {
+    content: $df-checked;
+  }
+}
+.df-checkmark {
+  &:before {
+    content: $df-checkmark;
+  }
+}
+.df-horizontal-setting {
+  &:before {
+    content: $df-horizontal-setting;
+  }
+}
+.df-plus {
+  &:before {
+    content: $df-plus;
+  }
+}
+.df-minus {
+  &:before {
+    content: $df-minus;
+  }
+}
+.df-eye {
+  &:before {
+    content: $df-eye;
+  }
+}
+.df-360 {
+  &:before {
+    content: $df-360;
+  }
+}
+.df-arrow-backward {
+  &:before {
+    content: $df-arrow-backward;
+  }
+}
+.df-arrow-down {
+  &:before {
+    content: $df-arrow-down;
+  }
+}
+.df-arrow-forward {
+  &:before {
+    content: $df-arrow-forward;
+  }
+}
+.df-arrow-up {
+  &:before {
+    content: $df-arrow-up;
+  }
+}
+.df-attach {
+  &:before {
+    content: $df-attach;
+  }
+}
+.df-bookmark {
+  &:before {
+    content: $df-bookmark;
+  }
+}
+.df-check {
+  &:before {
+    content: $df-check;
+  }
+}
+.df-clock {
+  &:before {
+    content: $df-clock;
+  }
+}
+.df-coupon {
+  &:before {
+    content: $df-coupon;
+  }
+}
+.df-cube {
+  &:before {
+    content: $df-cube;
+  }
+}
+.df-delete-trash-x {
+  &:before {
+    content: $df-delete-trash-x;
+  }
+}
+.df-delete-trash {
+  &:before {
+    content: $df-delete-trash;
+  }
+}
+.df-delivery {
+  &:before {
+    content: $df-delivery;
+  }
+}
+.df-download {
+  &:before {
+    content: $df-download;
+  }
+}
+.df-filter {
+  &:before {
+    content: $df-filter;
+  }
+}
+.df-flag {
+  &:before {
+    content: $df-flag;
+  }
+}
+.df-key {
+  &:before {
+    content: $df-key;
+  }
+}
+.df-lock {
+  &:before {
+    content: $df-lock;
+  }
+}
+.df-long-arrow-down {
+  &:before {
+    content: $df-long-arrow-down;
+  }
+}
+.df-long-arrow-left {
+  &:before {
+    content: $df-long-arrow-left;
+  }
+}
+.df-long-arrow-right {
+  &:before {
+    content: $df-long-arrow-right;
+  }
+}
+.df-long-arrow-up {
+  &:before {
+    content: $df-long-arrow-up;
+  }
+}
+.df-menu-dot-horizontal {
+  &:before {
+    content: $df-menu-dot-horizontal;
+  }
+}
+.df-menu-dot-vertical {
+  &:before {
+    content: $df-menu-dot-vertical;
+  }
+}
+.df-menu-apple {
+  &:before {
+    content: $df-menu-apple;
+  }
+}
+.df-menu-left {
+  &:before {
+    content: $df-menu-left;
+  }
+}
+.df-menu {
+  &:before {
+    content: $df-menu;
+  }
+}
+.df-minus-no-border {
+  &:before {
+    content: $df-minus-no-border;
+  }
+}
+.df-plus-no-border {
+  &:before {
+    content: $df-plus-no-border;
+  }
+}
+.df-quote {
+  &:before {
+    content: $df-quote;
+  }
+}
+.df-openbook {
+  &:before {
+    content: $df-openbook;
+  }
+}
+.df-phone-message {
+  &:before {
+    content: $df-phone-message;
+  }
+}
+.df-play {
+  &:before {
+    content: $df-play;
+  }
+}
+.df-ruler {
+  &:before {
+    content: $df-ruler;
+  }
+}
+.df-search-clear {
+  &:before {
+    content: $df-search-clear;
+  }
+}
+.df-search {
+  &:before {
+    content: $df-search;
+  }
+}
+.df-search-flip {
+  &:before {
+    content: $df-search-flip;
+  }
+}
+.df-services {
+  &:before {
+    content: $df-services;
+  }
+}
+.df-settings {
+  &:before {
+    content: $df-settings;
+  }
+}
+.df-shield {
+  &:before {
+    content: $df-shield;
+  }
+}
+.df-size-guide {
+  &:before {
+    content: $df-size-guide;
+  }
+}
+.df-sizes {
+  &:before {
+    content: $df-sizes;
+  }
+}
+.df-sort-down {
+  &:before {
+    content: $df-sort-down;
+  }
+}
+.df-sort-up {
+  &:before {
+    content: $df-sort-up;
+  }
+}
+.df-star-fill {
+  &:before {
+    content: $df-star-fill;
+  }
+}
+.df-star-half-empty {
+  &:before {
+    content: $df-star-half-empty;
+  }
+}
+.df-star-half {
+  &:before {
+    content: $df-star-half;
+  }
+}
+.df-star {
+  &:before {
+    content: $df-star;
+  }
+}
+.df-tag {
+  &:before {
+    content: $df-tag;
+  }
+}
+.df-tracking-order {
+  &:before {
+    content: $df-tracking-order;
+  }
+}
+.df-undo {
+  &:before {
+    content: $df-undo;
+  }
+}
+.df-expand {
+  &:before {
+    content: $df-expand;
+  }
+}
+.df-unexpand {
+  &:before {
+    content: $df-unexpand;
+  }
+}
+.df-unlock {
+  &:before {
+    content: $df-unlock;
+  }
+}
+.df-upload-ios {
+  &:before {
+    content: $df-upload-ios;
+  }
+}
+.df-upload {
+  &:before {
+    content: $df-upload;
+  }
+}
+.df-share-new {
+  &:before {
+    content: $df-share-new;
+  }
+}
+.df-share {
+  &:before {
+    content: $df-share;
+  }
+}
+.df-zoom-in {
+  &:before {
+    content: $df-zoom-in;
+  }
+}
+.df-zoom-out {
+  &:before {
+    content: $df-zoom-out;
+  }
+}
+.df-audio {
+  &:before {
+    content: $df-audio;
+  }
+}
+.df-circle-play {
+  &:before {
+    content: $df-circle-play;
+  }
+}
+.df-tri-top {
+  &:before {
+    content: $df-tri-top;
+  }
+}
+.df-tri-bottom {
+  &:before {
+    content: $df-tri-bottom;
+  }
+}
+

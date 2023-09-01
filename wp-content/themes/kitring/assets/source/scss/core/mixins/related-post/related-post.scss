@@ -1,0 +1,43 @@
+.de-post-related {
+	&__item {
+		&:last-child:not(:first-child) {
+			float: left;
+		}
+	}
+	&__entry-image {
+		position: relative;
+		height: 0;
+		padding-top: 74.92%;
+		overflow: hidden;
+		margin: 0;
+		margin-bottom: 20px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: top left;
+		}
+	}
+	&__entry-categories {
+		a {
+			font-size: .875em;
+			line-height: 1.7;
+		}
+	}
+	&__entry-meta {
+		margin: 0;
+		>span {
+			margin: 0 3px;
+		}
+		a {
+			font-size: .875em;
+			line-height: 1.7;
+			>[class^="df-"] {
+				margin: 0;
+			}
+		}
+	}
+}

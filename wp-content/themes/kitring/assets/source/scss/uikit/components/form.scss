@@ -1,0 +1,1137 @@
+// Name:            Form
+// Description:     Styles for forms
+//
+// Component:       `uk-form-*`
+//                  `uk-input`
+//                  `uk-select`
+//                  `uk-textarea`
+//                  `uk-radio`
+//                  `uk-checkbox`
+//                  `uk-legend`
+//                  `uk-fieldset`
+//
+// Sub-objects:     `uk-form-custom`
+//                  `uk-form-stacked`
+//                  `uk-form-horizontal`
+//                  `uk-form-label`
+//                  `uk-form-controls`
+//                  `uk-form-icon`
+//                  `uk-form-icon-flip`
+//
+// Modifiers:       `uk-form-small`
+//                  `uk-form-large`
+//                  `uk-form-danger`
+//                  `uk-form-success`
+//                  `uk-form-blank`
+//                  `uk-form-width-xsmall`
+//                  `uk-form-width-small`
+//                  `uk-form-width-medium`
+//                  `uk-form-width-large`
+//                  `uk-form-controls-text`
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+/* Add By Dahz */
+$form-height:                                    var(--form-global-height);
+$form-line-height:                               var(--form-global-line-height);
+$form-padding-horizontal:                        var(--form-global-padding-horizontal);
+$form-padding-vertical:                          var(--form-global-padding-vertical);
+
+$form-background:                                var(--form-global-background-color);
+$form-color:                                     var(--form-global-color);
+$form-border:							 	 	 var(--form-global-border-color);
+$form-border-radius:							 var(--form-global-border-radius);
+
+$form-focus-background:                          var(--form-global-focus-background);
+$form-focus-border:							 	 var(--form-global-focus-border);
+$form-focus-color:                               var(--form-global-focus-color);
+
+$form-disabled-background:                       var(--form-global-disabled-background);
+$form-disabled-color:                            var(--form-global-disabled-color);
+
+$form-placeholder-color:                         var(--form-global-placeholder-color);
+
+$form-small-height:                              var(--form-small-height);
+$form-small-padding-horizontal:                  var(--form-small-padding-horizontal);
+$form-small-line-height:                         var(--form-small-line-height);
+$form-small-font-size:                           var(--form-small-font-size);
+
+$form-large-height:                              var(--form-large-height);
+$form-large-padding-horizontal:                  var(--form-large-padding-horizontal);
+$form-large-line-height:                         var(--form-large-line-height);
+$form-large-font-size:                           var(--form-small-font-size);
+
+$form-danger-color:                              var(--form-danger-color);
+$form-success-color:                             var(--form-success-color);
+
+$form-width-xsmall:                              var(--form-width-xsmall);
+$form-width-small:                               var(--form-width-small);
+$form-width-medium:                              var(--form-width-medium);
+$form-width-large:                               var(--form-width-large);
+/* End Add By Dahz */
+$form-select-padding-right:                      var(--form-select-padding-right);
+$form-select-icon-color:                         $global-color !default;
+$form-select-option-color:                       var(--form-select-option-color);
+$form-select-disabled-icon-color:                $global-muted-color !default;
+
+
+$form-radio-size:                                var(--form-radio-size);
+$form-radio-margin-top:                          var(--form-radio-margin-top);
+$form-radio-background:                          var(--form-radio-background);
+
+$form-radio-checked-background:                  var(--form-radio-checked-background);
+$form-radio-checked-icon-color:                  $global-inverse-color !default;
+
+$form-radio-checked-focus-background:            var(--form-radio-checked-focus-background);
+
+$form-radio-disabled-background:                 var(--form-radio-disabled-background);
+$form-radio-disabled-icon-color:                 $global-muted-color !default;
+
+$form-legend-font-size:                          var(--form-legend-font-size);
+$form-legend-line-height:                        var(--form-legend-line-height);
+
+$form-stacked-margin-bottom:                     var(--form-stacked-margin-bottom);
+
+$form-horizontal-label-width:                    var(--form-horizontal-label-width);
+$form-horizontal-label-margin-top:               var(--form-horizontal-label-margin-top);
+$form-horizontal-controls-margin-left:           var(--form-horizontal-controls-margin-left);
+$form-horizontal-controls-text-padding-top:      var(--form-horizontal-controls-text-padding-top);
+
+$form-icon-width:                                $form-height !default;
+$form-icon-font-size:                            $global-font-size !default;
+$form-icon-color:                                $global-muted-color !default;
+$form-icon-hover-color:                          $global-color !default;
+
+$internal-form-select-image: "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22#000%22%20points%3D%2212%201%209%206%2015%206%22%20%2F%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22#000%22%20points%3D%2212%2013%209%208%2015%208%22%20%2F%3E%0A%3C%2Fsvg%3E%0A" !default;
+$internal-form-radio-image: "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22#000%22%20cx%3D%228%22%20cy%3D%228%22%20r%3D%222%22%20%2F%3E%0A%3C%2Fsvg%3E" !default;
+$internal-form-checkbox-image: "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2211%22%20viewBox%3D%220%200%2014%2011%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22#000%22%20points%3D%2212%201%205%207.5%202%205%201%205.5%205%2010%2013%201.5%22%20%2F%3E%0A%3C%2Fsvg%3E%0A" !default;
+$internal-form-checkbox-indeterminate-image: "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Crect%20fill%3D%22#000%22%20x%3D%223%22%20y%3D%228%22%20width%3D%2210%22%20height%3D%221%22%20%2F%3E%0A%3C%2Fsvg%3E" !default;
+
+
+/* ========================================================================
+   Component: Form
+ ========================================================================== */
+
+/*
+ * 1. Define consistent box sizing.
+ *    Default is `content-box` with following exceptions set to `border-box`
+ *    `select`, `input[type="checkbox"]` and `input[type="radio"]`
+ *    `input[type="search"]` in Chrome, Safari and Opera
+ *    `input[type="color"]` in Firefox
+ * 2. Address margins set differently in Firefox/IE and Chrome/Safari/Opera.
+ * 3. Remove `border-radius` in iOS.
+ * 4. Change font properties to `inherit` in all browsers.
+ */
+/* Add By Dahz */
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+input[type=checkbox],
+input[type=radio],
+select,
+textarea,
+.select2-selection.select2-selection--single,
+/* End Add By Dahz */
+.uk-input,
+.uk-select,
+.uk-textarea,
+.uk-radio,
+.uk-checkbox {
+    /* 1 */
+    box-sizing: border-box;
+    /* 2 */
+    margin: 0;
+    /* 3 */
+    border-radius: 0;
+    /* 4 */
+    font: inherit;
+}
+
+/*
+ * Show the overflow in Edge.
+ */
+/* Add By Dahz */
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+/* End Add By Dahz */
+.uk-input { overflow: visible; }
+
+/*
+ * Remove the inheritance of text transform in Firefox.
+ */
+/* Add By Dahz */
+select,
+.select2-selection__rendered,
+/* End Add By Dahz */
+.uk-select { text-transform: none; }
+
+/*
+ * 1. Change font properties to `inherit` in all browsers
+ * 2. Don't inherit the `font-weight` and use `bold` instead.
+ * NOTE: Both declarations don't work in Chrome, Safari and Opera.
+ */
+/* Add By Dahz */
+select optgroup,
+/* End Add By Dahz */
+.uk-select optgroup {
+    /* 1 */
+    font: inherit;
+    /* 2 */
+    font-weight: bold;
+}
+
+/*
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* Add By Dahz */
+textarea,
+/* End Add By Dahz */
+.uk-textarea { overflow: auto; }
+
+/*
+ * Remove the inner padding and cancel buttons in Chrome on OS X and Safari on OS X.
+ */
+
+.uk-input[type="search"]::-webkit-search-cancel-button,
+.uk-input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+
+/*
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+ /* Add By Dahz */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+/* End Add By Dahz */
+.uk-input[type="number"]::-webkit-inner-spin-button,
+.uk-input[type="number"]::-webkit-outer-spin-button { height: auto; }
+
+/*
+ * Removes placeholder transparency in Firefox.
+ */
+/* Add By Dahz */
+input[type=date]::-moz-placeholder,
+input[type=datetime]::-moz-placeholder,
+input[type=datetime-local]::-moz-placeholder,
+input[type=email]::-moz-placeholder,
+input[type=month]::-moz-placeholder,
+input[type=number]::-moz-placeholder,
+input[type=password]::-moz-placeholder,
+input[type=search]::-moz-placeholder,
+input[type=tel]::-moz-placeholder,
+input[type=text]::-moz-placeholder,
+input[type=time]::-moz-placeholder,
+input[type=url]::-moz-placeholder,
+input[type=week]::-moz-placeholder,
+textarea::-moz-placeholder,
+/* End Add By Dahz */
+.uk-input::-moz-placeholder,
+.uk-textarea::-moz-placeholder { opacity: 1; }
+
+/*
+ * Improves consistency of cursor style for clickable elements
+ */
+/* Add By Dahz */
+input[type=checkbox]:not(:disabled),
+input[type=radio]:not(:disabled),
+/* End Add By Dahz */
+.uk-radio:not(:disabled),
+.uk-checkbox:not(:disabled) { cursor: pointer; }
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+.uk-fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Input, select and textarea
+ * Allowed: `text`, `password`, `datetime`, `datetime-local`, `date`,  `month`,
+            `time`, `week`, `number`, `email`, `url`, `search`, `tel`, `color`
+ * Disallowed: `range`, `radio`, `checkbox`, `file`, `submit`, `reset` and `image`
+ ========================================================================== */
+
+/*
+ * Remove default style in iOS.
+ */
+/* Add By Dahz */
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea,
+/* End Add By Dahz */
+.uk-input,
+.uk-textarea { -webkit-appearance: none; }
+
+/*
+ * 1. Prevent content overflow if a fixed width is used
+ * 2. Take the full width
+ * 3. Reset default
+ * 4. Style
+ */
+/* Add By Dahz */
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea,
+select,
+.select2-selection.select2-selection--single,
+/* End Add By Dahz */
+.uk-input,
+.uk-select,
+.uk-textarea {
+    /* 1 */
+    max-width: 100%;
+    /* 2 */
+    width: 100%;
+	border-color:$form-border;
+    /* 4 */
+    padding: 0 $form-padding-horizontal;
+    background: $form-background;
+	border-radius:$form-border-radius;
+    color: $form-color;
+    @if(mixin-exists(hook-form)) {@include hook-form();}
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	color: $form-color !important;
+}
+
+/*
+ * Single-line
+ * 1. Allow any element to look like an `input` or `select` element
+ * 2. Make sure line-height is not larger than height
+ *    Also needed to center the text vertically
+ */
+/* Add By Dahz */
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+.select2-selection.select2-selection--single,
+.select2-selection__rendered,
+/* End Add By Dahz */
+.uk-input,
+.uk-select:not([multiple]):not([size]) {
+    height: $form-height;
+    vertical-align: middle;
+    /* 1 */
+    display: inline-block;
+    @if(mixin-exists(hook-form-single-line)) {@include hook-form-single-line();}
+}
+
+/* 2 */
+.uk-input:not(input),
+.uk-select:not(select) { line-height: $form-line-height; }
+
+.select2-selection.select2-selection--single .select2-selection__rendered { line-height: $form-line-height!important; }
+/*
+ * Multi-line
+ */
+/* Add By Dahz */
+select[multiple],
+select[size],
+textarea,
+/* End Add By Dahz */
+.uk-select[multiple],
+.uk-select[size],
+.uk-textarea {
+    padding-top: $form-padding-vertical;
+    padding-bottom: $form-padding-vertical;
+    vertical-align: top;
+    @if(mixin-exists(hook-form-multi-line)) {@include hook-form-multi-line();}
+}
+
+/* Focus */
+/* Add By Dahz */
+input[type=date]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=email]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+textarea:focus,
+select:focus,
+.select2-selection.select2-selection--single:hover,
+.select2-selection.select2-selection--single:focus,
+/* End Add By Dahz */
+.uk-input:focus,
+.uk-select:focus,
+.uk-textarea:focus {
+    outline: none;
+    background-color: $form-focus-background;
+	border-color:$form-focus-border;
+    color: $form-focus-color;
+    @if(mixin-exists(hook-form-focus)) {@include hook-form-focus();}
+}
+
+.select2-selection.select2-selection--single .select2-selection__rendered:focus,
+.select2-selection.select2-selection--single .select2-selection__rendered:hover{ 
+	color: $form-focus-color!important;
+}
+.select2-selection.select2-selection--single .select2-selection__arrow{
+	display:none;
+}
+/* Disabled */
+/* Add By Dahz */
+input[type=date]:disabled,
+input[type=datetime]:disabled,
+input[type=datetime-local]:disabled,
+input[type=email]:disabled,
+input[type=month]:disabled,
+input[type=number]:disabled,
+input[type=password]:disabled,
+input[type=search]:disabled,
+input[type=tel]:disabled,
+input[type=text]:disabled,
+input[type=time]:disabled,
+input[type=url]:disabled,
+input[type=week]:disabled,
+textarea:disabled,
+select:disabled,
+/* End Add By Dahz */
+.uk-input:disabled,
+.uk-select:disabled,
+.uk-textarea:disabled {
+    background-color: $form-disabled-background;
+    color: $form-disabled-color;
+    @if(mixin-exists(hook-form-disabled)) {@include hook-form-disabled();}
+}
+
+/*
+ * Placeholder
+ */
+/* Add By Dahz */
+input[type=date]:-ms-input-placeholder,
+input[type=datetime]:-ms-input-placeholder,
+input[type=datetime-local]:-ms-input-placeholder,
+input[type=email]:-ms-input-placeholder,
+input[type=month]:-ms-input-placeholder,
+input[type=number]:-ms-input-placeholder,
+input[type=password]:-ms-input-placeholder,
+input[type=search]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder,
+input[type=text]:-ms-input-placeholder,
+input[type=time]:-ms-input-placeholder,
+input[type=url]:-ms-input-placeholder,
+input[type=week]:-ms-input-placeholder,
+/* End Add By Dahz */
+.uk-input:-ms-input-placeholder { color: $form-placeholder-color !important; }
+/* Add By Dahz */
+input[type=date]:placeholder,
+input[type=datetime]:placeholder,
+input[type=datetime-local]:placeholder,
+input[type=email]:placeholder,
+input[type=month]:placeholder,
+input[type=number]:placeholder,
+input[type=password]:placeholder,
+input[type=search]:placeholder,
+input[type=tel]:placeholder,
+input[type=text]:placeholder,
+input[type=time]:placeholder,
+input[type=url]:placeholder,
+input[type=week]:placeholder,
+/* End Add By Dahz */
+.uk-input::placeholder { color: $form-placeholder-color; }
+/* Add By Dahz */
+textarea:-ms-input-placeholder,
+/* End Add By Dahz */
+.uk-textarea:-ms-input-placeholder { color: $form-placeholder-color !important; }
+/* Add By Dahz */
+textarea:placeholder,
+/* End Add By Dahz */
+.uk-textarea::placeholder { color: $form-placeholder-color; }
+
+
+/* Style modifier (`uk-input`, `uk-select` and `uk-textarea`)
+ ========================================================================== */
+
+/*
+ * Small
+ */
+
+.uk-form-small { font-size: $form-small-font-size; }
+
+.uk-form-small:not(textarea):not([multiple]):not([size]) {
+    height: $form-small-height;
+    padding-left: $form-small-padding-horizontal;
+    padding-right: $form-small-padding-horizontal;
+}
+
+.uk-form-small:not(select):not(input):not(textarea) { line-height: $form-small-line-height; }
+
+/*
+ * Large
+ */
+
+.uk-form-large { font-size: $form-large-font-size; }
+
+.uk-form-large:not(textarea):not([multiple]):not([size]) {
+    height: $form-large-height;
+    padding-left: $form-large-padding-horizontal;
+    padding-right: $form-large-padding-horizontal;
+}
+
+.uk-form-large:not(select):not(input):not(textarea) { line-height: $form-large-line-height; }
+
+
+/* Style modifier (`uk-input`, `uk-select` and `uk-textarea`)
+ ========================================================================== */
+
+/*
+ * Error
+ */
+.woocommerce-invalid input[type=date],
+.woocommerce-invalid input[type=datetime],
+.woocommerce-invalid input[type=datetime-local],
+.woocommerce-invalid input[type=email],
+.woocommerce-invalid input[type=month],
+.woocommerce-invalid input[type=number],
+.woocommerce-invalid input[type=password],
+.woocommerce-invalid input[type=search],
+.woocommerce-invalid input[type=tel],
+.woocommerce-invalid input[type=text],
+.woocommerce-invalid input[type=time],
+.woocommerce-invalid input[type=url],
+.woocommerce-invalid input[type=week],
+.woocommerce-invalid input[type=checkbox],
+.woocommerce-invalid input[type=radio],
+.woocommerce-invalid select,
+.woocommerce-invalid textarea,
+.woocommerce-invalid input[type=date]:focus,
+.woocommerce-invalid input[type=datetime]:focus,
+.woocommerce-invalid input[type=datetime-local]:focus,
+.woocommerce-invalid input[type=email]:focus,
+.woocommerce-invalid input[type=month]:focus,
+.woocommerce-invalid input[type=number]:focus,
+.woocommerce-invalid input[type=password]:focus,
+.woocommerce-invalid input[type=search]:focus,
+.woocommerce-invalid input[type=tel]:focus,
+.woocommerce-invalid input[type=text]:focus,
+.woocommerce-invalid input[type=time]:focus,
+.woocommerce-invalid input[type=url]:focus,
+.woocommerce-invalid input[type=week]:focus,
+.woocommerce-invalid input[type=checkbox]:focus,
+.woocommerce-invalid input[type=radio]:focus,
+.woocommerce-invalid select:focus,
+.woocommerce-invalid textarea:focus,
+.uk-form-danger,
+.uk-form-danger:focus {
+    color: $form-danger-color;
+    @if(mixin-exists(hook-form-danger)) {@include hook-form-danger();}
+}
+
+/*
+ * Success
+ */
+
+.woocommerce-validated input[type=date],
+.woocommerce-validated input[type=datetime],
+.woocommerce-validated input[type=datetime-local],
+.woocommerce-validated input[type=email],
+.woocommerce-validated input[type=month],
+.woocommerce-validated input[type=number],
+.woocommerce-validated input[type=password],
+.woocommerce-validated input[type=search],
+.woocommerce-validated input[type=tel],
+.woocommerce-validated input[type=text],
+.woocommerce-validated input[type=time],
+.woocommerce-validated input[type=url],
+.woocommerce-validated input[type=week],
+.woocommerce-validated input[type=checkbox],
+.woocommerce-validated input[type=radio],
+.woocommerce-validated select,
+.woocommerce-validated textarea,
+.woocommerce-validated input[type=date]:focus,
+.woocommerce-validated input[type=datetime]:focus,
+.woocommerce-validated input[type=datetime-local]:focus,
+.woocommerce-validated input[type=email]:focus,
+.woocommerce-validated input[type=month]:focus,
+.woocommerce-validated input[type=number]:focus,
+.woocommerce-validated input[type=password]:focus,
+.woocommerce-validated input[type=search]:focus,
+.woocommerce-validated input[type=tel]:focus,
+.woocommerce-validated input[type=text]:focus,
+.woocommerce-validated input[type=time]:focus,
+.woocommerce-validated input[type=url]:focus,
+.woocommerce-validated input[type=week]:focus,
+.woocommerce-validated input[type=checkbox]:focus,
+.woocommerce-validated input[type=radio]:focus,
+.woocommerce-validated select:focus,
+.woocommerce-validated textarea:focus,
+.uk-form-success,
+.uk-form-success:focus  {
+    color: $form-success-color;
+    @if(mixin-exists(hook-form-success)) {@include hook-form-success();}
+}
+
+/*
+ * Blank
+ */
+input[type=date].uk-form-blank,
+input[type=datetime].uk-form-blank,
+input[type=datetime-local].uk-form-blank,
+input[type=email].uk-form-blank,
+input[type=month].uk-form-blank,
+input[type=number].uk-form-blank,
+input[type=password].uk-form-blank,
+input[type=search].uk-form-blank,
+input[type=tel].uk-form-blank,
+input[type=text].uk-form-blank,
+input[type=time].uk-form-blank,
+input[type=url].uk-form-blank,
+input[type=week].uk-form-blank,
+select.uk-form-blank,
+textarea.uk-form-blank,
+.uk-form-blank {
+    background: none;
+    @if(mixin-exists(hook-form-blank)) {@include hook-form-blank();}
+}
+input[type=date].uk-form-blank:focus,
+input[type=datetime].uk-form-blank:focus,
+input[type=datetime-local].uk-form-blank:focus,
+input[type=email].uk-form-blank:focus,
+input[type=month].uk-form-blank:focus,
+input[type=number].uk-form-blank:focus,
+input[type=password].uk-form-blank:focus,
+input[type=search].uk-form-blank:focus,
+input[type=tel].uk-form-blank:focus,
+input[type=text].uk-form-blank:focus,
+input[type=time].uk-form-blank:focus,
+input[type=url].uk-form-blank:focus,
+input[type=week].uk-form-blank:focus,
+select.uk-form-blank:focus,
+textarea.uk-form-blank:focus,
+.uk-form-blank:focus {
+    @if(mixin-exists(hook-form-blank-focus)) {@include hook-form-blank-focus();}
+}
+
+
+/* Width modifiers (`uk-input`, `uk-select` and `uk-textarea`)
+ ========================================================================== */
+
+/*
+ * Fixed widths
+ * Different widths for mini sized `input` and `select` elements
+ */
+ /* Add By Dahz */
+input[type=date].uk-form-width-xsmall,
+input[type=datetime].uk-form-width-xsmall,
+input[type=datetime-local].uk-form-width-xsmall,
+input[type=email].uk-form-width-xsmall,
+input[type=month].uk-form-width-xsmall,
+input[type=number].uk-form-width-xsmall,
+input[type=password].uk-form-width-xsmall,
+input[type=search].uk-form-width-xsmall,
+input[type=tel].uk-form-width-xsmall,
+input[type=text].uk-form-width-xsmall,
+input[type=time].uk-form-width-xsmall,
+input[type=url].uk-form-width-xsmall,
+input[type=week].uk-form-width-xsmall,
+/* Add By Dahz */
+input.uk-form-width-xsmall { width: $form-width-xsmall; }
+
+select.uk-form-width-xsmall { width: ($form-width-xsmall + 25px); }
+
+/* Add By Dahz */
+input[type=date].uk-form-width-small,
+input[type=datetime].uk-form-width-small,
+input[type=datetime-local].uk-form-width-small,
+input[type=email].uk-form-width-small,
+input[type=month].uk-form-width-small,
+input[type=number].uk-form-width-small,
+input[type=password].uk-form-width-small,
+input[type=search].uk-form-width-small,
+input[type=tel].uk-form-width-small,
+input[type=text].uk-form-width-small,
+input[type=time].uk-form-width-small,
+input[type=url].uk-form-width-small,
+input[type=week].uk-form-width-small,
+select.uk-form-width-small,
+/* Add By Dahz */
+.uk-form-width-small { width: $form-width-small; }
+
+/* Add By Dahz */
+input[type=date].uk-form-width-medium,
+input[type=datetime].uk-form-width-medium,
+input[type=datetime-local].uk-form-width-medium,
+input[type=email].uk-form-width-medium,
+input[type=month].uk-form-width-medium,
+input[type=number].uk-form-width-medium,
+input[type=password].uk-form-width-medium,
+input[type=search].uk-form-width-medium,
+input[type=tel].uk-form-width-medium,
+input[type=text].uk-form-width-medium,
+input[type=time].uk-form-width-medium,
+input[type=url].uk-form-width-medium,
+input[type=week].uk-form-width-medium,
+select.uk-form-width-medium,
+/* Add By Dahz */
+.uk-form-width-medium { width: $form-width-medium; }
+
+/* Add By Dahz */
+input[type=date].uk-form-width-large,
+input[type=datetime].uk-form-width-large,
+input[type=datetime-local].uk-form-width-large,
+input[type=email].uk-form-width-large,
+input[type=month].uk-form-width-large,
+input[type=number].uk-form-width-large,
+input[type=password].uk-form-width-large,
+input[type=search].uk-form-width-large,
+input[type=tel].uk-form-width-large,
+input[type=text].uk-form-width-large,
+input[type=time].uk-form-width-large,
+input[type=url].uk-form-width-large,
+input[type=week].uk-form-width-large,
+select.uk-form-width-large,
+/* Add By Dahz */
+.uk-form-width-large { width: $form-width-large; }
+
+
+/* Select
+ ========================================================================== */
+
+/*
+ * 1. Remove default style. Also works in Firefox
+ * 2. Style
+ * 3. Remove default style in IE 10/11
+ * 4. Set `color` for options in the select dropdown, because the inherited `color` might be too light.
+ */
+.select2-selection__rendered,
+select:not([multiple]):not([size]),
+.uk-select:not([multiple]):not([size]) {
+    /* 1 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* 2 */
+    padding-right: $form-select-padding-right;
+    @include svg-fill($internal-form-select-image, "#000", $form-select-icon-color);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+
+/* 3 */
+.select2-selection.select2-selection--single,
+.uk-select:not([multiple]):not([size])::-ms-expand { display: none; }
+
+/* 4 */
+.select2-selection__rendered,
+select:not([multiple]):not([size]) option,
+.uk-select:not([multiple]):not([size]) option { color: $form-select-option-color; }
+
+/*
+ * Disabled
+ */
+select:not([multiple]):not([size]):disabled,
+.uk-select:not([multiple]):not([size]):disabled { @include svg-fill($internal-form-select-image, "#000", $form-select-disabled-icon-color); }
+
+
+/* Radio and checkbox
+ * Note: Does not work in IE11
+ ========================================================================== */
+
+/*
+ * 1. Style
+ * 2. Make box more robust so it clips the child element
+ * 3. Vertical alignment
+ * 4. Remove default style
+ * 5. Fix black background on iOS
+ * 6. Center icons
+ */
+input[type=radio],
+input[type=checkbox],
+.uk-radio,
+.uk-checkbox {
+    /* 1 */
+    display: inline-block;
+    height: $form-radio-size;
+    width: $form-radio-size;
+    /* 2 */
+    overflow: hidden;
+    /* 3 */
+    margin-top: $form-radio-margin-top;
+    vertical-align: middle;
+    /* 4 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* 5 */
+    background-color: $form-radio-background;
+    /* 6 */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    @if(mixin-exists(hook-form-radio)) {@include hook-form-radio();}
+}
+input[type=radio],
+.uk-radio { border-radius: 50%; }
+
+/* Focus */
+.uk-radio:focus,
+.uk-checkbox:focus {
+    outline: none;
+    @if(mixin-exists(hook-form-radio-focus)) {@include hook-form-radio-focus();}
+}
+
+/*
+ * Checked
+ */
+input[type=radio]:checked,
+input[type=checkbox]:checked,
+input[type=checkbox]:indeterminate,
+.uk-radio:checked,
+.uk-checkbox:checked,
+.uk-checkbox:indeterminate {
+    background-color: $form-radio-checked-background;
+    @if(mixin-exists(hook-form-radio-checked)) {@include hook-form-radio-checked();}
+}
+
+/* Focus */
+input[type=radio]:checked:focus,
+input[type=checkbox]:checked:focus,
+input[type=checkbox]:indeterminate:focus,
+.uk-radio:checked:focus,
+.uk-checkbox:checked:focus,
+.uk-checkbox:indeterminate:focus {
+    background-color: $form-radio-checked-focus-background;
+    @if(mixin-exists(hook-form-radio-checked-focus)) {@include hook-form-radio-checked-focus();}
+}
+
+/*
+ * Icons
+ */
+input[type=radio]:checked,
+.uk-radio:checked { @include svg-fill($internal-form-radio-image, "#000", $form-radio-checked-icon-color); }
+input[type=checkbox]:checked,
+.uk-checkbox:checked { @include svg-fill($internal-form-checkbox-image, "#000", $form-radio-checked-icon-color); }
+input[type=checkbox]:indeterminate,
+.uk-checkbox:indeterminate { @include svg-fill($internal-form-checkbox-indeterminate-image, "#000", $form-radio-checked-icon-color); }
+
+/*
+ * Disabled
+ */
+input[type=radio]:disabled,
+input[type=checkbox]:disabled,
+.uk-radio:disabled,
+.uk-checkbox:disabled {
+    background-color: $form-radio-disabled-background;
+    @if(mixin-exists(hook-form-radio-disabled)) {@include hook-form-radio-disabled();}
+}
+input[type=radio]:disabled:checked,
+.uk-radio:disabled:checked { @include svg-fill($internal-form-radio-image, "#000", $form-radio-disabled-icon-color); }
+input[type=checkbox]:disabled:checked,
+.uk-checkbox:disabled:checked { @include svg-fill($internal-form-checkbox-image, "#000", $form-radio-disabled-icon-color); }
+input[type=checkbox]:disabled:indeterminate,
+.uk-checkbox:disabled:indeterminate { @include svg-fill($internal-form-checkbox-indeterminate-image, "#000", $form-radio-disabled-icon-color); }
+
+
+/* Legend
+ ========================================================================== */
+
+/*
+ * Legend
+ * 1. Behave like block element
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 4. Style
+ */
+legend,
+.uk-legend {
+    /* 1 */
+    width: 100%;
+    /* 2 */
+    color: inherit;
+    /* 3 */
+    padding: 0;
+    /* 4 */
+    font-size: $form-legend-font-size;
+    line-height: $form-legend-line-height;
+    @if(mixin-exists(hook-form-legend)) {@include hook-form-legend();}
+}
+
+
+/* Custom controls
+ ========================================================================== */
+
+/*
+ * 1. Container fits its content
+ * 2. Create position context
+ * 3. Prevent content overflow
+ * 4. Behave like most inline-block elements
+ */
+
+.uk-form-custom {
+    /* 1 */
+    display: inline-block;
+    /* 2 */
+    position: relative;
+    /* 3 */
+    max-width: 100%;
+    /* 4 */
+    vertical-align: middle;
+}
+
+/*
+ * 1. Position and resize the form control to always cover its container
+ * 2. Required for Firefox for positioning to the left
+ * 3. Required for Webkit to make `height` work
+ * 4. Hide controle and show cursor
+ * 5. Needed for the cursor
+ * 6. Clip height caused by 5. Needed for Webkit only
+ */
+
+.uk-form-custom select,
+.uk-form-custom input[type="file"] {
+    /* 1 */
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    /* 2 */
+    left: 0;
+    /* 3 */
+    -webkit-appearance: none;
+    /* 4 */
+    opacity: 0;
+    cursor: pointer;
+}
+
+.uk-form-custom input[type="file"] {
+    /* 5 */
+    font-size: 500px;
+    /* 6 */
+    overflow: hidden;
+}
+
+
+/* Label
+ ========================================================================== */
+label,
+.uk-form-label {
+    @if(mixin-exists(hook-form-label)) {@include hook-form-label();}
+}
+
+
+/* Layout
+ ========================================================================== */
+
+/*
+ * Stacked
+ */
+form label,
+.uk-form-stacked .uk-form-label {
+    display: block;
+    margin-bottom: $form-stacked-margin-bottom;
+    @if(mixin-exists(hook-form-stacked-label)) {@include hook-form-stacked-label();}
+}
+
+/*
+ * Horizontal
+ */
+
+/* Tablet portrait and smaller */
+@media (max-width: $breakpoint-small-max) {
+
+    /* Behave like `uk-form-stacked` */
+	form.uk-form-horizontal label,
+    .uk-form-horizontal .uk-form-label {
+        display: block;
+        margin-bottom: $form-stacked-margin-bottom;
+        @if(mixin-exists(hook-form-stacked-label)) {@include hook-form-stacked-label();}
+    }
+
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: $breakpoint-medium) {
+
+    .uk-form-horizontal .uk-form-label {
+        width: $form-horizontal-label-width;
+        margin-top: $form-horizontal-label-margin-top;
+        float: left;
+        @if(mixin-exists(hook-form-horizontal-label)) {@include hook-form-horizontal-label();}
+    }
+
+    .uk-form-horizontal .uk-form-controls { margin-left: $form-horizontal-controls-margin-left; }
+
+    /* Better vertical alignment if controls are checkboxes and radio buttons with text */
+    .uk-form-horizontal .uk-form-controls-text { padding-top: $form-horizontal-controls-text-padding-top; }
+
+}
+
+
+/* Icons
+ ========================================================================== */
+
+/*
+ * 1. Set position
+ * 2. Set width
+ * 3. Center icon vertically and horizontally
+ * 4. Style
+ */
+
+.uk-form-icon {
+    /* 1 */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* 2 */
+    width: $form-icon-width;
+    /* 3 */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* 4 */
+    color: $form-icon-color;
+}
+
+/*
+ * Required for `a`.
+ */
+
+.uk-form-icon:hover { color: $form-icon-hover-color; }
+
+/*
+ * Make `input` element clickable through icon, e.g. if it's a `span`
+ */
+
+.uk-form-icon:not(a):not(button):not(input) { pointer-events: none; }
+
+/*
+ * Input padding
+ */
+
+.uk-form-icon:not(.uk-form-icon-flip) ~ .uk-input { padding-left: $form-icon-width !important; }
+
+/*
+ * Position modifier
+ */
+
+.uk-form-icon-flip {
+    right: 0;
+    left: auto;
+}
+
+.uk-form-icon-flip ~ .uk-input { padding-right: $form-icon-width !important; }
+
+
+// Hooks
+// ========================================================================
+
+@if(mixin-exists(hook-form-misc)) {@include hook-form-misc();}
+
+// @mixin hook-form(){}
+// @mixin hook-form-single-line(){}
+// @mixin hook-form-multi-line(){}
+// @mixin hook-form-focus(){}
+// @mixin hook-form-disabled(){}
+// @mixin hook-form-danger(){}
+// @mixin hook-form-success(){}
+// @mixin hook-form-blank(){}
+// @mixin hook-form-blank-focus(){}
+// @mixin hook-form-radio(){}
+// @mixin hook-form-radio-focus(){}
+// @mixin hook-form-radio-checked(){}
+// @mixin hook-form-radio-checked-focus(){}
+// @mixin hook-form-radio-disabled(){}
+// @mixin hook-form-legend(){}
+// @mixin hook-form-label(){}
+// @mixin hook-form-stacked-label(){}
+// @mixin hook-form-horizontal-label(){}
+// @mixin hook-form-misc(){}
+
+
+// Inverse
+// ========================================================================
+
+$inverse-form-background:                       var(--inverse-form-background-color);
+$inverse-form-color:                            var(--inverse-form-color);
+$inverse-form-focus-background:                 var(--inverse-form-focus-background);
+$inverse-form-focus-color:                      var(--inverse-form-focus-color);
+$inverse-form-placeholder-color:                var(--inverse-form-placeholder-color);
+
+$inverse-form-select-icon-color:                $inverse-global-color !default;
+
+$inverse-form-radio-background:                 var(--inverse-form-radio-background-color);
+
+$inverse-form-radio-checked-background:         var(--inverse-form-radio-checked-background);
+$inverse-form-radio-checked-icon-color:         $inverse-global-inverse-color !default;
+
+$inverse-form-radio-checked-focus-background:   var(--inverse-form-radio-checked-focus-background);
+
+$inverse-form-icon-color:                       $inverse-global-muted-color !default;
+$inverse-form-icon-hover-color:                 $inverse-global-color !default;
+
+
+
+// @mixin hook-inverse-form(){}
+// @mixin hook-inverse-form-focus(){}
+// @mixin hook-inverse-form-radio(){}
+// @mixin hook-inverse-form-radio-focus(){}
+// @mixin hook-inverse-form-radio-checked(){}
+// @mixin hook-inverse-form-radio-checked-focus(){}
+// @mixin hook-inverse-form-label(){}

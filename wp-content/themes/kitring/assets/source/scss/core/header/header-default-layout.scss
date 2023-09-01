@@ -1,0 +1,59 @@
+.de-header {
+	display: none;
+	@media (min-width: $breakpoint-medium) {
+		display: block;
+	}
+	&__row {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		@media (min-width: $breakpoint-medium) {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		&::before {
+			display: none;
+		}
+		&::after {
+			display: none;
+		}
+	}
+	&__column {
+		display: flex;
+		flex-flow: row wrap;
+		@media (min-width: $breakpoint-medium) {
+			@for $i from 1 through 12 {
+				&--large-#{$i} {
+					width: (($i / 12) * 100%);
+				}
+			}
+			&--large-1-5 {
+				width: 20%;
+			}
+		}
+		&--flex {
+			&-start {
+				justify-content: flex-start;
+			}
+			&-center {
+				justify-content: center;
+			}
+			&-end {
+				justify-content: flex-end;
+			}
+		}
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+	}
+	&__has-fullwidth-header {
+		.de-header__row {
+			max-width: none;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+}

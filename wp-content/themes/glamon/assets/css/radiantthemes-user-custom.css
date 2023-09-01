@@ -1,0 +1,61 @@
+.wraper_header.style-sixteen .wraper_header_main .header_main .header_main_item .brand-logo img {
+    max-width: 100%;
+}
+.radiantthemes-shop-box.style-six > .holder > .data .woocommerce-loop-product__title{
+    font-size: 24px;
+    line-height: 30px;
+}
+.team.element-one .team-item > .holder {
+    background: #fff;
+    padding: 7px 7px 9px 7px !important;
+}
+.blog.element-three .blog-item>.holder>.title .title{
+   font-family: "Abhaya Libre" !important;
+   font-size:30px !important;
+   line-height:36px !important;
+}
+
+
+/* START OF HOME PAGE SALON VERSION ONE */
+.salon-version-two-form .row{
+        width: 100%;
+    max-width: 650px;
+}
+.text-shadow-effect {
+    text-shadow: 3px 3px 3px rgba(152, 157, 158, 0.66);
+}
+
+.artist-box > .vc_column-inner {
+    -webkit-box-shadow: 1px 19px 23px -20px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 19px 23px -20px rgba(0,0,0,1);
+    box-shadow: 1px 22px 23px -28px rgba(0,0,0,1);
+}
+.girl-image{
+    width:489px;
+    margin-bottom:0px;
+    margin-left:-100px;
+}
+.process-text-shadow-effect {
+    text-shadow: 2px 2px 3px rgba(32, 33, 33, 0.66);
+}
+.services-text-shadow-effect {
+     text-shadow: 2px 2px 3px rgba(152, 157, 158, 0.66);
+}
+.position-absolute {
+    position: absolute;
+    top: -280px;
+    right: 0;
+    margin-right: -163px;
+}
+/* START OF HOME PAGE VERISON FOUR TEAM BOX */
+.team.element-one .team-item>.holder{
+    background:#fff;
+    padding:7px;
+}
+.team.element-one .team-item>.holder>.pic{
+    border-radius:0px !important;
+    box-shadow:none!important;
+}
+
+
+/* END OF HOME PAGE SALON VERSION ONE */

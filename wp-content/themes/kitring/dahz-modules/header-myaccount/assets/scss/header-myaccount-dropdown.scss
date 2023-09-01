@@ -1,0 +1,16 @@
+.de-account-content {
+	&--dropdown {
+		.woocommerce-Input--checkbox {
+			margin-right: 7px;
+		}
+		.de-account-content__tab li.uk-active a:after {
+			content: "";
+			bottom: -2px;
+			left: 0;
+			right: 0;
+			border-bottom: 2px solid;
+			position: absolute;
+			transition: 420ms;
+		}
+	}
+}

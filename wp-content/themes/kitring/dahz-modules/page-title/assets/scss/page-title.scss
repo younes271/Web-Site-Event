@@ -1,0 +1,41 @@
+.de-page-title {
+	position: relative;
+	&__container {
+		position: relative;
+	}
+	&__nav {
+		position: absolute;
+		bottom: 20px;
+		left: calc(50% - 30px);
+		width: 60px;
+		height: 60px;
+		font-size: 32px;
+		color: inherit !important;
+		animation: titania-arrow 2s ease-out 0s infinite;
+	}
+	&[data-layout="tasia"] {
+		text-align: center;
+	}
+	&[data-layout="trina"] {
+		position: relative;
+		.uk-breadcrumb {
+			justify-content: flex-start;
+		}
+	}
+	&[data-layout="tiffany"] {
+		position: relative;
+		text-align: center;
+	}
+	&[data-layout="titania"] {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	.woocommerce-breadcrumb {
+		color: inherit;
+	}
+	.uk-breadcrumb {
+		justify-content: center;
+	}
+}

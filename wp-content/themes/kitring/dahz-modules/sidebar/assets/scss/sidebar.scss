@@ -1,0 +1,40 @@
+.sidebar {
+    &--header {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 0;
+        margin: 0 -10px;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: max-height .4s .1s, margin .3s .3s, opacity .3s .3s, visibility .3s .3s;
+        section {
+            width: 100%;
+            padding: 0 10px;
+            @media (min-width: $breakpoint-medium) {
+                width: 25%;
+            }
+        }
+    }
+    &--visible {
+        max-height: 300px;
+        margin-bottom: 40px;
+        opacity: 1;
+        visibility: visible;
+    }
+    section {
+        .widget-title,
+        .de-widget-title {
+            display: flex;
+            align-items: center;
+            // &::after {
+            // 	content: '';
+            // 	width: 100%;
+            // 	border-bottom-width: 1px;
+            // 	border-bottom-style: solid;
+            // 	flex: 1;
+            // 	margin-left: 10px;
+            // }
+        }
+    }
+}

@@ -1,0 +1,258 @@
+.de-myaccount {
+	&__order-table {
+		thead tr th {
+			padding-top: 0;
+		}
+	}
+	&__navigation {
+		ul:not(.uk-dropdown-nav)>li {
+			margin-bottom: 20px;
+			position: relative;
+			h6 {
+				margin-bottom: 0;
+				line-height: 1.75rem;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				bottom: -1px;
+				right: 20%;
+				border-bottom: 1px solid;
+				left: 0;
+			}
+			&>a {
+				display: inline-block;
+				padding: 0;
+				padding-bottom: 16px;
+				font-weight: 600;
+			}
+			&.is-active>a {
+				border-bottom: 2px solid;
+			}
+		}
+		ul.uk-dropdown-nav {
+			h6 {
+				text-align: center;
+			}
+		}
+	}
+	&__form-lost-password {
+		input[type="submit"] {
+			display: none;
+		}
+	}
+	&__form-login-signup {
+		input[type="submit"] {
+			display: none;
+		}
+		&__remember-me {
+			display: flex;
+			align-items: center;
+			input {
+				margin-right: 7px;
+			}
+		}
+		&__actions {
+			overflow: auto;
+		}
+		.de-myaccount__form-login-signup__actions {
+			margin-top: 0;
+		}
+		&__tab {
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-pack: center;
+			justify-content: center;
+			margin-bottom: 60px;
+			border-bottom: 2px solid;
+			margin-left: 0;
+			li {
+				padding-left: 0;
+				margin-left: 20px;
+				&.uk-active:after {
+					content: "";
+					bottom: -2px;
+					left: 0;
+					right: 0;
+					border-bottom: 2px solid;
+					position: absolute;
+				}
+			}
+		}
+		p:nth-child(2) {
+			margin-bottom: 0;
+			margin-top: 0;
+		}
+		input[type="submit"] {
+			width: 100%;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		&__lost-password {
+			text-align: center;
+		}
+		.wc-social-login {
+			margin-top: 40px;
+			.ywsl-label {
+				margin: 0;
+			}
+			.de-login-separator {
+				border-top: 1px solid #8c8b8b;
+				text-align: center;
+				display: block;
+				&:after {
+					content: 'Login with';
+					display: inline-block;
+					position: relative;
+					top: -12px;
+					padding: 0 10px;
+					background: white;
+					width: 35%;
+				}
+			}
+			ul.socials-list {
+				display: flex;
+				flex-wrap: wrap;
+				list-style: none;
+				margin-left: 0;
+				li {
+					width: 33%;
+					padding: 0 5px;
+					&:first-child {
+						padding-left: 0;
+					}
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+				a.de-btn.ywsl-social {
+					font-size: 1.428em;
+					i {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+	&__login-button,
+	&__register-button {
+		margin-top: 20px;
+	}
+	.de-customer-account__option {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		a {
+			position: relative;
+			display: flex;
+			flex-flow: row wrap;
+			align-items: center;
+			justify-content: center;
+			float: left !important;
+			padding-top: 40px;
+			padding-bottom: 40px;
+			overflow: hidden;
+			text-align: center;
+			margin-top: 20px;
+			width: calc(100% / 2 - 10px) !important;
+			transition: .3s;
+			box-sizing: border-box;
+			&::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				border: 2px solid;
+				transition: .3s border-color;
+			}
+			&:nth-of-type(odd) {
+				margin-left: 0;
+			}
+			&:nth-of-type(even) {
+				margin-right: 0;
+			}
+			h3 {
+				margin-bottom: 0;
+				display: block;
+				width: 100%;
+				margin-top: 20px;
+			}
+			i {
+				font-size: 3.000em;
+				display: block;
+				width: 100%;
+				&:before {
+					line-height: inherit;
+					width: 100%;
+					margin: 0;
+					display: block;
+				}
+			}
+			@media screen and (max-width: 768px) {
+				width: 100% !important;
+				margin: 0 0 10px;
+			}
+		}
+	}
+	.woocommerce-Message--info {
+		padding: 30px;
+	}
+	form {
+		.form-row-first {
+			width: calc(100% / 2 - 10px);
+			float: left;
+			margin-right: 10px;
+		}
+		.form-row-last {
+			display: inline-block;
+			width: calc(100% / 2);
+		}
+		p#billing_last_name_field,
+		p#shipping_last_name_field {
+			&.form-row-last {
+				margin-top: 0;
+			}
+		}
+		p#billing_company_field {
+			margin-top: 0;
+		}
+		label {
+			width: 100%;
+		}
+		input:not(.de-btn),
+		textarea {
+			width: 100%;
+			background: transparent;
+			box-shadow: none;
+			transition: 420ms;
+			&:focus {
+				outline: 0;
+				transition: 420ms;
+			}
+		}
+		.select2 {
+			margin-top: 10px;
+		}
+		&.woocommerce-EditAccountForm {
+			p:nth-of-type(2) {
+				margin-top: 0;
+			}
+		}
+		.de-form-password {
+			border-bottom: 4px solid #ebebeb;
+			padding: 20px 0;
+			text-transform: capitalize;
+		}
+	}
+}
+
+#header-myaccount-dropdown {
+	width: 450px !important;
+}
+
+.woocommerce-account:not(.admin-bar) hr {
+	display: none;
+}

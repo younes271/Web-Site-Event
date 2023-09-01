@@ -1,0 +1,10 @@
+#masthead {
+	position: relative;
+	z-index: 999 !important;
+	margin: 0 !important;
+}
+.de-header__item {
+	&:first-child {
+		margin: 0 !important;
+	}
+}

@@ -1,0 +1,20 @@
+.de-breadcrumbs {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	margin: 10px 0;
+	li {
+		display: inline-block;
+		list-style-type: none;
+		&:after {
+			content: '/';
+			margin: 0 12px;
+		}
+		&:last-child {
+			&:after {
+				content: '';
+				margin: 0;
+			}
+		}
+	}
+}

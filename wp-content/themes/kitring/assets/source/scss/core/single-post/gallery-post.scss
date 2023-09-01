@@ -1,0 +1,26 @@
+.de-post-gallery {
+	[data-uk-height-viewport] {
+        li a {
+			height: 100%;
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+	&--tiled {
+		.de-post-gallery__inner-item {
+			&-category {
+				height: 100%;
+			}
+			a {
+				height: 100%;
+				display: block;
+				img {
+					object-fit: cover;
+					height: 100%;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+$breadcrumbs_color: #a8a8a8;
+$categories: #00c494;
+$title_color: #000000;
+$tags_color: #00c494;
+$border_color: #eaeaea;
+$nav_color: #afafaf;
+$author_color: #1b1b1b;
+$author_meta: #757575;
+$comment_color: #777777;
+
+.de-single--default {
+	.de-single__entry {
+		&-image {
+			margin-bottom: 35px;
+		}
+		&-breadcrumbs {
+			margin-bottom: 40px;
+			.de-breadcrumbs {
+				a,
+				span {
+					color: $breadcrumbs_color;
+				}
+				li {
+					&:after {
+						color: $breadcrumbs_color;
+					}
+				}
+			}
+		}
+		&-categories {
+			margin-bottom: 50px;
+			a {
+				color: $categories;
+				font-size: 16px;
+			}
+		}
+	}
+	.entry {
+		&-content {
+			.de-tags {
+				margin: 50px 0;
+			}
+		}
+		&-title {
+			font-size: 48px;
+		}
+	}
+}
+
+.de-post-gallery {
+	[data-uk-height-viewport] {
+		li a {
+			height: 100%;
+			img {
+				object-fit: cover;
+			}
+		}
+	}
+}

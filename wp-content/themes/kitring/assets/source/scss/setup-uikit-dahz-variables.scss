@@ -1,0 +1,41 @@
+/*
+ * Setup New Variable For Supporting UIKIT Default Variable
+ * 
+ */
+
+$global-xsmall-gutter: 4px !default;
+$global-xlarge-gutter: 80px !default;
+
+$global-xsmall-margin: 10px !default;
+
+/* Section
+  ========================================================================== */
+
+$section-xsmall-padding-vertical: $global-xsmall-gutter !default;
+$section-xlarge-padding-vertical: $global-xlarge-gutter !default;
+$section-xlarge-padding-vertical-m: $section-xlarge-padding-vertical !default;
+
+
+$global-font-size:                               16px !default;
+$global-medium-font-size:						1.25rem !default;
+$global-small-font-size:						0.875rem !default;
+$global-line-height:                             1.7 !default;      // 27px
+
+$global-control-height:                          50px !default;
+$global-control-small-height:                    30px !default;
+$global-control-large-height:                    70px !default;
+
+
+$form-stacked-margin-bottom:                     5px !default;
+$form-label-font-size:                           $global-small-font-size;
+$form-padding-horizontal:                        15px !default;
+$form-small-padding-horizontal:                  12px !default;
+$form-large-padding-horizontal:                  18px !default;
+
+$button-font-size:                               $global-font-size !default;
+$button-small-font-size:                         $global-small-font-size !default;
+$button-large-font-size:                         $global-medium-font-size !default;
+
+$button-padding-horizontal:                      40px !default;
+$button-small-padding-horizontal:                20px !default;
+$button-large-padding-horizontal:                60px !default;

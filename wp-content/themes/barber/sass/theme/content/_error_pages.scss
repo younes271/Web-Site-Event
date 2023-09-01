@@ -1,0 +1,793 @@
+.title404{
+    font-weight: 900;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: block;
+    font-family: OpenSans-Extrabold;
+    font-size: 17.8px;
+    letter-spacing: 2.8px;
+}
+.overlay404{
+	position: relative;
+	&:before{
+		content: "";
+		background: #000;
+		opacity: 0.7;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		#{$left}: 0;
+		#{$right}: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+svg{width:100%;  height: 100%;}
+.heading404{
+	position: relative;
+	margin-bottom: -9px;
+}
+.error404{
+	.side-breadcrumb{
+		display: none;
+	}
+	.side-breadcrumb + .wrapper {
+	    padding-top: 0;
+	}
+	.footer{
+		padding-top: 0 !important;
+		position: relative;
+	}
+}
+html{
+	height: 100%;
+	// body.page-template-coming-soon{
+	// 	height: 100%;
+	// }
+}
+#error-page{
+	max-width: none;
+    padding: side-values(0);
+    margin: side-values(0) !important;
+}
+.page-404 {
+    background-size: cover;
+    margin: side-values(0 -15px);
+    // height: 900px;
+    vertical-align: middle;
+    // .page-404-container{
+	   //  position: absolute;
+	   //  width: 100%;
+	   //  top: 50%;
+	   //  color: #fff;
+	   //  @include transform(translateY(-50%));    	
+    // }
+    .content404{
+	    top: 50%;
+	    width: 100%;
+	    text-align: center;
+	    font-size: 24px;
+	    padding-top: 201px;
+	    letter-spacing: 1.5px;
+	    position: absolute;
+	    @include transform(translateY(-50%));
+	    .btn.btn-primary{
+		    margin-top: 33px;
+		    padding: side-values(14px 85px 14px 86px);
+		    letter-spacing: 0px;    	
+		    > i{
+		    	margin-#{$left}: 17px;
+		    }
+	    }
+    }
+}
+.page-template-coming-soon, #error-page{
+	footer{
+		padding-top: 0;
+	}
+	// &:before{
+	//     content: "";
+	//     position: absolute;
+	//     top: 0;
+	//     left: 0;
+	//     height: 100%;
+	//     width: 100%;
+	//     background: rgba(0, 0, 0, 0.5);	
+	//     opacity: 0.6;	
+	// }
+}
+.page-coming-soon{
+	margin: side-values(0 -15px);
+    position: relative;
+    min-height: 500px;
+    .coming-soon-container{
+    	position: relative;
+    	min-height: 500px;
+    }
+    .coming-soon{
+		position: absolute;
+	    top: 50%;
+	    width: 100%;
+	    @include transform(translateY(-50%));   
+	    color: #fff; 
+	    padding-top: 150px;  
+		#{$right}: 0;
+	    #{$left}: 0;	      	
+    }	
+    .coming-clock, .coming-title{
+    	display: inline-block;
+    	vertical-align: middle;
+    }
+    .coming-title{
+	    text-transform: uppercase;
+	    font-size: 35px;
+	    text-align: $left;
+	    width: 44.4%;
+    /* max-width: 512px; */
+    	padding-#{$left}: 54px;
+    	padding-#{$right}: 52px;
+    	border-#{$right}: 1px solid #fff;
+    	padding: side-values(9px 52px 9.2px 86px);  
+	    h3{
+		    color: #d19f68;
+		    font-size: 35px;	    	
+	    }  	
+	    h2{
+		    font-size: 75px;
+		    font-weight: bold;
+		    color: inherit;
+		    margin-top: 5px;
+		    letter-spacing: -3px;    	
+	    }
+    }
+    .coming-clock{
+    	width: 54%;
+    }
+    .coming-timer{
+    	font-family: Oswald;
+    	position: relative;
+    	display: inline-block;
+    	line-height: 100%;
+	    margin-#{$left}: 1px;
+	    margin-top: -4px;
+    	> span:first-child {
+		    font-size: 80px;
+		    font-weight: 300;
+		    line-height: 100%;
+		}
+    	> span:last-child {
+		    font-size: 128px;
+		    font-weight: bold;
+		    position: absolute;
+		    opacity: 0.1;
+		    #{$left}: 50%;
+		    @include transform(translateX($translateX) translateY(-50%));
+		    padding-#{$right}: 55px;
+		    top: 45%;
+		    line-height: 100%;		    		    
+		}
+		&:after {
+		    content: ":";
+		    font-size: 80px;
+		    font-family: inherit;
+		    font-weight: 300;
+		    padding: side-values(0 22px 0 21px);
+		}
+		&:last-child{
+			&:after{
+				display: none;
+			}
+			> span:last-child {
+				padding-#{$right}: 0;
+			}
+		}		
+    }
+    .coming-subcribe{
+    	margin-top: 47px;
+    }
+    .mc4wp-form{
+    	width: 100%;
+	    max-width: 560px;
+	    margin: side-values(0 auto);
+	    input[type="submit"]{
+	    	margin-top: 10px;
+		    background: #d19f68;
+		    font-family: Oswald;
+		    text-transform: uppercase;
+		    padding: side-values(13px 87px 15px 60px);
+		    text-align: $left;
+		    color: #000;
+		    @include transitions(all 0.5s ease);
+		    &:hover{
+		    	background: #000;
+		    	color: #fff;
+		    }
+	    }
+	    p.submit{
+	    	position: relative;
+	    	max-width: 204px;
+    		margin: side-values(0 auto);
+    		&:hover{
+    			&:after {
+    				color: #fff;
+    			}
+    		}
+	    }
+		p.submit:after {
+			content: "\f003";
+		    font-family: FontAwesome;
+		    font-size: 14px;
+		    color: #000;
+		    position: absolute;
+		    top: 37%;
+		    #{$right}: 56px;
+		    pointer-events: none;    
+		}	    
+    }
+    .mc4wp-form-fields{
+    	> label:first-child{
+    		display: none;
+    	}
+    }
+    input[type="email"],input[type="text"]{
+		width: 100%;
+	    background: transparent;
+	    border: 1px solid #fff;
+	    text-align: center;
+	    color: #fff;
+	    text-transform: capitalize;
+	    padding: side-values(14px 26px 14.9px);
+	    font-size: 14px;
+	    height: 50px;
+    }
+}
+.hide_footer footer{
+	display: none !important;
+}
+.ult_tabcontent.ult-responsive.style1{overflow: visible !important;}
+.ult_tabmenu{
+	&.style1{
+		.ult_tab_li{
+			background: none !important;
+			&.current{
+				> a{
+					border-color: #d19f68;
+				}
+			}
+			&:last-child{
+				overflow: visible;
+				position: static;
+				&:after {
+				    background: #ebebeb;
+				    content: "";
+				    height: 1px;
+				    margin-top: -2px;
+				    position: absolute;
+				    #{$right}: -15px;
+				    top: 50%;
+				    width: 97px;
+				    z-index: 2;
+				}
+			}
+		}
+		a.ult_a{
+			background: none !important;
+			width: 67px;
+		    height: 67px;
+		    text-align: center;
+		    padding: side-values(12px 2px);
+		    border: 1px solid #ebebeb;
+		    margin: side-values(0 5px);			
+			.ult-span-text{
+				display: none;
+			}
+			.aio-icon.none.ult_tab_iconright{
+				margin: side-values(2px);
+			}
+			&:hover{
+				border-color: #d19f68;
+			}
+		}
+	}
+}
+#barber_services{
+	.ult_tabmenu{
+		&.style1{
+			padding-#{$left}: 123px;
+			margin-bottom: 37px;
+			overflow: visible;		
+		}
+	}
+	.ult_tabitemname{
+		overflow: visible !important;
+	}	
+	.ult_tabcontent{
+		.uvc-heading{
+		    margin-#{$left}: -152px;
+		    padding-bottom: 39px;
+		    text-align: $left;			
+		}
+	}
+	.ubtn-ctn-left{
+		padding-#{$left}: 130px;
+		.ubtn-text{
+		    letter-spacing: 0.35px;
+		    margin-#{$right}: 32px;	
+		    margin-top: -1px;		
+		}
+		.ubtn-icon{
+			padding-#{$right}: 6px;
+		}
+	}
+	.container > .wpb_column:nth-child(2){
+		margin-top: 100px;
+		> .vc_column-inner  > .wpb_wrapper {
+			> .uvc-heading{
+			    #{$left}: 31px;
+			    position: absolute;
+			    text-align: center;
+			    top: 5px;
+			    vertical-align: middle;
+			    width: 100px;
+			}
+		}
+	}
+	.icon_box_content.type_2{
+		padding-#{$left}: 3px;
+		.icon_box {
+		    float: $left;
+		    width: 67px;
+		    height: 67px;
+		}
+	}
+	.icon_box_content.type_2 .icon_box_desc{
+ 		padding-#{$left}: 41px;
+   	 	width: calc(100% - 100px);
+     	margin-top: -6px;
+    	padding-top: 0;  	 	
+	}
+	.icon_box_desc {
+		> p + p {
+		    margin-top: 26px;
+		}
+		p {
+		    font-size: 16px;
+		    line-height: 26px;
+		}
+	}
+	.icon_box{
+		color: #000;
+		background: #d19f68;
+		// border-color: #d19f68;
+		font-size: 39px;
+		&:before, &:after{
+			background: #ebebeb;
+		}
+	}
+}
+#our-pricing{
+	.baber-heading .desc-title {
+	    font-size: 16px;
+	    line-height: 24px;
+	    margin-top: 22px;
+	}
+	.baber-heading .header_icon {
+	    margin-bottom: 11px;
+	}
+}
+.pricing-content.style2{
+    .price-center {
+	    font-size: 31px;
+	}
+	sup {
+	    font-size: 62%;
+	    top: -8px;
+	    margin-#{$left}: -3px;
+	}
+	.price-box {
+	    padding-bottom: 22px;
+	    &:hover:before {
+		    opacity: 1;
+		    top: -18px;
+		}
+	}
+}
+.main-bg:hover{
+	.ubtn-icon{
+		color: #fff;
+	}
+}
+#apr_booking{
+	.apr_book_form {
+	    padding-#{$right}: 8px;
+	    width: 93.4%;
+	    padding-bottom: 30px;
+	}
+	.baber-heading .header_icon {
+	    margin-bottom: 12px;
+	}
+	.baber-heading .desc-title {
+	    line-height: 24px;
+	    margin-top: 22px;
+	}
+}
+.mc4wp-error{
+	&:before{
+		top: 11px;
+	}
+	> p{
+		margin-bottom: 4px;
+	}
+}
+.ult_tabs {
+    margin-bottom: 26px !important;
+}
+.letter_space_05 .uvc-sub-heading{
+	letter-spacing: -0.5px;
+}
+@media (min-width: 1506px){
+	.page-coming-soon .coming-soon {
+	    padding-top: 123px;
+	}
+	.instagram-type3 .instagram-img {
+	    margin-#{$left}: 0.77%;
+	    margin-#{$right}: 0.77%;
+	}
+	#apr_booking{
+		.booking_col_2{
+			padding-#{$right}: 97px;
+			width: 49%;
+		}
+		.booking_col_1{
+			width: 51%;
+		}
+	}
+	.page-404 .content404{
+		padding-top: 165px !important;
+	}
+	.page-404 .content-404 { 
+		.title404 {
+		    font-size: 12.3px;
+		}
+		.heading404 {
+		    margin-bottom: -56px;
+		}	    
+	}
+	.page-coming-soon .coming-subcribe {
+	    margin-top: 49px;
+	}
+}
+@media (min-width: 1366px){
+	#barber_services .icon_box_content.type_2 {
+	    padding-#{$left}: 16px;
+	}	
+	#barber_services .ubtn-ctn-left {
+	    padding-#{$left}: 130px;
+	}	
+}
+@media (min-width: 1200px){
+	.heading404 {
+	    margin-bottom: -58px;
+	    height: 958px;
+	}
+	.ie-11{
+		.heading404{
+			margin-bottom: 0;
+		}
+	}
+	.page-404 .content404 {
+	    padding-top: 169px;
+	}
+	.title404 {
+	    font-size: 12px;
+	    font-weight: 900;
+	    letter-spacing: 2px;
+	}
+}
+@media (max-width: 1200px){
+	.page-coming-soon .coming-soon {
+	    padding-top: 0;
+	}
+}
+@media (max-width: 1199px){
+	.page-coming-soon {
+		.coming-title{
+			padding: side-values(15px 52px 12px 52px);
+			h3 {
+			    font-size: 30px;
+			}    
+			h2{
+				font-size: 50px;
+			}
+		}
+		.coming-clock {
+		    padding: side-values(0 30px);
+		}	
+		.coming-timer{
+			> span:first-child {
+			    font-size: 44px;
+			}	
+			> span:last-child {
+			    font-size: 47px;
+			}	
+			&:after {
+			    font-size: 44px;
+			}				
+		}
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+	.pricing-content.style2 .pricing-sign .btn {
+	    font-size: 13px;
+	}
+	#barber_services .ult_tabmenu.style1 {
+	    padding-#{$left}: 0;
+	    margin-bottom: 37px;
+	    padding-top: 20px;
+	}
+	#barber_services .container > .wpb_column:nth-child(2) > .vc_column-inner > .wpb_wrapper > .uvc-heading {
+	    position: static;
+	    width: 100%;
+	}	
+}
+@media (min-width: 992px) and (max-width: 1506px){
+	#barber_services > .container >{
+		.wpb_column.vc_column_container:first-child > .vc_column-inner 
+		> .wpb_wrapper > .wpb_single_image:nth-child(2){
+		    #{$left}: auto !important;
+    		// margin-#{$right}: 62.7%;
+    		#{$right}: 62.7%;
+    		text-align: $right;
+    		width: 100%;
+		}
+	}
+}
+@media (min-width: 992px){
+	#barber_services{
+		> .container > .wpb_column.vc_column_container:first-child{
+			position: static;
+			width: 37.3%;
+			> .vc_column-inner{
+				> .wpb_wrapper > .wpb_single_image{
+				    position: absolute;
+				    #{$left}: 0;
+				    height: 100%;
+				    overflow: hidden;				
+				}
+			}
+		}
+		> .container > .wpb_column.vc_column_container:last-child{
+			width: calc(100% - 37.3%);
+		}
+	}
+}
+@media (max-width: 991px){
+	.page-404 .content404 {
+    	font-size: 20px;
+    	padding-top: 120px;
+    	.btn.btn-primary{
+    		padding: side-values(14px 30px);
+    	}
+    }	
+	.ult_tabmenu.style1 .ult_tab_li:last-child::after {
+	    #{$right}: 0;
+	}    
+   	.apr_book_form {
+	    padding-bottom: 50px;
+	}
+	#barber_services{
+		> .container > .wpb_column:nth-child(2){
+			margin-top: 30px;
+		}  
+		.ult_tabcontent .uvc-heading {
+    		margin-#{$left}: 0;
+    	}
+    	.icon_box_content.type_2 {
+		    margin-bottom: 0;
+		}
+	}  
+    .page-coming-soon{
+    	.coming-clock {
+		    width: 59%;
+		}	
+		.coming-title{
+			width: 40%;
+			padding: side-values(15px 30px 12px 30px);
+		}
+    }
+    .header-v6{
+    	.open-menu-mobile {
+		    padding: side-values(24px 0 5px);
+		}
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px){
+	.heading404 {
+	    height: 600px;
+	    margin-bottom: -30px;
+	}
+	.page-404 .content404 {
+	    padding-top: 160px;
+	}
+	.page-coming-soon .coming-timer > span:last-child {
+	    font-size: 78px;
+	}
+}
+@media (min-width: 768px){
+	#apr_booking{
+		.baber-heading .desc-title {
+		    width: 95%;
+		}
+	}
+}
+@media (max-width: 767px){
+	#apr_booking .apr_book_form {
+	    width: 100%;
+	}
+	.ult_tabmenu.style1 .ult_tab_li:last-child::after {
+	    #{$right}: 15px;
+	    width: 50px;
+	    display: none;
+	}	
+	#barber_services {
+		> .container > .wpb_column:nth-child(2) {
+		    margin: side-values(0);
+		    padding: side-values(0);
+		    > .vc_column-inner{
+		    	padding: side-values(0);
+		    	> .wpb_wrapper > .uvc-heading {
+				    #{$left}: 15px;
+				    top: -1px;
+				}
+		    }
+		}
+		.ult_tabmenu.style1 {
+		    padding-#{$left}: 65px;
+		}	
+	}
+	.ult_tabmenu.style1{
+		a.ult_a {
+		    height: 42px;
+		    width: 42px;
+		}
+		.ult_tab_main {
+		    display: inline-block;
+		}
+		.aio-icon {
+		    display: block;
+		    font-size: 25px !important;
+		    height: auto;
+		    line-height: 100%;
+		    margin: side-values(2px 0 0) !important;
+		    vertical-align: middle;
+		    width: auto;
+		}
+	}
+	.page-404 {
+		.content404 {
+		    font-size: 14px;
+		    letter-spacing: 1.5px;
+		    padding: side-values(71px 15px 0);			
+		    .btn.btn-primary {
+			    letter-spacing: 0;
+			    margin-top: 13px;
+			    padding: side-values(14px 30px);
+			}
+		}
+		svg{
+			@include transform(translateY(-46px));
+		}
+		.title404 {
+		    font-size: 12.8px;
+		}
+	}
+	.header-v6{
+		.header-logo {
+		    #{$left}: 15px;
+		}
+	}
+	.heading404{
+		height: 500px;
+		margin-bottom: -47px;
+	}
+	.page-coming-soon{
+		 .coming-clock,.coming-title {
+		    width: 100%;
+		    margin-top: 15px;
+		    padding: side-values(0 15px);  
+		    text-align: center;  
+		    border: none;
+		}	
+		.coming-soon{
+		    padding-top: 101px;	
+		    height: 100%;
+		    top: 0;
+		    @include transform(none);
+		    position: relative;
+		}
+		.coming-title{
+			h2{
+				font-size: 40px;
+			}
+		}
+		.coming-timer{
+			> span:first-child {
+			    font-size: 30px;
+			}
+			&:after {
+			    font-size: 30px;
+			    padding: side-values(0 15px 0 15px);
+			}
+			span:last-child {
+			    font-size: 55px;
+			    padding-#{$right}: 35px;
+			}
+		}
+		.mc4wp-form {
+		    padding: side-values(0 15px); 
+		}		
+	}
+	.gallery_sort .title-portfolio.item {
+	    display: table;
+	}
+	.title-portfolio,
+	.gallery-masonry_2 .btn-viewmore {
+	    height: auto;
+	    .btn {
+    		display: block;
+    		i{
+    			margin-bottom: -6px;
+    		}
+    	}
+	}
+	.title-portfolio .title-left{
+		 padding: side-values(6px 15px 10px 40px);
+		 display: table-cell;
+		&:before {
+		    background: none;
+		    font-size: 23px;
+		    #{$left}: 6px;
+		}
+		h2 {
+			font-size: 22px;
+		}
+		h3{
+			font-size: 18px;
+		}
+	}
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.ult_tabmenu.style1 .aio-icon {
+	    margin: side-values(5px 0 0) !important;
+	}
+	#barber_services > .container > .wpb_column:nth-child(2) > .vc_column-inner > .wpb_wrapper > .uvc-heading {
+	    top: 5px;
+	}	
+}
+@media (max-width: 480px){
+	#barber_services{
+		.icon_box_content.type_2 .icon_box {
+		    float: none;
+		}
+		.icon_box_content.type_2 .icon_box_desc {
+		    padding-#{$left}: 2px;
+		    width: 100%;
+		}
+		.ubtn-ctn-left {
+		    padding-#{$left}: 3px;
+		}	
+		.ult_tabitemname {
+		    padding-#{$left}: 0px;
+		    padding-#{$right}: 0px;
+		}
+		> .container > .wpb_column:nth-child(2) > .vc_column-inner > .wpb_wrapper > .uvc-heading {
+		    #{$left}: 4px;
+		}	
+		 > .container > .wpb_column:nth-child(1) > .vc_column-inner {
+		    padding: side-values(0);
+		}						
+	}
+	.ult_tabmenu.style1 .ult_tab_li {
+	    padding-bottom: 5px !important;
+	}	
+}

@@ -1,0 +1,34 @@
+.de-content__main-wrapper {
+	article {
+		&.de-archive--default {
+			margin-bottom: 40px;
+			border-bottom: 1px solid #eaeaea;
+			padding-bottom: 50px;
+			.de-archive {
+				&__entry {
+					&-image {
+						margin-bottom: 40px;
+					}
+					&-categories {
+						margin-bottom: 50px;
+					}
+					&-meta {
+						margin: 35px 0 45px 0;
+						text-transform: capitalize;
+					}
+					&-content {
+						.more-link {
+							border-bottom: 1px solid;
+							padding-bottom: 5px;
+							text-transform: capitalize;
+						}
+					}
+					&-title {
+						margin-bottom: 0;
+						line-height: normal;
+					}
+				}
+			}
+		}
+	}
+}

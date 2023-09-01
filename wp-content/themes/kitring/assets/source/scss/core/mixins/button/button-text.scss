@@ -1,0 +1,18 @@
+.de-btn {
+	&--text {
+		transition: .3s cubic-bezier(0.19, 1, 0.22, 1);
+	}
+	&--underline {
+		&-thin {
+			&:hover {
+				box-shadow: inset 0 -1px 1px -1px rgba(0, 0, 0, .3); /* Remove if needed */
+			}
+		}
+		&-thick {
+			box-shadow: inset 0 -1px 1px -1px rgba(0, 166, 81, 0.3); /* Remove if needed */
+			&:hover {
+				box-shadow: inset 0 -8px 1px -1px rgba(0, 0, 0, .1); /* Remove if needed */
+			}
+		}
+	}
+}

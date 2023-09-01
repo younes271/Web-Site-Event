@@ -1,0 +1,6 @@
+Version: 1.3.2
+~Fixed: out of date with Woocommerce
+~Fixed: Can't import data demo
+~Fixed: Compatible with php 8.x
+~Update plugins to last version
+

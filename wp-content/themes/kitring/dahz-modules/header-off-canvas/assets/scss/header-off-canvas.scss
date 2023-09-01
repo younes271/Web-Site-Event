@@ -1,0 +1,125 @@
+.de-header__off-canvas {
+	position: relative;
+	&-btn {
+		display: flex;
+		align-items: center;
+		i {
+			margin-top: -3px;
+		}
+		&-close {
+			position: absolute;
+			top: 26px;
+			left: 33px;
+			font-size: 24px;
+			transition: .3s;
+			&:hover {
+				color: inherit;
+				opacity: .8;
+			}
+		}
+		&-open {
+			>i {
+				overflow-y: hidden;
+				display: flex;
+				flex-direction: column;
+				&:before {
+					display: inline-block;
+					transition: transform 420ms, opacity 420ms;
+					opacity: 1;
+				}
+				&.df-menu:after {
+					content: "";
+					display: inline-block;
+					transform: translateY(100%);
+					transition: transform 420ms, opacity 420ms;
+					opacity: 0;
+					@media (max-width: $breakpoint-small-max) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	&-container {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 100vw;
+		@media (min-width: $breakpoint-medium) {
+			width: 570px;
+		}
+		padding: 60px 45px;
+		overflow-y: auto;
+		transition: .3s;
+		z-index: $global-z-index;
+		&--from-left {
+			left: 0;
+			transform: translateX(-100%);
+			&.de-header__off-canvas-container--vertical {
+				@media (min-width: $breakpoint-medium) {
+					left: 350px;
+				}
+			}
+			&.de-header__off-canvas-container--hide {
+				@media (min-width: $breakpoint-medium) {
+					left: 50px;
+				}
+			}
+		}
+		&--from-right {
+			right: 0;
+			transform: translateX(100%);
+		}
+	}
+}
+
+.de-header .de-header__off-canvas-btn-open {
+	&:hover {
+		>i {
+			&:before {
+				transform: translateY(-100%);
+				opacity: 0;
+			}
+			&:after {
+				transform: translateY(-100%);
+				opacity: 1;
+			}
+		}
+	}
+}
+
+body {
+	&.admin-bar {
+		.de-header__off-canvas-container {
+			top: 46px;
+			@media (min-width: $breakpoint-medium) {
+				top: 32px;
+			}
+		}
+		.site-header--is-sticky {
+			~.de-header-extend {
+				.de-header__off-canvas-container {
+					@media (max-width: $breakpoint-small-max) {
+						top: 0;
+					}
+				}
+			}
+		}
+	}
+	&.de-off-canvas--active {
+		overflow: hidden;
+		.de-header__off-canvas-container {
+			transform: none;
+		}
+		.de-header-extend__overlay {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+.de-header__column--flex-end .de-header__item:last-of-type>.de-header__off-canvas-btn-open {
+	>i {
+		margin-right: 0
+	}
+}

@@ -1,0 +1,47 @@
+.site-content {
+	display: block;
+	overflow: hidden;
+}
+
+.de-content {
+	margin-top: 40px;
+	&--has-vc {
+		margin-top: 0 !important;
+	}
+}
+
+.de-content--sobari {
+	.de-content {
+		&__sidebar {
+			@media (min-width: $breakpoint-medium) {
+				margin-top: 0;
+			}
+			&--left {
+				@media (min-width: $breakpoint-medium) {
+					padding-right: 2.500rem !important;
+				}
+			}
+			&--right {
+				@media (min-width: $breakpoint-medium) {
+					padding-left: 2.500rem !important;
+				}
+			}
+			&--disabled {
+				@media (min-width: $breakpoint-medium) {
+					display: none;
+				}
+			}
+		}
+	}
+	@media (min-width: $breakpoint-medium) {
+		&.de-content--fullwidth {
+			max-width: none;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+}
+
+.page-template-blank-template .de-content {
+	margin-top: 0 !important;
+}

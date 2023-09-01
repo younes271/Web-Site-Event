@@ -1,0 +1,3216 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-10 04:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:32
+msgid "go back home"
+msgstr ""
+
+#: archive-gallery.php:95
+msgid "All"
+msgstr ""
+
+#: archive-gallery.php:120 templates/content-blog-archive.php:373
+msgid "Load More"
+msgstr ""
+
+#. Name of the template
+msgid "Coming soon"
+msgstr ""
+
+#: comments.php:13
+msgid " Comments"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:44 woocommerce/single-product-reviews.php:74
+msgid "Your Name*"
+msgstr ""
+
+#: comments.php:47 woocommerce/single-product-reviews.php:76
+msgid "Your Email*"
+msgstr ""
+
+#: comments.php:51
+msgid "Your comment"
+msgstr ""
+
+#: comments.php:53
+msgid "Leave your comment"
+msgstr ""
+
+#: comments.php:54
+msgid "Cancel reply"
+msgstr ""
+
+#: functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:34
+msgid "Header type 6 Menu"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: functions.php:102
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:165
+msgid "A product has been added to cart."
+msgstr ""
+
+#: functions.php:166
+msgid "A product has been added to compare"
+msgstr ""
+
+#: functions.php:174
+msgid "Like"
+msgstr ""
+
+#: functions.php:175
+msgid "Unlike"
+msgstr ""
+
+#: functions.php:179
+msgid "The requested content cannot be loaded.<br/>Please try again later."
+msgstr ""
+
+#: functions.php:180
+msgid "Close"
+msgstr ""
+
+#: functions.php:181 woocommerce/myaccount/orders.php:107
+msgid "Previous"
+msgstr ""
+
+#: functions.php:182 woocommerce/myaccount/orders.php:111
+msgid "Next"
+msgstr ""
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:34
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:3 searchform.php:3 searchform.php:3
+msgid "Blog Search..."
+msgstr ""
+
+#: footers/footer_10.php:66
+msgid "Up to top"
+msgstr ""
+
+#: headers/header_1.php:147 headers/header_2.php:150 headers/header_6.php:155
+msgid "Member Login"
+msgstr ""
+
+#: headers/header_1.php:149 headers/header_1.php:192 headers/header_10.php:156
+#: headers/header_2.php:152 headers/header_2.php:195 headers/header_3.php:160
+#: headers/header_4.php:173 headers/header_5.php:212 headers/header_6.php:157
+#: headers/header_6.php:200 headers/header_7.php:124 headers/header_8.php:158
+#: headers/header_8.php:220 headers/header_9.php:160
+#: inc/functions/layout.php:218
+msgid "Logout"
+msgstr ""
+
+#: headers/header_1.php:150 headers/header_1.php:188 headers/header_10.php:152
+#: headers/header_2.php:153 headers/header_2.php:191 headers/header_3.php:156
+#: headers/header_4.php:169 headers/header_5.php:208 headers/header_6.php:158
+#: headers/header_6.php:196 headers/header_7.php:120 headers/header_8.php:154
+#: headers/header_8.php:216 headers/header_9.php:156
+#: inc/functions/layout.php:165 inc/functions/layout.php:204
+#: woocommerce/checkout/thankyou.php:32
+msgid "My Account"
+msgstr ""
+
+#: headers/header_1.php:190 headers/header_10.php:154 headers/header_2.php:193
+#: headers/header_3.php:158 headers/header_4.php:171 headers/header_5.php:210
+#: headers/header_6.php:198 headers/header_7.php:122 headers/header_8.php:156
+#: headers/header_8.php:218 headers/header_9.php:158
+#: inc/functions/layout.php:216 inc/functions/layout.php:216
+msgid "Login / Register"
+msgstr ""
+
+#: templates/content-blog-archive.php:66 templates/content-blog-archive.php:168
+#: templates/content-blog-archive.php:298 templates/content-single.php:27
+#: templates/content-single.php:98 templates/content-single.php:185
+#: templates/content-single.php:243
+msgid "Featured"
+msgstr ""
+
+#: templates/content-blog-archive.php:99 templates/content-blog-archive.php:220
+#: templates/content-blog-archive.php:314 templates/content-page.php:6
+#: templates/content-search-result.php:80 templates/content-single.php:60
+#: templates/content-single.php:132 templates/content-single.php:195
+#: templates/content-single.php:253
+msgid "Pages:"
+msgstr ""
+
+#: templates/content-blog-archive.php:103
+#: templates/content-blog-archive.php:224
+#: templates/content-blog-archive.php:318 templates/content-page.php:10
+#: templates/content-search-result.php:84 templates/content-single.php:64
+#: templates/content-single.php:136 templates/content-single.php:199
+#: templates/content-single.php:257 inc/functions/layout.php:1247
+#: inc/functions/layout.php:1418
+msgid "Page"
+msgstr ""
+
+#: templates/content-blog-archive.php:124
+#: templates/content-blog-archive.php:180
+#: templates/content-blog-archive.php:264 templates/content-single.php:230
+msgid "By"
+msgstr ""
+
+#: templates/content-blog-archive.php:136
+#: templates/content-blog-archive.php:192
+#: templates/content-blog-archive.php:276 templates/content-single.php:43
+#: templates/content-single.php:114 templates/content-single.php:168
+msgid "0"
+msgstr ""
+
+#: templates/content-blog-archive.php:136
+#: templates/content-blog-archive.php:192
+#: templates/content-blog-archive.php:276 templates/content-single.php:43
+#: templates/content-single.php:114 templates/content-single.php:168
+#: inc/admin/functions.php:203
+msgid "1"
+msgstr ""
+
+#: templates/content-blog-archive.php:136
+#: templates/content-blog-archive.php:192
+#: templates/content-blog-archive.php:276
+msgid "%"
+msgstr ""
+
+#: templates/content-blog-archive.php:334 inc/functions/woocommerce.php:461
+msgid "Read more"
+msgstr ""
+
+#: templates/content-gallery-grid.php:35
+#: templates/content-gallery-masonry.php:36
+#: templates/content-gallery-masonry_s1.php:82
+#: templates/content-gallery-packery-2.php:53
+#: templates/content-gallery-packery-3.php:54
+#: templates/content-gallery-packery.php:56 inc/functions/functions.php:65
+msgid "gallery"
+msgstr ""
+
+#: templates/content-search-result.php:105
+msgid "View More"
+msgstr ""
+
+#: templates/content-single-gallery.php:26
+msgid " Previous Project"
+msgstr ""
+
+#: templates/content-single-gallery.php:30
+msgid " Next Project"
+msgstr ""
+
+#: templates/content-single-gallery.php:106
+msgid "Category"
+msgstr ""
+
+#: templates/content-single-gallery.php:109
+#: woocommerce/classes/class-wc-widget-products.php:55
+#: woocommerce/myaccount/my-orders.php:14
+msgid "Date"
+msgstr ""
+
+#: templates/content-single-gallery.php:113 inc/functions/functions.php:588
+msgid "Share"
+msgstr ""
+
+#: templates/content-single-gallery.php:135
+msgid "Other Works"
+msgstr ""
+
+#: templates/content-single.php:235
+msgid "0 Comment"
+msgstr ""
+
+#: templates/content-single.php:235
+msgid "1 Comment"
+msgstr ""
+
+#: templates/content-single.php:235
+msgid "% Comments"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-button.php:17 woocommerce/add-to-wishlist.php:26
+#: woocommerce/add-to-wishlist.php:31 woocommerce/add-to-wishlist.php:38
+msgid "wishlist"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26 inc/functions/layout.php:12
+msgctxt "placeholder"
+msgid "Enter keyword & hit enter to search&hellip;"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78 inc/functions/functions.php:950
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review*"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/wishlist-view.php:35
+msgid "Edit title"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:44
+#: woocommerce/myaccount/form-reset-password.php:47
+msgid "Save"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:48 inc/functions/menus.php:372
+#: woocommerce/myaccount/my-orders.php:81 woocommerce/myaccount/orders.php:76
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:85
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:92
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:105
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:151 woocommerce/wishlist-view.php:258
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:182
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:193
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:196
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:207
+#, php-format
+msgid "Added on : %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:226 inc/functions/menus.php:346
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:238
+msgid "Shared"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:241
+msgid "Private"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:244
+msgid "Public"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:258 inc/functions/menus.php:371
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:268
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:285
+msgid "Add the selected products to the cart"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:293 woocommerce/wishlist-view.php:335
+msgid "Ask for an estimate"
+msgstr ""
+
+#: inc/admin/functions.php:45
+msgid "Default Layout"
+msgstr ""
+
+#: inc/admin/functions.php:46 inc/functions/metaboxes/page.php:36
+#: inc/functions/metaboxes/portfolio.php:10
+#: inc/functions/metaboxes/portfolio.php:26
+msgid "Wide"
+msgstr ""
+
+#: inc/admin/functions.php:47
+msgid "Full width"
+msgstr ""
+
+#: inc/admin/functions.php:48 inc/functions/metaboxes/page.php:38
+msgid "Boxed"
+msgstr ""
+
+#: inc/admin/functions.php:54 inc/admin/functions.php:118
+msgid "Default Position"
+msgstr ""
+
+#: inc/admin/functions.php:55 inc/functions/vc_functions.php:211
+msgid "Left"
+msgstr ""
+
+#: inc/admin/functions.php:56 inc/functions/vc_functions.php:212
+msgid "Right"
+msgstr ""
+
+#: inc/admin/functions.php:57 inc/functions/vc_functions.php:233
+#: inc/functions/metaboxes/functions.php:76
+msgid "None"
+msgstr ""
+
+#: inc/admin/functions.php:83
+msgid "Default Popup"
+msgstr ""
+
+#: inc/admin/functions.php:84
+msgid "Popup "
+msgstr ""
+
+#: inc/admin/functions.php:89
+msgid "Default Header"
+msgstr ""
+
+#: inc/admin/functions.php:90
+msgid "Header Type 1"
+msgstr ""
+
+#: inc/admin/functions.php:91
+msgid "Header Type 2"
+msgstr ""
+
+#: inc/admin/functions.php:92
+msgid "Header Type 3"
+msgstr ""
+
+#: inc/admin/functions.php:93
+msgid "Header Type 4"
+msgstr ""
+
+#: inc/admin/functions.php:94
+msgid "Header Type 5"
+msgstr ""
+
+#: inc/admin/functions.php:95
+msgid "Header Type 6"
+msgstr ""
+
+#: inc/admin/functions.php:96
+msgid "Header Type 7"
+msgstr ""
+
+#: inc/admin/functions.php:97
+msgid "Header Type 8"
+msgstr ""
+
+#: inc/admin/functions.php:98
+msgid "Header Type 9"
+msgstr ""
+
+#: inc/admin/functions.php:99
+msgid "Header Type 10"
+msgstr ""
+
+#: inc/admin/functions.php:119
+msgid "Top"
+msgstr ""
+
+#: inc/admin/functions.php:120
+msgid "Bottom"
+msgstr ""
+
+#: inc/admin/functions.php:125
+msgid "Default Preload"
+msgstr ""
+
+#: inc/admin/functions.php:126
+msgid "Preload Type 1"
+msgstr ""
+
+#: inc/admin/functions.php:127
+msgid "Preload Type 2"
+msgstr ""
+
+#: inc/admin/functions.php:128
+msgid "Preload Type 3"
+msgstr ""
+
+#: inc/admin/functions.php:129
+msgid "Preload Type 4"
+msgstr ""
+
+#: inc/admin/functions.php:130
+msgid "Preload Type 5"
+msgstr ""
+
+#: inc/admin/functions.php:131
+msgid "Preload Type 6"
+msgstr ""
+
+#: inc/admin/functions.php:132
+msgid "Preload Type 7"
+msgstr ""
+
+#: inc/admin/functions.php:133
+msgid "Preload Type 8"
+msgstr ""
+
+#: inc/admin/functions.php:134
+msgid "Preload Type 9"
+msgstr ""
+
+#: inc/admin/functions.php:147
+msgid "Default Footer"
+msgstr ""
+
+#: inc/admin/functions.php:148
+msgid "Footer Type 1"
+msgstr ""
+
+#: inc/admin/functions.php:149
+msgid "Footer Type 2"
+msgstr ""
+
+#: inc/admin/functions.php:150
+msgid "Footer Type 3"
+msgstr ""
+
+#: inc/admin/functions.php:151
+msgid "Footer Type 4"
+msgstr ""
+
+#: inc/admin/functions.php:152
+msgid "Footer Type 5"
+msgstr ""
+
+#: inc/admin/functions.php:153
+msgid "Footer Type 6"
+msgstr ""
+
+#: inc/admin/functions.php:154
+msgid "Footer Type 7"
+msgstr ""
+
+#: inc/admin/functions.php:155
+msgid "Footer Type 8"
+msgstr ""
+
+#: inc/admin/functions.php:156
+msgid "Footer Type 9"
+msgstr ""
+
+#: inc/admin/functions.php:157
+msgid "Footer Type 10"
+msgstr ""
+
+#: inc/admin/functions.php:162 inc/admin/functions.php:208
+#: inc/admin/functions.php:231
+msgid "Grid"
+msgstr ""
+
+#: inc/admin/functions.php:163 inc/admin/functions.php:209
+msgid "List"
+msgstr ""
+
+#: inc/admin/functions.php:164 inc/admin/functions.php:232
+msgid "Masonry"
+msgstr ""
+
+#: inc/admin/functions.php:169
+msgid "Standard"
+msgstr ""
+
+#: inc/admin/functions.php:170 inc/admin/functions.php:238
+msgid "Style 2"
+msgstr ""
+
+#: inc/admin/functions.php:171
+msgid "Style 3"
+msgstr ""
+
+#: inc/admin/functions.php:176
+msgid "Single 1"
+msgstr ""
+
+#: inc/admin/functions.php:177
+msgid "Single 2"
+msgstr ""
+
+#: inc/admin/functions.php:178
+msgid "Single 3"
+msgstr ""
+
+#: inc/admin/functions.php:179
+msgid "Single 4"
+msgstr ""
+
+#: inc/admin/functions.php:184
+msgid "3 Columns"
+msgstr ""
+
+#: inc/admin/functions.php:185
+msgid "1 Column"
+msgstr ""
+
+#: inc/admin/functions.php:186
+msgid "2 Columns"
+msgstr ""
+
+#: inc/admin/functions.php:187
+msgid "4 Columns"
+msgstr ""
+
+#: inc/admin/functions.php:192
+msgid "Type 1"
+msgstr ""
+
+#: inc/admin/functions.php:193
+msgid "Type 2"
+msgstr ""
+
+#: inc/admin/functions.php:194
+msgid "Type 3"
+msgstr ""
+
+#: inc/admin/functions.php:199 inc/admin/functions.php:226
+#: inc/functions/vc_functions.php:336
+msgid "5"
+msgstr ""
+
+#: inc/admin/functions.php:200 inc/admin/functions.php:218
+#: inc/admin/functions.php:225 inc/functions/vc_functions.php:335
+#: inc/functions/metaboxes/products.php:91
+msgid "4"
+msgstr ""
+
+#: inc/admin/functions.php:201 inc/admin/functions.php:217
+#: inc/admin/functions.php:223 inc/functions/vc_functions.php:334
+#: inc/functions/metaboxes/products.php:90
+msgid "3"
+msgstr ""
+
+#: inc/admin/functions.php:202 inc/admin/functions.php:216
+#: inc/admin/functions.php:224 inc/functions/vc_functions.php:333
+#: inc/functions/metaboxes/products.php:89
+msgid "2"
+msgstr ""
+
+#: inc/admin/functions.php:237
+msgid "Style 1"
+msgstr ""
+
+#: inc/admin/functions.php:243
+msgid "Pagination"
+msgstr ""
+
+#: inc/admin/functions.php:244
+msgid "Loadmore"
+msgstr ""
+
+#: inc/functions/functions.php:843
+msgid " Read More"
+msgstr ""
+
+#: inc/functions/functions.php:852
+msgid "ago"
+msgstr ""
+
+#: inc/functions/functions.php:869
+msgid "Older"
+msgstr ""
+
+#: inc/functions/functions.php:873
+msgid "Newer"
+msgstr ""
+
+#: inc/functions/functions.php:905
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/functions.php:910
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/functions/functions.php:915
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/functions/layout.php:50 inc/functions/layout.php:91
+msgid "Search"
+msgstr ""
+
+#: inc/functions/layout.php:127
+#, php-format
+msgid "You have %s item(s) in your cart"
+msgstr ""
+
+#: inc/functions/layout.php:167 inc/functions/layout.php:206
+msgid "Wishlist"
+msgstr ""
+
+#: inc/functions/layout.php:993 inc/functions/layout.php:1271
+msgid "Home"
+msgstr ""
+
+#: inc/functions/layout.php:1034 inc/functions/layout.php:1108
+#: inc/functions/layout.php:1233 inc/functions/layout.php:1290
+#: inc/functions/layout.php:1334 inc/functions/layout.php:1404
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: inc/functions/layout.php:1057 inc/functions/layout.php:1306
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: inc/functions/layout.php:1080
+msgid "Recipes tagged &ldquo;"
+msgstr ""
+
+#: inc/functions/layout.php:1187 inc/functions/layout.php:1380
+msgid "Error 404"
+msgstr ""
+
+#: inc/functions/layout.php:1237 inc/functions/layout.php:1408
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: inc/functions/layout.php:1242 inc/functions/layout.php:1413
+msgid "Author:"
+msgstr ""
+
+#: inc/functions/layout.php:1309
+msgid "Knowledge tagged &ldquo;"
+msgstr ""
+
+#: inc/functions/layout.php:1314
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: inc/functions/layout.php:1318
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: inc/functions/layout.php:1318
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/functions/layout.php:1322
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: inc/functions/layout.php:1322
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/functions/layout.php:1346
+msgid "All Rooms"
+msgstr ""
+
+#: inc/functions/layout.php:1360
+msgid "Press Media"
+msgstr ""
+
+#: inc/functions/layout.php:1365
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/functions/menus.php:62 inc/functions/metaboxes/products.php:198
+msgid "2 columns"
+msgstr ""
+
+#: inc/functions/menus.php:63 inc/functions/metaboxes/products.php:196
+msgid "3 columns"
+msgstr ""
+
+#: inc/functions/menus.php:64 inc/functions/metaboxes/products.php:199
+msgid "4 columns"
+msgstr ""
+
+#: inc/functions/menus.php:65 inc/functions/metaboxes/products.php:200
+msgid "5 columns"
+msgstr ""
+
+#: inc/functions/menus.php:66
+msgid "6 columns"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: inc/functions/menus.php:112
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: inc/functions/menus.php:116
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/functions/menus.php:129
+msgid "sub item"
+msgstr ""
+
+#: inc/functions/menus.php:144
+msgid "Move up"
+msgstr ""
+
+#: inc/functions/menus.php:157
+msgid "Move down"
+msgstr ""
+
+#: inc/functions/menus.php:159 inc/functions/menus.php:161
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/functions/menus.php:170
+msgid "URL"
+msgstr ""
+
+#: inc/functions/menus.php:177
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/functions/menus.php:183
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/functions/menus.php:190
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/functions/menus.php:202
+msgid ""
+"Input icon class. You can see <a target=\"_blank\" href=\"http://fortawesome."
+"github.io/Font-Awesome/icons/\">Font Awesome Icons</a>, <a target=\"_blank\" "
+"href=\"https://linearicons.com/free\">Linearicons </a>, <a target=\"_blank\" "
+"href=\"http://themes-pixeden.com/font-demos/7-stroke/\">Pe stroke icon7 </a>."
+" For example: fa fa-picture-o"
+msgstr ""
+
+#: inc/functions/menus.php:243
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/functions/menus.php:249
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/functions/menus.php:255
+msgid "Description"
+msgstr ""
+
+#: inc/functions/menus.php:257
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/functions/menus.php:275
+msgid "Mega menu"
+msgstr ""
+
+#: inc/functions/menus.php:281
+msgid "Display number of panel columns"
+msgstr ""
+
+#: inc/functions/menus.php:328
+msgid "Item Columns(depend on parent panel columns)"
+msgstr ""
+
+#: inc/functions/menus.php:347
+msgid "Up one"
+msgstr ""
+
+#: inc/functions/menus.php:348
+msgid "Down one"
+msgstr ""
+
+#: inc/functions/menus.php:351
+msgid "To the top"
+msgstr ""
+
+#: inc/functions/menus.php:358
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/functions/sidebars.php:7
+msgid "General Sidebar"
+msgstr ""
+
+#: inc/functions/sidebars.php:16
+msgid "Appointment Sidebar"
+msgstr ""
+
+#: inc/functions/sidebars.php:24
+msgid "Arrowpress Social"
+msgstr ""
+
+#: inc/functions/sidebars.php:32
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/functions/sidebars.php:40
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/functions/sidebars.php:48
+msgid "Footer 2 Menu"
+msgstr ""
+
+#: inc/functions/sidebars.php:57
+msgid "Footer Newsletter"
+msgstr ""
+
+#: inc/functions/sidebars.php:66
+msgid "Footer 1 Widget 1"
+msgstr ""
+
+#: inc/functions/sidebars.php:75
+msgid "Footer 1 Widget 2"
+msgstr ""
+
+#: inc/functions/sidebars.php:84
+msgid "Footer 3 Widget 1"
+msgstr ""
+
+#: inc/functions/sidebars.php:92
+msgid "Footer 3 Widget 2"
+msgstr ""
+
+#: inc/functions/sidebars.php:100
+msgid "Footer 3 Widget 3"
+msgstr ""
+
+#: inc/functions/sidebars.php:108
+msgid "Footer 3 Widget 4"
+msgstr ""
+
+#: inc/functions/sidebars.php:117
+msgid "Footer 4 Widget 1"
+msgstr ""
+
+#: inc/functions/sidebars.php:126
+msgid "Footer 4 Widget 2"
+msgstr ""
+
+#: inc/functions/sidebars.php:135
+msgid "Footer 4 Widget 3"
+msgstr ""
+
+#: inc/functions/sidebars.php:144
+msgid "Footer 5 Widget"
+msgstr ""
+
+#: inc/functions/sidebars.php:152
+msgid "Footer 8 Widget 1"
+msgstr ""
+
+#: inc/functions/sidebars.php:160
+msgid "Footer 8 Widget 2"
+msgstr ""
+
+#: inc/functions/sidebars.php:168
+msgid "Footer 8 Widget 3"
+msgstr ""
+
+#: inc/functions/sidebars.php:176
+msgid "Footer 8 Widget 4"
+msgstr ""
+
+#: inc/functions/sidebars.php:187
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/functions/sidebars.php:196
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: inc/functions/vc_functions.php:79
+msgid "Icon library"
+msgstr ""
+
+#: inc/functions/vc_functions.php:81
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/functions/vc_functions.php:82
+msgid "Stroke Icons 7"
+msgstr ""
+
+#: inc/functions/vc_functions.php:83
+msgid "Apr Icon"
+msgstr ""
+
+#: inc/functions/vc_functions.php:84
+msgid "Open Iconic"
+msgstr ""
+
+#: inc/functions/vc_functions.php:85
+msgid "Typicons"
+msgstr ""
+
+#: inc/functions/vc_functions.php:86
+msgid "Entypo"
+msgstr ""
+
+#: inc/functions/vc_functions.php:87
+msgid "Linecons"
+msgstr ""
+
+#: inc/functions/vc_functions.php:92
+msgid "Select icon library."
+msgstr ""
+
+#: inc/functions/vc_functions.php:96 inc/functions/vc_functions.php:112
+#: inc/functions/vc_functions.php:128 inc/functions/vc_functions.php:145
+#: inc/functions/vc_functions.php:161 inc/functions/vc_functions.php:177
+#: inc/functions/vc_functions.php:192
+msgid "Icon"
+msgstr ""
+
+#: inc/functions/vc_functions.php:108 inc/functions/vc_functions.php:124
+#: inc/functions/vc_functions.php:141 inc/functions/vc_functions.php:157
+#: inc/functions/vc_functions.php:173 inc/functions/vc_functions.php:204
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/functions/vc_functions.php:208
+msgid "Icon alignment"
+msgstr ""
+
+#: inc/functions/vc_functions.php:213
+msgid "Center"
+msgstr ""
+
+#: inc/functions/vc_functions.php:214
+msgid "Inline"
+msgstr ""
+
+#: inc/functions/vc_functions.php:216
+msgid "Select icon alignment."
+msgstr ""
+
+#: inc/functions/vc_functions.php:221
+msgid "Size"
+msgstr ""
+
+#: inc/functions/vc_functions.php:224
+msgid "Icon size (px)"
+msgstr ""
+
+#: inc/functions/vc_functions.php:230
+msgid "Border Style"
+msgstr ""
+
+#: inc/functions/vc_functions.php:234
+msgid "Solid"
+msgstr ""
+
+#: inc/functions/vc_functions.php:235
+msgid "Dashed"
+msgstr ""
+
+#: inc/functions/vc_functions.php:236
+msgid "Dotted"
+msgstr ""
+
+#: inc/functions/vc_functions.php:237
+msgid "Double"
+msgstr ""
+
+#: inc/functions/vc_functions.php:238
+msgid "Inset"
+msgstr ""
+
+#: inc/functions/vc_functions.php:239
+msgid "Outset"
+msgstr ""
+
+#: inc/functions/vc_functions.php:241
+msgid "Select the border style for icon."
+msgstr ""
+
+#: inc/functions/vc_functions.php:247
+msgid "Enable hover state for icon"
+msgstr ""
+
+#: inc/functions/vc_functions.php:256 inc/functions/vc_functions.php:259
+#: inc/functions/metaboxes/post.php:16
+msgid "Content"
+msgstr ""
+
+#: inc/functions/vc_functions.php:258
+msgid "Enter your content."
+msgstr ""
+
+#: inc/functions/vc_functions.php:273
+msgid "Add overlay background"
+msgstr ""
+
+#: inc/functions/vc_functions.php:275 inc/functions/vc_functions.php:282
+#: inc/functions/vc_functions.php:295 inc/functions/vc_functions.php:303
+#: inc/functions/vc_functions.php:317 inc/functions/metaboxes/portfolio.php:96
+#: inc/functions/metaboxes/portfolio.php:139
+msgid "Yes"
+msgstr ""
+
+#: inc/functions/vc_functions.php:280
+msgid "Align inside element center horizontally and vertically"
+msgstr ""
+
+#: inc/functions/vc_functions.php:293 inc/functions/vc_functions.php:315
+msgid "Wrap inside column in container"
+msgstr ""
+
+#: inc/functions/vc_functions.php:301
+msgid "Hide background in mobile"
+msgstr ""
+
+#: inc/functions/vc_functions.php:329
+msgid "Number of columns"
+msgstr ""
+
+#: inc/functions/vc_functions.php:332 inc/functions/vc_functions.php:396
+#: inc/functions/metaboxes/page.php:35 inc/functions/metaboxes/portfolio.php:9
+#: inc/functions/metaboxes/portfolio.php:25
+#: inc/functions/metaboxes/portfolio.php:95
+#: inc/functions/metaboxes/portfolio.php:113
+#: inc/functions/metaboxes/portfolio.php:138
+#: inc/functions/metaboxes/post.php:103 inc/functions/metaboxes/post.php:105
+#: inc/functions/metaboxes/post.php:191 inc/functions/metaboxes/post.php:203
+#: inc/functions/metaboxes/products.php:88
+#: inc/functions/metaboxes/products.php:201
+msgid "Default"
+msgstr ""
+
+#: inc/functions/vc_functions.php:338
+msgid "Select number of columns to display images."
+msgstr ""
+
+#: inc/functions/vc_functions.php:339
+msgid "Column numbers"
+msgstr ""
+
+#: inc/functions/vc_functions.php:357
+msgid "Values"
+msgstr ""
+
+#: inc/functions/vc_functions.php:359
+msgid "Enter values for graph - value, title and color."
+msgstr ""
+
+#: inc/functions/vc_functions.php:362
+msgid "Development"
+msgstr ""
+
+#: inc/functions/vc_functions.php:366
+msgid "Design"
+msgstr ""
+
+#: inc/functions/vc_functions.php:370
+msgid "Marketing"
+msgstr ""
+
+#: inc/functions/vc_functions.php:379
+msgid "Label"
+msgstr ""
+
+#: inc/functions/vc_functions.php:381
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: inc/functions/vc_functions.php:386
+msgid "Value"
+msgstr ""
+
+#: inc/functions/vc_functions.php:388
+msgid "Enter value of bar."
+msgstr ""
+
+#: inc/functions/vc_functions.php:393
+msgid "Color"
+msgstr ""
+
+#: inc/functions/vc_functions.php:398
+msgid "Classic Grey"
+msgstr ""
+
+#: inc/functions/vc_functions.php:399
+msgid "Classic Blue"
+msgstr ""
+
+#: inc/functions/vc_functions.php:400
+msgid "Classic Turquoise"
+msgstr ""
+
+#: inc/functions/vc_functions.php:401
+msgid "Classic Green"
+msgstr ""
+
+#: inc/functions/vc_functions.php:402
+msgid "Classic Orange"
+msgstr ""
+
+#: inc/functions/vc_functions.php:403
+msgid "Classic Red"
+msgstr ""
+
+#: inc/functions/vc_functions.php:404
+msgid "Classic Black"
+msgstr ""
+
+#: inc/functions/vc_functions.php:406
+msgid "Custom Color"
+msgstr ""
+
+#: inc/functions/vc_functions.php:408
+msgid "Select single bar background color."
+msgstr ""
+
+#: inc/functions/vc_functions.php:414
+msgid "Custom color"
+msgstr ""
+
+#: inc/functions/vc_functions.php:416
+msgid "Select custom single bar background color."
+msgstr ""
+
+#: inc/functions/vc_functions.php:424
+msgid "Custom text color"
+msgstr ""
+
+#: inc/functions/vc_functions.php:426
+msgid "Select custom single bar text color."
+msgstr ""
+
+#: inc/functions/vc_functions.php:436
+#: inc/functions/metaboxes/default_options.php:106
+#: inc/functions/metaboxes/portfolio.php:71
+#: inc/functions/metaboxes/products.php:78
+msgid "Layout"
+msgstr ""
+
+#: inc/functions/vc_functions.php:440
+msgid "Layout 1"
+msgstr ""
+
+#: inc/functions/vc_functions.php:441
+msgid "Layout 2"
+msgstr ""
+
+#: inc/functions/woocommerce.php:61 inc/functions/woocommerce.php:83
+msgid "compare"
+msgstr ""
+
+#: inc/functions/woocommerce.php:61 inc/functions/woocommerce.php:83
+msgid "Compare"
+msgstr ""
+
+#: inc/functions/woocommerce.php:71 inc/functions/woocommerce.php:74
+msgid "Availability:"
+msgstr ""
+
+#: inc/functions/woocommerce.php:71
+msgid "In Stock & Ready to Ship"
+msgstr ""
+
+#: inc/functions/woocommerce.php:74
+msgid "Out Stock"
+msgstr ""
+
+#: inc/functions/woocommerce.php:98
+msgid "Quick view"
+msgstr ""
+
+#: inc/functions/woocommerce.php:98 inc/functions/woocommerce.php:98
+msgid "Quick View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:127
+msgid "Show "
+msgstr ""
+
+#: inc/functions/woocommerce.php:166 inc/functions/woocommerce.php:177
+msgid "List View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:169 inc/functions/woocommerce.php:174
+msgid "Grid View"
+msgstr ""
+
+#: inc/functions/woocommerce.php:191
+msgid "Postcode / Zip *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:197 woocommerce/single-product/rating.php:37
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/functions/woocommerce.php:204
+#: woocommerce/single-product/review-rating.php:29
+msgid "out of 5"
+msgstr ""
+
+#: inc/functions/woocommerce.php:290
+#: woocommerce/single-product/product-image.php:56
+#: inc/functions/widgets/apr_ajax_search.php:98
+msgid "Placeholder"
+msgstr ""
+
+#: inc/functions/woocommerce.php:345
+msgid "Share this:"
+msgstr ""
+
+#: inc/functions/woocommerce.php:449
+msgid "Buy product"
+msgstr ""
+
+#: inc/functions/woocommerce.php:452
+msgid "View products"
+msgstr ""
+
+#: inc/functions/woocommerce.php:455
+msgid "Add to cart"
+msgstr ""
+
+#: inc/functions/woocommerce.php:458
+msgid "Select options"
+msgstr ""
+
+#: inc/functions/woocommerce.php:484 inc/functions/woocommerce.php:536
+msgid "First Name"
+msgstr ""
+
+#: inc/functions/woocommerce.php:485 inc/functions/woocommerce.php:537
+msgctxt "placeholder"
+msgid "First Name *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:489 inc/functions/woocommerce.php:541
+msgid "Last Name"
+msgstr ""
+
+#: inc/functions/woocommerce.php:490 inc/functions/woocommerce.php:542
+msgctxt "placeholder"
+msgid "Last Name *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:495 inc/functions/woocommerce.php:547
+msgctxt "placeholder"
+msgid "Company Name"
+msgstr ""
+
+#: inc/functions/woocommerce.php:501
+msgctxt "placeholder"
+msgid "Address"
+msgstr ""
+
+#: inc/functions/woocommerce.php:507
+msgctxt "placeholder"
+msgid "Enter Your Apartment"
+msgstr ""
+
+#: inc/functions/woocommerce.php:511 inc/functions/woocommerce.php:552
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr ""
+
+#: inc/functions/woocommerce.php:512 inc/functions/woocommerce.php:553
+msgctxt "placeholder"
+msgid "City *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:516 inc/functions/woocommerce.php:562
+msgid "Email Address"
+msgstr ""
+
+#: inc/functions/woocommerce.php:517 inc/functions/woocommerce.php:563
+msgctxt "placeholder"
+msgid "E-mail *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:521 inc/functions/woocommerce.php:531
+msgid "Phone"
+msgstr ""
+
+#: inc/functions/woocommerce.php:522
+msgctxt "placeholder"
+msgid "Phone *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:526
+msgid "State / County"
+msgstr ""
+
+#: inc/functions/woocommerce.php:527
+msgctxt "placeholder"
+msgid "State / County"
+msgstr ""
+
+#: inc/functions/woocommerce.php:532
+msgctxt "placeholder"
+msgid "Phone Number *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:546
+msgid "Company Name"
+msgstr ""
+
+#: inc/functions/woocommerce.php:557
+msgid "Enter State/Country"
+msgstr ""
+
+#: inc/functions/woocommerce.php:558
+msgctxt "placeholder"
+msgid "Enter State/Country"
+msgstr ""
+
+#: inc/functions/woocommerce.php:567
+msgid "Adress"
+msgstr ""
+
+#: inc/functions/woocommerce.php:568
+msgctxt "placeholder"
+msgid "Address *"
+msgstr ""
+
+#: inc/functions/woocommerce.php:573
+msgid "Order notes"
+msgstr ""
+
+#: inc/functions/woocommerce.php:574
+msgctxt "placeholder"
+msgid "Order Notes"
+msgstr ""
+
+#: inc/functions/woocommerce.php:590
+msgid "Popularity"
+msgstr ""
+
+#: inc/functions/woocommerce.php:594
+msgid "Average rating"
+msgstr ""
+
+#: inc/functions/woocommerce.php:598
+msgid "Newest"
+msgstr ""
+
+#: inc/functions/woocommerce.php:602
+msgid "Low to high"
+msgstr ""
+
+#: inc/functions/woocommerce.php:606
+msgid "High to low"
+msgstr ""
+
+#: inc/functions/wpml.php:45
+msgid "Languages"
+msgstr ""
+
+#: inc/functions/wpml.php:74
+msgid "en"
+msgstr ""
+
+#: inc/functions/wpml.php:78
+msgid "English"
+msgstr ""
+
+#: inc/functions/wpml.php:79
+msgid "French"
+msgstr ""
+
+#: inc/functions/wpml.php:81
+msgid "German"
+msgstr ""
+
+#: inc/plugins/functions.php:18
+msgid "Redux Framework"
+msgstr ""
+
+#: inc/plugins/functions.php:24
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/plugins/functions.php:30
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: inc/plugins/functions.php:36
+msgid "Ultimate Addons for Visual Composer"
+msgstr ""
+
+#: inc/plugins/functions.php:42
+msgid "ArrowPress Core"
+msgstr ""
+
+#: inc/plugins/functions.php:48
+msgid "ArrowPress Appointments"
+msgstr ""
+
+#: inc/plugins/functions.php:54
+msgid "ArrowPress Importer"
+msgstr ""
+
+#: inc/plugins/functions.php:60
+msgid "Barber Shortcodes"
+msgstr ""
+
+#: inc/plugins/functions.php:66
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/plugins/functions.php:71
+msgid "Yith Woocommerce Wishlist"
+msgstr ""
+
+#: inc/plugins/functions.php:76
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: inc/plugins/functions.php:81
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: inc/plugins/functions.php:86
+msgid "YITH WooCommerce Ajax Product Filter"
+msgstr ""
+
+#: inc/plugins/functions.php:91
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/plugins/functions.php:118
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/functions.php:119
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/functions.php:120
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/functions.php:121
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/functions.php:122
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:125
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:128
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:131
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:134
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:137
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:140
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:143
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:146
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:149
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:152
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:155
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/plugins/functions.php:158
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/functions.php:159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/functions.php:160
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/plugins/functions.php:161
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/functions.php:162
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/plugins/functions.php:163
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/functions.php:164
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:36
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:48
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:29 woocommerce/myaccount/my-orders.php:13
+msgid "Order"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:35 woocommerce/cart/cart-totals.php:36
+#: woocommerce/cart/mini-cart.php:79 woocommerce/checkout/review-order.php:59
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:48 woocommerce/cart/cart-totals.php:49
+#: woocommerce/cart/cart.php:39 woocommerce/cart/cart.php:115
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:106
+#: woocommerce/myaccount/my-orders.php:16
+#: woocommerce/order/order-details.php:35
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:61
+msgid "Estimate"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:62
+msgid "Shipping & Tax"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:73
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:88
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:65
+#: woocommerce/cart/cart.php:75 woocommerce/checkout/form-pay.php:29
+#: woocommerce/checkout/review-order.php:26
+#: woocommerce/order/order-details.php:34
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:93
+#: woocommerce/classes/class-wc-widget-products.php:56
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38 woocommerce/cart/cart.php:99
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:59 woocommerce/cart/mini-cart.php:48
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:88
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133 woocommerce/checkout/form-coupon.php:36
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133 woocommerce/checkout/form-coupon.php:40
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:47
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:71
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:84
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:33
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:39
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:62
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:96
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:27
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:31
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:34
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:65
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:27
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:35
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:79
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:28
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:54
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:36
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:36
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your order."
+" You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/terms.php:17
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:27
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30 woocommerce/myaccount/my-orders.php:73
+#: woocommerce/myaccount/orders.php:68
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38 woocommerce/checkout/thankyou.php:69
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:55
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:25
+msgid ""
+"Shows a price filter slider in a widget which lets you narrow down the list "
+"of shown products when viewing product categories."
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:27
+msgid "WooCommerce Price Filter"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:31
+msgid "Filter by price"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:32
+#: woocommerce/classes/class-wc-widget-products.php:30
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:30
+#: woocommerce/classes/class-wc-widget-top-rated-products.php:32
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:103
+#: woocommerce/classes/class.yith-woocompare-widget.php:64
+msgid "Title"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:149
+msgid "Min price"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:150
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-price-filter.php:154
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:23
+msgid "Display a list of your products on your site."
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:25
+msgid "WooCommerce Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:29
+msgid "Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:38
+#: woocommerce/classes/class-wc-widget-top-rated-products.php:40
+msgid "Number of products to show"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:43
+msgid "Show"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:45
+msgid "All Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:46
+msgid "Featured Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:47
+msgid "On-sale Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:53
+msgid "Order by"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:57
+msgid "Random"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:58
+msgid "Sales"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:64
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:66
+msgid "ASC"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:67
+msgid "DESC"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:73
+msgid "Hide free products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-products.php:78
+msgid "Show hidden products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:23
+msgid "Display a list of your most recent reviews on your site."
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:25
+msgid "WooCommerce Recent Reviews"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:29
+msgid "Recent Reviews"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:38
+msgid "Number of reviews to show"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-recent-reviews.php:90
+#, php-format
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-top-rated-products.php:25
+msgid "Display a list of your top rated products on your site."
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-top-rated-products.php:27
+msgid "WooCommerce Top Rated Products"
+msgstr ""
+
+#: woocommerce/classes/class-wc-widget-top-rated-products.php:31
+msgid "Top Rated Products"
+msgstr ""
+
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:23
+msgid "Reset all filters set by YITH WooCommerce Ajax Product Filter"
+msgstr ""
+
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:25
+msgid "YITH WooCommerce Ajax Reset Filter"
+msgstr ""
+
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:79
+msgid "Price : "
+msgstr ""
+
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:96
+msgid "Reset All Filters"
+msgstr ""
+
+#: woocommerce/classes/class.yith-wcan-reset-navigation-widget.php:109
+msgid "Button Label"
+msgstr ""
+
+#: woocommerce/classes/class.yith-woocompare-widget.php:22
+msgid "The widget shows the list of products added in the comparison table."
+msgstr ""
+
+#: woocommerce/classes/class.yith-woocompare-widget.php:26
+msgid "YITH WooCommerce Compare Widget"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/orderby.php:25
+msgid "Sort by"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:39
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:41
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:29
+#: woocommerce/single-product/sale-flash.php:29
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:28
+#, php-format
+msgid "Hello %s%s%s (not %2$s? %sSign out%s)"
+msgstr ""
+
+#: woocommerce/myaccount/dashboard.php:34
+#, php-format
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:53
+#: woocommerce/myaccount/payment-methods.php:78
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:59
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:30
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:34
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:40
+#: woocommerce/myaccount/form-login.php:95
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:46
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:50
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:54
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:58
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:68
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/myaccount/my-address.php:32
+#: woocommerce/order/order-details-customer.php:63
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:23
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/order/order-details-customer.php:76
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:47
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:58
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:46
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:50
+#: woocommerce/myaccount/form-login.php:102
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:60
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:64
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:78
+#: woocommerce/myaccount/form-login.php:116
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:88
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:109
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:27
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:30
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:25
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:28
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:41
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:53
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:72
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:15
+msgid "Status"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:31
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:56 woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:66 woocommerce/myaccount/orders.php:61
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:77 woocommerce/myaccount/orders.php:72
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:119
+msgid "Go Shop"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:121
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:51
+#, php-format
+msgid "%s ending in %s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:72
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:28 woocommerce/order/tracking.php:26
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:37 woocommerce/order/tracking.php:34
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:44 woocommerce/order/tracking.php:40
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:29
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:32
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:25
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:25
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:32
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:39
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:46
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:67
+#: woocommerce/order/order-details-customer.php:80
+#: woocommerce/single-product/meta.php:35
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:29
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:39
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:41
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:38
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:45
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:39
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:40
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:43
+#, php-format
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:49
+msgid "you may also like"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:36
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/review-rating.php:28
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/short-description.php:31
+msgid "Quick description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:48
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:21
+msgid "Preload Layout"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:29
+#: inc/functions/metaboxes/products.php:48
+msgid "Header Layout"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:36
+msgid "Header Mobile Position"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:44
+#: inc/functions/metaboxes/products.php:56
+msgid "Footer Layout"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:52
+#: inc/functions/metaboxes/post.php:152
+#: inc/functions/metaboxes/products.php:139
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:53
+#: inc/functions/metaboxes/post.php:153
+#: inc/functions/metaboxes/products.php:140
+msgid "Hide breadcrumbs"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:58
+msgid "Breadcrumbs Background for Breadcrumbs layout 3"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:59
+msgid "Upload breadcrumbs background"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:65
+msgid "Select Breadcrumbs Type"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:71
+#: inc/functions/metaboxes/post.php:145
+#: inc/functions/metaboxes/products.php:145
+msgid "Page Title"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:72
+#: inc/functions/metaboxes/post.php:146
+#: inc/functions/metaboxes/products.php:146
+msgid "Hide Page Title"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:77
+#: inc/functions/metaboxes/post.php:158
+#: inc/functions/metaboxes/products.php:151
+msgid "Header"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:78
+#: inc/functions/metaboxes/post.php:159
+#: inc/functions/metaboxes/products.php:152
+msgid "Hide header"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:84
+#: inc/functions/metaboxes/post.php:213
+#: inc/functions/metaboxes/products.php:158
+msgid "Footer"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:85
+#: inc/functions/metaboxes/post.php:214
+#: inc/functions/metaboxes/products.php:159
+msgid "Hide footer"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:92
+#: inc/functions/metaboxes/portfolio.php:79
+#: inc/functions/metaboxes/post.php:221 inc/functions/metaboxes/products.php:64
+#: inc/functions/metaboxes/products.php:166
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:99
+#: inc/functions/metaboxes/portfolio.php:86
+#: inc/functions/metaboxes/post.php:228 inc/functions/metaboxes/products.php:71
+#: inc/functions/metaboxes/products.php:173
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:113
+#: inc/functions/metaboxes/default_options.php:114
+msgid "Hide footer info"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:119
+#: inc/functions/metaboxes/default_options.php:120
+msgid "Remove top space"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:125
+#: inc/functions/metaboxes/default_options.php:126
+msgid "Remove bottom space"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:131
+msgid "Show Revolution Slider"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:132
+msgid "Enable Slider"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:137
+msgid "Select Revolution Slider"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:138
+msgid "Slider will show if you show revolution slider"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:145
+#: inc/functions/metaboxes/post.php:136
+msgid "Select Bottom Banner"
+msgstr ""
+
+#: inc/functions/metaboxes/default_options.php:146
+#: inc/functions/metaboxes/post.php:137
+msgid ""
+"Choose a block to display at the bottom of pages. You can create a block in "
+"Static Block/Add New."
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:18
+msgid "Related Projects"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:75
+msgid "Default sidebar"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:174
+msgid "Upload File"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:175
+msgid "Remove File"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:255
+msgid "Transparent"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:469
+#: inc/functions/metaboxes/functions.php:596
+#: inc/functions/metaboxes/user-profile.php:21
+msgid "Upload Image"
+msgstr ""
+
+#: inc/functions/metaboxes/functions.php:470
+#: inc/functions/metaboxes/functions.php:597
+#: inc/functions/metaboxes/gallery.php:68
+#: inc/functions/metaboxes/user-profile.php:22
+msgid "Remove Image"
+msgstr ""
+
+#: inc/functions/metaboxes/gallery.php:40
+msgid "Images Gallery"
+msgstr ""
+
+#: inc/functions/metaboxes/gallery.php:55
+msgid "Add image(s) to gallery"
+msgstr ""
+
+#: inc/functions/metaboxes/gallery.php:56
+#: inc/functions/metaboxes/gallery.php:57
+#: inc/functions/metaboxes/gallery.php:57
+msgid "Add image(s)"
+msgstr ""
+
+#: inc/functions/metaboxes/gallery.php:65
+#: inc/functions/metaboxes/gallery.php:66
+#: inc/functions/metaboxes/gallery.php:67
+msgid "Change image"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:4
+msgid "default"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:10
+msgid "Main Color"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:12
+msgid "Select different main color for page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:16
+msgid "Header Fixed"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:21
+msgid "Footer Fixed"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:26
+msgid "Logo header for page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:27
+msgid "Upload logo header only page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:32
+msgid "Select header layout for this page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:37
+msgid "FullWidth"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:44
+msgid "Select font family for header menu"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:52
+msgid "Body Background"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:53 inc/functions/metaboxes/page.php:59
+msgid "You should input hex color(ex: #e1e1e1)."
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:58
+msgid "Footer Background"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:64
+msgid "Logo footer for page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:65
+msgid "Upload logo footer only page"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:70
+msgid "Newsletter Background"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:71
+msgid "You should input hex color(ex: #d09f65)."
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:76
+msgid "Newsletter Title Color"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:77
+msgid "You should input hex color(ex: #fff)."
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:101
+#: inc/functions/metaboxes/portfolio.php:36 inc/functions/metaboxes/post.php:88
+msgid "Layout Options"
+msgstr ""
+
+#: inc/functions/metaboxes/page.php:102
+msgid "Skin Options"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:7
+#: inc/functions/metaboxes/portfolio.php:23
+msgid "Single gallery layout"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:11
+#: inc/functions/metaboxes/portfolio.php:27
+msgid "Slider"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:12
+#: inc/functions/metaboxes/portfolio.php:28
+msgid "Side Information"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:93
+msgid "Gallery filter"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:97
+#: inc/functions/metaboxes/portfolio.php:140
+msgid "No"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:104
+msgid "Gallery Layouts"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:111
+msgid "Gallery loadmore style"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:114
+msgid "Button style 1"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:115
+msgid "Button style 2"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:122
+msgid "Gallery columns"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:129
+msgid "Gallery Style"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:136
+msgid "Remove Space Items"
+msgstr ""
+
+#: inc/functions/metaboxes/portfolio.php:147
+msgid "Post show per page"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:9
+msgid "Single Blog Layout"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:15
+msgid "Short Description"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:25
+msgid "Video & Audio Embed Code"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:26
+msgid "Enter the embed link (Youtube or Vimeo). "
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:32
+msgid "Link"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:33
+msgid "Enter link. "
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:39
+msgid "Link title"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:40
+msgid "Enter link title. "
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:46
+msgid "Quote"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:47
+msgid "Enter quote. "
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:53
+msgid "Quote author"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:54
+msgid "Enter quote author. "
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:86
+msgid "Post Format"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:87
+msgid "Blog Options"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:128
+msgid "Select Top Banner"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:129
+msgid ""
+"Choose a block to display at the top of pages (after header). You should "
+"create a block in Static Block/Add New"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:164
+msgid "Blog layout"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:165
+msgid "Select blog layout"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:172
+msgid "[List Layout] Blog list style"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:173
+msgid "Select blog list style"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:180
+msgid "Blog columns"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:181
+msgid "Select blog columns"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:188
+msgid "Post Description"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:192
+msgid "Hide"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:193
+msgid "Display"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:199
+msgid "Pagination type"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:200
+msgid "Select blog pagination"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:204
+msgid "Load more"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:205
+msgid "Next/Prev"
+msgstr ""
+
+#: inc/functions/metaboxes/post.php:206
+msgid "Number"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:7
+msgid "Custom Tab Title"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:8
+msgid "Input the custom tab title."
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:14
+msgid "Custom Tab Content"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:15
+msgid "Input the custom tab content."
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:33
+msgid "Custom Tab"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:86
+msgid "Related product columns"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:110
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:180
+msgid "Products per Page"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:186
+msgid "List mode"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:193
+msgid "Number of grid column"
+msgstr ""
+
+#: inc/functions/metaboxes/products.php:197
+msgid "1 columns"
+msgstr ""
+
+#: inc/functions/metaboxes/related_post.php:42
+msgid "Related post"
+msgstr ""
+
+#: inc/functions/metaboxes/user-profile.php:6
+msgid "Extra profile information"
+msgstr ""
+
+#: inc/functions/metaboxes/user-profile.php:9
+msgid "Occupation"
+msgstr ""
+
+#: inc/functions/metaboxes/user-profile.php:13
+msgid "Please enter your occupation."
+msgstr ""
+
+#: inc/functions/metaboxes/user-profile.php:17
+msgid "User Avatar (square image recommended)"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:33
+msgid "Join Us On Facebook"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:51
+msgid "Follow me on tweets"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:61
+msgid "Contact us"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:62
+msgid "Contact us today for further info:"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:76
+msgid "Store Location"
+msgstr ""
+
+#: inc/functions/panel-social/functions.php:138
+msgid "Follow me on instagram"
+msgstr ""
+
+#: inc/functions/widgets/apr_ajax_search.php:56
+msgctxt "placeholder"
+msgid "Enter keyword to search&hellip;"
+msgstr ""
+
+#: inc/functions/widgets/apr_ajax_search.php:93
+msgid "Widget Title"
+msgstr ""
+
+#: inc/functions/widgets/apr_ajax_search.php:103
+msgid "Button Text"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_comments.php:28
+msgid "Your site&#8217;s most recent comments."
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_comments.php:31
+#: inc/functions/widgets/apr_recent_comments.php:77
+msgid "Recent Comments"
+msgstr ""
+
+#. comments widget: 1: comment author, 2: post link
+#: inc/functions/widgets/apr_recent_comments.php:115
+#, php-format
+msgctxt "widgets"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_comments.php:158
+#: inc/functions/widgets/apr_recent_posts.php:132
+msgid "Title:"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_comments.php:161
+msgid "Number of comments to show:"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_posts.php:11
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_posts.php:12
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_posts.php:135
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/functions/widgets/apr_recent_posts.php:139
+msgid "Display post date?"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:45
+#: woocommerce/single-product/add-to-cart/variation-add-to-cart-button.php:17
+msgid "Qty:"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:43
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:24
+msgid "Additional Information :"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:24
+msgid "Descriptions :"
+msgstr ""
+
+#: woocommerce/single-product/tabs/tabs.php:51
+msgid "Tags"
+msgstr ""
+
+#: woocommerce/single-product/tabs/tabs.php:70
+msgid "Tag: "
+msgid_plural "Tags: "
+msgstr[0] ""
+msgstr[1] ""
+
+#. Name of the theme
+msgid "Barber"
+msgstr ""
+
+#. Description of the theme
+msgid "Barber - Hair Salon WordPress Theme."
+msgstr ""
+
+#. URI of the theme
+msgid "http://demo.arrowtheme.com/barber/"
+msgstr ""
+
+#. Author of the theme
+msgid "AHT"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://arrowhitech.com/"
+msgstr ""

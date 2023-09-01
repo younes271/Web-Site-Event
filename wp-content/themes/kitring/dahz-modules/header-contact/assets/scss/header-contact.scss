@@ -1,0 +1,41 @@
+.de-header {
+	&__section {
+		&-contact-item {
+			min-width: 150px;
+			width: auto;
+			display: inline-flex;
+			align-items: center;
+			padding-right: 20px;
+			.uk-icon {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 50px;
+			}
+			&--inner {
+				margin-left: 10px;
+				&__item {
+					&.item-1 {
+						display: block;
+						font-size: .875em;
+						word-break: break-all;
+					}
+					&.item-2 {
+						font-size: .875em;
+					}
+				}
+			}
+			@media only screen and ( max-width: 768px ) {
+				width: 100%;
+			}
+			&:last-child {
+				padding: 0;
+			}
+		}
+	}
+	&-mobile__section {
+		[data-item-id="contact_mobile"] {
+			width: 100%;
+		}
+	}
+}

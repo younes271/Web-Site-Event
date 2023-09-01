@@ -1,0 +1,472 @@
+$font-stack: $general_font_family;
+body,#error-page {
+     font-family: $general_font_family;
+     font-weight: $general_font_weight;
+     font-size: $general_font_size;
+     color: $general_font_color;
+     line-height: $general_line_height;
+     background: $general_bg_color;
+}
+#main{
+  background: $general_bg_color;
+}
+p{
+     line-height: $general_line_height;
+}
+.side-breadcrumb.use_bg_image {
+    background: $breadcrumb_bg_image;
+    background-repeat: $breadcrumb_bg_repeat;
+    background-position: $breadcrumb_bg_position;
+    background-size: $breadcrumb_bg_size;
+    background-attachment: $breadcrumb_bg_attachment;
+}
+.footer-v1{
+    color: $footer_color;
+    a{
+        color: $footer_color;
+    }
+
+}
+h1{
+    font-family: $h1_font_family;
+    color: $h1_font_color;
+    font-size: $h1_font_size;
+}
+h2{
+    font-family: $h2_font_family;
+    color: $h2_font_color;
+    font-size: $h2_font_size;
+}
+h3{
+    font-family: $h3_font_family;
+    color: $h3_font_color;
+    font-size: $h3_font_size;
+}
+h4{
+    font-family: $h4_font_family;
+    color: $h4_font_color;
+    font-size: $h4_font_size;
+}
+h5{
+    font-family: $h5_font_family;
+    color: $h5_font_color;
+    font-size: $h5_font_size;
+}
+h6{
+    font-family: $h6_font_family;
+    color: $h6_font_color;
+    font-size: $h6_font_size;
+}
+
+@keyframes stretch {
+  0% {
+    
+    transform: rotate(180deg);
+  }
+
+  100% {
+    background-color: $primary_color;
+    transform: scale(.5);
+    border-radius: 100%;
+  }
+}
+.cart-block::-webkit-scrollbar-thumb{
+    background-color: $primary_color !important;
+}
+// Primary color setting
+.line_main_color{
+  .uvc-headings-line{
+    border-color: $primary_color;
+  }
+}
+a:focus, a:hover,
+[class*="header-"] .open-menu-mobile:hover, 
+[class*="header-"] .searchform_wrap form button:hover, 
+[class*="header-"] .header-contact a:hover, 
+[class*="header-"] .mega-menu li.current_page_parent > a, 
+[class*="header-"] .mega-menu .sub-menu li.current-menu-item > a, 
+[class*="header-"] .widget_shopping_cart_content ul li a:hover,
+.mega-menu li .sub-menu li a:hover,
+.open-menu:hover,.social_icon li a,
+.header-sidebar h4,
+.header-myaccount i:hover,
+.close-menu, .close-menu-mobile,
+.mini-cart .cart_label:hover,
+.mega-menu > li.menu-item.current-menu-item > a, 
+.mega-menu > li.menu-item.current-menu-parent > a,
+.header-v10 .header-right .social_icon li a:hover,
+.search-block-top .btn-search:hover,
+.header-v3 .search-block-top .top-search .btn-search:hover, 
+.header-v8 .search-block-top .top-search .btn-search:hover, 
+.header-v9 .search-block-top .top-search .btn-search:hover,
+.header-v8 .header-right .social_icon li a:hover, .header-v9 .header-right .social_icon li a:hover,
+.main-color .uvc-main-heading >h2,
+.baber-heading .header_icon,
+.icon_box_content:hover .icon_box_title h3,
+.icon_box_title h4,
+.icon_box,
+.single-gallery .vertical_list .port_share a:hover,
+.custom-banner-1 .banner-type2 .banner-btn a:hover,
+.bg-overlay .button-group .btn-filter.is-checked, 
+.bg-overlay .button-group .btn-filter:hover,
+.button-group .btn-filter:before,
+.member-info .link-text a:hover,
+.box-pricing-tt h2,
+.caption_testimonial .title-testimonial h2,
+.type1.blog-info .author a,
+.grid_style_1 .blog-date a:hover,
+.button-group .btn-filter.is-checked, .button-group .btn-filter:hover,
+.post-name a:hover,
+.footer-newsletter .mc4wp-form label,
+.list-info-footer li i,
+.list-info-footer li a:hover,
+.footer-social li a:hover,
+.footer-content .widget_nav_menu ul li a:hover,
+.product-content .price .amount,
+.product-content .price .amount span,
+.btn.btn-default,
+.member-info .member-job,
+.caption_testimonial .tes_name h4,
+.title-portfolio .title-left::before,
+.title-portfolio .title-left h3,.icon_box_content.type_2:hover .icon_box_title h3,
+.pricing-content.style2 .price-center,
+.footer-newsletter.newletter-2 .mc4wp-form label,
+.footer-v2 .footer-content .widget_nav_menu ul li a:hover,
+.footer-newsletter.type1 .mc4wp-form .submit:hover [type="submit"],
+.footer-newsletter.newletter-2 .mc4wp-form label span,
+.footer-newsletter.type1 .mc4wp-form .submit:hover:before,
+.banner-type1 .banner-title h3,
+.pricing-list-3 li .price-list,
+.member-type2 .member-desc h2,
+.member-type2 .link-text a,
+.member-type2 .btn-next,
+.list-item-info .icon,
+.product-content h3 a:hover,
+.post-single.single-4 .blog-info .info-cat:hover, 
+.post-single.single-4 .blog-info .info-tag:hover, 
+.post-single.single-4 .blog-info .info-comment:hover, 
+.post-single.single-4 .blog-info .info-like:hover,
+.post-single.single-4 .blog-info .info-cat:hover a, 
+.post-single.single-4 .blog-info .info-tag:hover a, 
+.post-single.single-4 .blog-info .info-comment:hover a, 
+.post-single.single-4 .blog-info .info-like:hover a,
+.post-single.single-2 .blog-info .info-cat:hover, 
+.post-single.single-2 .blog-info .info-tag:hover, 
+.post-single.single-2 .blog-info .info-comment:hover, 
+.post-single.single-2 .blog-info .info-like:hover,
+.post-single.single-2 .blog-info .info-cat:hover a, 
+.post-single.single-2 .blog-info .info-tag:hover a, 
+.post-single.single-2 .blog-info .info-comment:hover a, 
+.post-single.single-2 .blog-info .info-like:hover a,
+.post-single.single-3 .blog-info .info-cat:hover, 
+.post-single.single-3 .blog-info .info-tag:hover, 
+.post-single.single-3 .blog-info .info-comment:hover, 
+.post-single.single-3 .blog-info .info-like:hover,
+.post-single.single-3 .blog-info .info-cat:hover a, 
+.post-single.single-3 .blog-info .info-tag:hover a, 
+.post-single.single-3 .blog-info .info-comment:hover a, 
+.post-single.single-3 .blog-info .info-like:hover a,
+.footer-v10 .widget_nav_menu li a:hover,
+.footer-v10 .footer-social li a:hover,
+.footer-v10 a.to-top:hover,
+.footer-v9 .footer-social li a:hover,
+.footer-v9 .footer-newsletter .submit:hover:before,
+.header-v4 .search-block-top .top-search .btn-search:hover,
+.list-item-info .info-mail a:hover, .list-item-info .info-number a:hover,
+.barber_container.title-abs .header_icon,
+.baber-1 .tp-bullet:hover, .baber-1 .tp-bullet.selected,
+.banner-type1.banner-type3 .banner-title h2,
+.icon_box_content.type_1.icon_box_3 .icon_box,
+.uavc-list-icon .uavc-list > li .ult-just-icon-wrapper .align-icon .aio-icon,
+.block-text h2,
+.block-text:hover .text-content h3,
+.list-item-box li:before,
+.footer-v6 .footer-social li a:hover,
+.list-item-box li:before,
+.box-text-sidebar h4,
+.widget_search form .btn-search:hover, 
+.widget_product_search form .btn-search:hover,
+.widget_archive li:hover a, .widget_categories li:hover a, 
+.widget_archive li.current-cat > a, .widget_categories li.current-cat > a,
+.widget_product_categories li.current-cat > a, 
+.widget_pages li.current-cat > a, .widget_meta li.current-cat > a,
+.widget_product_categories li:hover a, .widget_pages li:hover a, .widget_meta li:hover a,
+.widget_archive li a:before, .widget_categories li a:before, .widget_product_categories li a:before,
+.widget_pages li a:before, .widget_meta li a:before,
+.widget_archive li:hover span, .widget_categories li:hover span, .widget_product_categories li:hover span, 
+.widget_pages li:hover span, .widget_meta li:hover span,
+.widget_post_blog .blog-post-info .blog-time a,
+.viewmode-toggle a:hover, .viewmode-toggle a:focus, .viewmode-toggle a.active,
+.tagcloud a:hover,
+.breadcrumb li a:hover,
+.addthis_sharing_toolbox .f-social li a:hover,
+.list_s2 .blog-date .date a:hover,
+.blog-info .author a:hover, .blog-info .info-comment a:hover,
+.comment-body .comment-bottom .links-info a:hover,
+.page-numbers li .page-numbers:hover, .page-numbers li .page-numbers.current,
+.post-single.single-2 .blog-info .info-cat a:hover, 
+.post-single.single-2 .blog-info .info-tag a:hover, 
+.post-single.single-2 .blog-info .info-comment a:hover, 
+.post-single.single-2 .blog-info .info-like a:hover,
+.post-single.single-3 .blog-info .info-cat a:hover, 
+.post-single.single-3 .blog-info .info-tag a:hover, 
+.post-single.single-3 .blog-info .info-comment a:hover, 
+.post-single.single-3 .blog-info .info-like a:hover,
+.tt-instagram .uvc-sub-heading > a:hover,
+.info .price span, #yith-quick-view-content .price span,
+.shop_table .cart_item .product-remove a,.title-cart-sub,
+.showlogin, .showcoupon,
+.shop_table .cart_item .product-name a:hover,
+.wishlist_table .product-remove a,
+.woocommerce .wishlist_table .product-name a.yith-wcqv-button,
+.woocommerce-page .wishlist_table .product-price .amount,
+.shop_table .product-subtotal span, .shop_table .product-price span,
+.woocommerce-pagination .page-numbers > li .current, 
+.yith-woocompare-widget ul.products-list li .remove,
+.close_search_form:hover,.search-title p,
+.yith-woocompare-widget ul.products-list li .title:hover,
+.widget_post_blog .blog-post-info .post-name > a:hover,
+.woocommerce-message,
+.tt-instagram .uvc-sub-heading > a,
+.woocommerce-pagination .page-numbers > li a:hover,
+.header-profile ul a:hover,
+.member-type2 .btn-prev,
+.uvc-sub-heading > a,
+.info.info-cat:hover > i,
+.info.info-tag:hover > i,
+.blog-info a:hover,
+.list_s3 .blog-content .blog-post-info .blog-info a:hover,
+.blog-masonry .blog-content .blog-item .blog-info a:hover{
+  color: $primary_color;
+}
+.ult_tabs .ult_tabmenu.style3 > li.ult_tab_li.current a, 
+.ult_tabs .ult_tabmenu.style3 > li.ult_tab_li:hover a,
+.slick-next:hover, .slick-p,rev:hover,
+.main-color .uvc-main-heading > h2,
+.mega-menu li a:hover, .mega-menu li a:focus,
+.barber-2 .tp-bullet:hover, .barber-2 .tp-bullet.selected,
+.box_banner_4 .ult-content-box-container:hover .vc_custom_heading,
+.main-color, .slick-next:hover, .slick-prev:hover,
+.ult_tabs .ult_tabmenu.style3 > li.ult_tab_li.current a .ult_tab_icon, 
+.ult_tabs .ult_tabmenu.style3 > li.ult_tab_li:hover a .ult_tab_icon,
+.slick-arrow-top .slick-next:hover, .slick-arrow-top .slick-prev:hover{
+  color: $primary_color !important;
+}
+.main-bg_color, .main-bg_color.ult-content-box-container, 
+.main-bg_color > .vc_column-inner, 
+.main-bg_color > .upb_row_bg, 
+.main-bg_color.vc_row,
+.bg-overlay figure:before,
+.button-group .btn-filter:before,
+.button-group .btn-filter:after,
+.ult-carousel-wrapper .slick-dots li.slick-active,
+.product-content .product-action,
+.btn.btn-primary,
+.btn.btn-black:hover, .btn.btn-black:focus, .btn.btn-black:active,
+.blog-img.hover-mask:before,
+.footer-newsletter .mc4wp-form [type="submit"],
+.instagram-container li a:before,
+.barber-2 .tp-bullet:after,
+.mini-cart .cart_nu_count,
+.barber-2 .tp-bullet.selected:after,
+.scroll-to-top,
+.img-before::before,
+.rev_slider_wrapper .custom .tp-bullet:hover, 
+.rev_slider_wrapper .custom .tp-bullet.selected,
+.gallery-style2 .gallery-img:before,
+.grid_style_2 .blog-date,
+.blog-date,
+.footer-newsletter.newletter-2 .mc4wp-form [type="submit"],
+.contact-info,
+.btn-plus:before, .btn-plus:after,
+.vc_btn_primary .vc_general.vc_btn3-icon-right,
+.instagram-type1 .title-insta,
+.uavc-list-icon .uavc-list > li .uavc-list-icon:after,
+.instagram-type3 .instagram-img a::before,
+.ares .tp-bullet:hover, .ares .tp-bullet.selected,
+.box_banner_4 .ult-content-box-container:hover .banner_home4:after,
+.baber-1 .tp-bullet:hover:after, .baber-1 .tp-bullet.selected:after,
+.banner-type4 .banner-mid h2::before,
+.custom-progress.vc_progress_bar .vc_single_bar .vc_bar,
+.contact-8 .wpcf7,
+.widget_post_blog .blog-img:before,
+.list_s2 .post-name a:before,
+.arrows-custom .slick-arrow:hover,
+.blog-item .post_link i,
+.list-items.style1 li:before,
+.post-comments .comment-reply-title:before, 
+.post-comments .widget-title:before,
+.comment-body .comment-author:before,
+.comment-body .comment-author:after,
+.contact-form2 .btn-submit input[type="submit"],
+.box-scheduce .ult-content-box:before,
+.info .single_add_to_cart_button, .info .add_to_cart_button, 
+#yith-quick-view-content .single_add_to_cart_button,
+#yith-quick-view-content .add_to_cart_button,
+.product-tab .nav-tabs > li a:hover, .product-tab .nav-tabs > li a:focus,
+.product-tab .nav-tabs > li.active a,
+.widget_price_filter .ui-slider .ui-slider-handle,
+#barber_services .icon_box,
+.demos-buy-button,
+.widget_price_filter .price_slider_amount .button,
+.woocommerce-page .wishlist_table .product-add-to-cart .button,
+.single-product .products > h2.title_related:before,
+.title-cart:before,
+.woocommerce .login .form-row input.button,
+.side-breadcrumb.type-3.has-overlay:before,
+.ubtn-link.main-bg > button,
+.fancybox-nav span:hover,
+.service-page-2 .icon_box_content .icon_box,
+.countdown_home4:before,
+.page-coming-soon .mc4wp-form input[type="submit"],
+.has_overlay:before,
+#blog-loadmore:hover{
+  background: $primary_color;
+}
+.ult_tabs .ult_tabmenu.style3 > li.ult_tab_li,
+.member-bg .style-2 .item-member-content:hover .member-info,
+.footer-top,
+.style-2 .item-member-content:hover .member-info,
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active,
+.rev-btn.button-slide1{
+  background: $primary_color !important;
+}
+#btn_appointment,
+#loading, #loading-2, #loading-3, 
+.preloader-4, .preloader-5, #loading-6,
+#loading-7, #loading-9, .loader-8{
+    background-color: $primary_color;
+}
+.close-menu, .close-menu-mobile,
+.social_icon li a,
+.mini-cart .cart-block,
+.mini-cart .count-item,
+.content-filter,
+.member-type2 .btn-next,
+#btn_appointment,
+.border-slide,.instagram-type2::before,
+.btn.btn-black:hover, .btn.btn-black:focus, .btn.btn-black:active,
+.uavc-list-icon .uavc-list > li .ult-just-icon-wrapper,
+.single-gallery .vertical_list .port_share a:hover,
+.page-numbers li .page-numbers:hover, .page-numbers li .page-numbers.current,
+.tagcloud a:hover,
+blockquote,
+.footer-v7 .list-item-info .icon:hover,
+.addthis_sharing_toolbox .f-social li a:hover,
+.contact-form2 .btn-submit input[type="submit"],
+.ult_tabmenu.style1 a.ult_a:hover,
+.ult_tabmenu.style1 .ult_tab_li.current > a,
+.viewmode-toggle a:hover, .viewmode-toggle a:focus, .viewmode-toggle a.active,
+.woocommerce .login .form-row input.button,
+.woosearch-results,
+.btn.btn-primary,
+.member-type2 .btn-prev,
+ .list-item-info .icon:hover,
+.btn.btn-default,
+.arrow_style2 .slick-default > .slick-arrow:hover,
+#blog-loadmore:hover{
+  border-color:$primary_color;
+}
+.shop_table tbody tr:first-child td{
+  border-top-color:$primary_color;
+}
+.custom-progress.vc_progress_bar .vc_single_bar .vc_bar:before{
+  border-color:transparent transparent transparent $primary_color;
+}
+.custom-progress.vc_progress_bar .vc_progress_value::before {
+    border-color:$primary_color transparent transparent;
+}
+.baber-heading.style-heading-2 .header_icon:before{
+  background: -moz-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, $primary_color), color-stop(100%, rgba(255,255,255,0.1)));
+  background: -webkit-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: -o-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: -ms-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: linear-gradient(90deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary_color', endColorstr='rgba(255,255,255,0.1)',GradientType=1 );
+}
+.baber-heading.style-heading-2 .header_icon:after{
+  background: -moz-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, $primary_color), color-stop(100%, rgba(255,255,255,0.1)));
+  background: -webkit-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: -o-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: -ms-linear-gradient(0deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  background: linear-gradient(-90deg, $primary_color 0%, rgba(255,255,255,0.1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$primary_color', endColorstr='rgba(255,255,255,0.1)',GradientType=1 ); 
+}
+@media (min-width: 992px){
+  .mega-menu > li > a:after,
+  .height-900:first-child::before,
+  .mega-menu > li > a:before {
+      background: $primary_color;
+  }
+  .mega-menu > li:not(.megamenu) .sub-menu, .mega-menu > li > .sub-menu{
+    border-color :$primary_color;
+  }
+}
+@media (min-width: 768px){
+  .header-profile ul a:before,
+  .uavc-list-icon .uavc-list > li .ult-just-icon-wrapper:hover,
+  .list-item-info .icon:hover,
+  .pricing-content.style2 .pricing-box:hover .btn.btn-black,
+  .icon_box_content:hover .icon_box,
+  .pricing-content.style1.active .pricing-box .price-box {
+      background: $primary_color;
+  }
+  .pricing-content.style2 .pricing-box:hover .btn.btn-black{
+    border-color:$primary_color;
+  }
+}
+// Highlight color
+.ubtn-link.main-bg:hover > button{
+  background: $highlight_color;
+  color: #fff;
+}
+.scroll-to-top:hover,
+.page-coming-soon .mc4wp-form input[type="submit"]:hover{
+  background: $highlight_color;
+}
+.uvc-sub-heading > a:hover{
+  color: $highlight_color;
+}
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active,
+#btn_appointment:hover, #btn_appointment:active, #btn_appointment:focus {
+    background-color: $highlight_color;
+    border-color: $highlight_color;
+}
+
+/* Color themes */
+$themes: (
+  default: #8262b5,
+  awesome: #ff1a56,
+  banana: #f1c40f,
+  cherry: #c0392b,
+  di-serria: #cea35f,
+  leaf: #27ae60,
+  nightsky: #2980b9,
+  orange: #f96015,
+  pastel: #ffb546,
+  niagara: #16a085,
+  electric: #0091ea,
+  light-taupe: #ad8368,
+  pastel-red: #ff6d6d,
+  light-green: #2ecc71,
+  rodeo-dust: #c7b29b,
+  sunglo: #d86d65,
+);
+// Helper theme mixin
+// @param $name: name of the theme (HTML class)
+// @param $color: color of the theme
+@mixin theme($name, $color) {
+    .#{$name} { 
+        .button_acommo .btn_default,.button_acommo .btn_default:hover{
+          border-color: $color;
+        }
+    }
+}
+
+// Including themes 
+// By looping through the $themes map
+@each $key, $value in $themes {
+  @include theme($key, $value);
+}

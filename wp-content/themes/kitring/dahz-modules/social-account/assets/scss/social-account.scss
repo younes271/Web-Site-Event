@@ -1,0 +1,32 @@
+.de-social-accounts {
+	display: flex;
+	align-content: center;
+	&__icon {
+		margin-right: .5em;
+		&--fill {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 2em;
+			height: 2em;
+			border-radius: 100em;
+		}
+		&--outline {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 2em;
+			height: 2em;
+			border: 1px solid;
+			border-radius: 100em;
+		}
+		&:last-child {
+			margin: 0;
+		}
+	}
+}
+
+.entry-social {
+	clear: both;
+	padding: 40px 0;
+}

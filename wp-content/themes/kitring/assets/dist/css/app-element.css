@@ -1,0 +1,186 @@
+.woocommerce-page a:not(.de-product__item--add-to-cart-button).button, 
+.woocommerce a:not(.de-product__item--add-to-cart-button).button, 
+.woocommerce-page button.button, 
+.woocommerce button.button, 
+.woocommerce-page input.button, 
+.woocommerce input.button, 
+.woocommerce-page #respond input#submit,
+.woocommerce #respond input#submit {
+  margin: 0;
+  overflow: visible;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
+}
+
+.woocommerce-page a:not(.de-product__item--add-to-cart-button).button, 
+.woocommerce a:not(.de-product__item--add-to-cart-button).button, 
+.woocommerce-page button.button, 
+.woocommerce button.button, 
+.woocommerce-page input.button, 
+.woocommerce input.button, 
+.woocommerce-page #respond input#submit, 
+.woocommerce #respond input#submit,
+.uk-button{
+	border-radius:var(--button-global-border-radius);
+	font-size:var(--button-global-font-size);
+	line-height:var(--button-global-line-height);
+}
+.uk-button-small {
+  padding: 0 var(--button-small-padding-horizontal);
+  line-height: var(--button-small-line-height);
+  font-size: var(--button-small-font-size);
+  border-radius:var(--button-small-border-radius);
+}
+
+.de-product__item--add-to-cart-button {
+  line-height: var(--button-small-line-height);
+  font-size: var(--button-small-font-size);
+}
+
+.uk-button-large {
+  padding: 0 var(--button-large-padding-horizontal);
+  line-height: var(--button-large-line-height);
+  font-size: var(--button-large-font-size);
+  border-radius:var(--button-large-border-radius);
+}
+.de-mini-cart__button,
+.woocommerce-page a.button, 
+.woocommerce a.button, 
+.woocommerce-page button.button, 
+.woocommerce button.button, 
+.woocommerce-page input.button, 
+.woocommerce input.button, 
+.woocommerce-page #respond input#submit, 
+.woocommerce #respond input#submit,
+.uk-button-default {
+  background-color: var(--button-default-background-color);
+  color: var(--button-default-color);
+  border-color:var(--button-default-border-color);
+}
+.de-mini-cart__button:hover,
+.woocommerce-page a.button:hover, 
+.woocommerce a.button:hover, 
+.woocommerce-page button.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce-page input.button:hover, 
+.woocommerce input.button:hover, 
+.woocommerce-page #respond input#submit:hover, 
+.woocommerce #respond input#submit:hover,
+.de-mini-cart__button:focus,
+.woocommerce-page a.button:focus, 
+.woocommerce a.button:focus, 
+.woocommerce-page button.button:focus, 
+.woocommerce button.button:focus, 
+.woocommerce-page input.button:focus, 
+.woocommerce input.button:focus, 
+.woocommerce-page #respond input#submit:focus, 
+.woocommerce #respond input#submit:focus,
+.uk-button-default:hover,
+.uk-button-default:focus {
+  background-color: var(--button-default-hover-background-color);
+  color: var(--button-default-hover-color);
+  border-color:var(--button-default-hover-border-color);
+}
+.woocommerce .button.checkout-button,
+.uk-button-primary {
+  background-color: var(--button-primary-background-color);
+  color: var(--button-primary-color);
+  border-color:var(--button-primary-border-color);
+}
+
+/* Hover + Focus */
+.woocommerce .button.checkout-button:hover,
+.woocommerce .button.checkout-button:focus,
+.uk-button-primary:hover,
+.uk-button-primary:focus {
+  background-color: var(--button-primary-hover-background-color);
+  color: var(--button-primary-hover-color);
+  border-color:var(--button-primary-hover-border-color);
+}
+.woocommerce .button[name="apply_coupon"],
+.uk-button-secondary {
+  background-color: var(--button-secondary-background-color);
+  color: var(--button-secondary-color);
+  border-color:var(--button-secondary-border-color);
+}
+
+/* Hover + Focus */
+.woocommerce .button[name="apply_coupon"]:hover,
+.woocommerce .button[name="apply_coupon"]:focus,
+.uk-button-secondary:hover,
+.uk-button-secondary:focus {
+  background-color: var(--button-secondary-hover-background-color);
+  color: var(--button-secondary-hover-color);
+  border-color:var(--button-secondary-hover-border-color);
+}
+.uk-button-danger {
+  background-color: var(--button-danger-background-color);
+  color: var(--button-danger-color);
+  border-color:var(--button-danger-border-color);
+}
+
+/* Hover + Focus */
+.uk-button-danger:hover,
+.uk-button-danger:focus {
+  background-color: var(--button-danger-hover-background-color);
+  color: var(--button-danger-hover-color);
+  border-color:var(--button-danger-hover-border-color);
+}
+.woocommerce-account .woocommerce-MyAccount-orders td.woocommerce-orders-table__cell-order-actions a,
+.uk-button-text {
+  padding-left:0;
+  border-style: none;
+  color: var(--button-text-color);
+}
+
+/* Hover + Focus */
+.woocommerce-account .woocommerce-MyAccount-orders td.woocommerce-orders-table__cell-order-actions a:hover,
+.woocommerce-account .woocommerce-MyAccount-orders td.woocommerce-orders-table__cell-order-actions a:focus,
+.uk-button-text:hover,
+.uk-button-text:focus {
+  color: var(--button-text-hover-color);
+}
+.uk-button-text:disabled {
+  color: var(--button-text-disabled-color);
+}
+.uk-button-link {
+  padding-left:0;
+  border-style: none;
+  color: var(--button-link-color);
+}
+
+/* Hover + Focus */
+.uk-button-link:hover,
+.uk-button-link:focus {
+  color: var(--button-link-hover-color);
+  text-decoration: var( --button-link-hover-text-decoration );
+}
+.uk-button-link:disabled {
+  color: var(--button-link-disabled-color);
+}
+/*
+ * Disabled
+ * The same for all style modifiers
+ */
+.woocommerce-page a.button:disabled, 
+.woocommerce a.button:disabled, 
+.woocommerce-page button.button:disabled, 
+.woocommerce button.button:disabled, 
+.woocommerce-page input.button:disabled, 
+.woocommerce input.button:disabled, 
+.woocommerce-page #respond input#submit:disabled, 
+.woocommerce #respond input#submit:disabled,
+.uk-button-default:disabled,
+.uk-button-primary:disabled,
+.uk-button-secondary:disabled,
+.uk-button-danger:disabled {
+  background-color: var(--button-disabled-background-color);
+  color: var(--button-disabled-color);
+  border-color:var(--button-disabled-border-color);
+}

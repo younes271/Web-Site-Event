@@ -1,0 +1,26 @@
+#de-header-horizontal {
+	.de-header__sticky--wrapper.uk-sticky.uk-active {
+		.de-header {
+			&__section {
+				display: none;
+				&--show-on-sticky {
+					display: flex;
+				}
+			}
+			&__logo-media {
+				&--normal {
+					display: none;
+				}
+				&--light {
+					display: none;
+				}
+				&--dark {
+					display: none;
+				}
+				&--sticky {
+					display: block;
+				}
+			}
+		}
+	}
+}

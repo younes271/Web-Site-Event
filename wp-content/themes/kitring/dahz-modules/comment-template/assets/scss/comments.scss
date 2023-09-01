@@ -1,0 +1,44 @@
+.comment-navigation {
+	margin-bottom: 40px;
+	.prev.page-numbers,
+	.next.page-numbers {
+		border: none;
+		position: absolute;
+	}
+	.prev.page-numbers {
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.next.page-numbers {
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
+	.page-numbers {
+	    height: 2em;
+	    width: 2em;
+	    text-align: center;
+	    display: flex;
+	    border: 1px solid;
+	    justify-content: center;
+	    align-items: center;
+	    border-radius: 2em;
+	    margin-right: 1em;
+		&:last-child {
+			margin-right: 0;
+		}
+		&.current {
+		    border: none;
+		}
+	}
+	.nav-links {
+		position: relative;
+	}
+}
+.comment-form {
+	p.logged-in-as {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+}

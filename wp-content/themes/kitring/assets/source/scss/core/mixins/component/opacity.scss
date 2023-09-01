@@ -1,0 +1,11 @@
+@for $i from 0 through 10 {
+	.de-opacity-#{$i} {
+		opacity: $i * .1;
+	}
+	.de-opacity-hover-#{$i} {
+		transition: .3s;
+		&:hover {
+			opacity: $i * .1;
+		}
+	}
+}

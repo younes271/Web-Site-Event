@@ -1,0 +1,84 @@
+.de-carousel {
+	* {
+		outline: none;
+	}
+	position: relative;
+	&__container {
+		position: relative;
+		background-color: #fcfcfc;
+		height: 0;
+		padding-bottom: 56.25%;
+		overflow: hidden;
+	}
+	&__item {
+		display: none;
+		z-index: 2;
+	}
+	&__loader {
+		border: 3px solid transparent;
+		border-right: 3px solid #999;
+		position: absolute;
+		top: calc(50% - 25px);
+		left: calc(50% - 25px);
+		width: 50px;
+		height: 50px;
+		border-radius: 100em;
+		animation: loader-spin 1s infinite linear;
+		opacity: 1;
+		visibility: visible;
+		transition: .3s;
+		z-index: 1;
+	}
+	@media (min-width: $breakpoint-medium) {
+		&:hover {
+			.de-carousel__arrow {
+				opacity: 1;
+				visibility: visible;
+				transform: none;
+			}
+		}
+	}
+	.slick-dots {
+		margin: 0;
+		text-align: center;
+		>li {
+			position: relative;
+			list-style: none;
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 100em;
+			margin: 0 5px;
+			background-color: #eee;
+			cursor: pointer;
+			&.slick-active {
+				background-color: #ccc;
+			}
+			>button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				font-size: 0;
+			}
+		}
+	}
+}
+
+.slick-initialized {
+	&.de-carousel__container {
+		height: auto;
+		min-height: 50px;
+		padding: 0;
+		background-color: transparent;
+	}
+	.de-carousel__item {
+		display: block;
+		animation: .6s fadeIn;
+	}
+	~.de-carousel__loader {
+		opacity: 0;
+		visibility: hidden;
+	}
+}

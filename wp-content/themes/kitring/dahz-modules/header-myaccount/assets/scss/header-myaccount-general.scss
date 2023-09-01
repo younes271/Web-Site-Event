@@ -1,0 +1,19 @@
+.de-account-content {
+	&__tab {
+		margin: 0 !important;
+		border-bottom: 2px solid;
+	}
+
+	&__form {
+		padding-top: 20px;
+	}
+}
+
+#header-section1.de-header__section .de-dropdown__container a:hover,
+#header-section2.de-header__section .de-dropdown__container a:hover,
+#header-section3.de-header__section .de-dropdown__container a:hover,
+#header-section1.de-header__section .de-dropdown__container a:hover *,
+#header-section2.de-header__section .de-dropdown__container a:hover *,
+#header-section3.de-header__section .de-dropdown__container a:hover * {
+	color: unset;
+}

@@ -1,0 +1,35 @@
+.widget {
+    // margin-top: 60px;
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    .widget-title,
+    .de-widget-title,
+    .widgettitle {
+        position: relative;
+    }
+    &.widget_archive {
+        ul {
+            margin-bottom: 40px;
+        }
+    }
+    &.widget_dahz_recent_post_widget {
+       .de-widget__recent-posts-description {
+           a {
+            word-break: break-word;
+           }
+       } 
+    }
+}
+
+.de-single {
+    .widget:first-child {
+        margin-top: 0;
+    }
+}
+
+.de-footer .widget {
+    margin-top: 0;
+    margin-bottom: 40px;
+}

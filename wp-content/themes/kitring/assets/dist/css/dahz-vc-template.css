@@ -1,0 +1,85 @@
+#de-vc-default-template {
+  width: 100%; }
+
+.de-vc-default-template-category {
+  width: 15%;
+  float: left; }
+  .de-vc-default-template-category ul {
+    padding: 0 10px; }
+    .de-vc-default-template-category ul li {
+      padding: 2px 0px;
+      cursor: pointer;
+      position: relative; }
+      .de-vc-default-template-category ul li span {
+        position: absolute;
+        right: 0;
+        padding: 4px 6px;
+        font-size: 11px;
+        line-height: 11px;
+        background-color: rgba(0, 0, 0, 0.07);
+        border-radius: 4px; }
+
+.vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template > .vc_col-md-12 {
+  display: none; }
+
+.vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template > .vc_col-sm-12 {
+  width: 85%; }
+
+.vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template-list {
+  padding: 20px;
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template-list > .vc_ui-template {
+    width: 33.1%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template-list > .vc_ui-template .vc_ui-list-bar-item {
+      display: block !important;
+      -ms-flex-wrap: initial;
+          flex-wrap: initial;
+      -webkit-box-pack: initial;
+      -ms-flex-align: initial;
+          align-items: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+      -webkit-box-align: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+      text-align: center;
+      background-color: #fff;
+      transition: box-shadow 0.25s, transform 0.25s;
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+      -webkit-backface-visibility: hidden;
+              backface-visibility: hidden;
+      overflow: hidden;
+      border-radius: 4px;
+      height: 100%; }
+  .vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template-list .display_cat {
+    margin-top: 35px;
+    font-size: 14px;
+    opacity: 0.7; }
+  .vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template-list .vc_ui-list-bar-item-trigger {
+    font-weight: 700;
+    font-size: 20px;
+    white-space: initial;
+    padding: 10px 0 35px 0;
+    text-overflow: initial;
+    max-width: 75% !important;
+    text-align: center;
+    line-height: 32px; }
+
+.vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template .vc_ui-template .img-wrap img {
+  width: 100%;
+  height: auto; }
+
+.vc_edit-form-tab[data-tab="default_templates"] #de-vc-default-template > .vc_column {
+  background-color: #f1f1f1;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: hidden; }

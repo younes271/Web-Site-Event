@@ -1,0 +1,24 @@
+.uk-slidenav {
+    border-radius: 100%;
+    background: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding:0;
+    > svg {
+        transform: scale(0.6);
+    }
+}
+
+.uk-slider {
+    a.uk-position-center-left-out.uk-slidenav-previous.uk-slidenav {
+        left: -25px;
+    }
+    a.uk-position-center-right-out.uk-slidenav-next.uk-slidenav {
+        left: inherit;
+        right: -25px;
+    }
+}

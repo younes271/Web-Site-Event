@@ -1,0 +1,130 @@
+.de-btn {
+	border: 0;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: none !important;
+	font-size: .875em;
+	transition: .3s;
+	box-sizing: border-box;
+	&:focus {
+		outline: 0;
+	}
+	&--boxed {
+		position: relative;
+		overflow: hidden;
+		z-index: 0;
+		line-height: 1.1;
+		min-height: 3.575em;
+		&::after {
+			content: '';
+			background-color: #000;
+			position: absolute;
+			top: -2px;
+			right: -2px;
+			bottom: -2px;
+			left: -2px;
+			transform: translateX(150%) skew(15deg);
+			transition: .3s;
+			z-index: -1;
+		}
+		&:hover {
+			&::after {
+				transform: none;
+			}
+		}
+	}
+	&--fill {
+		color: #fff;
+		background-color: #00a651;
+		padding-left: 3.75em;
+		padding-right: 3.75em;
+	}
+	&--outline {
+		color: #00a651;
+		padding-left: 3.583em;
+		padding-right: 3.583em;
+		border: 1px solid #00a651;
+		transition: border-color .3s;
+		&:hover {
+			border-color: #000;
+		}
+	}
+	&--text {
+		>span {
+			margin-left: 0;
+		}
+	}
+	&--full {
+		width: 100%;
+		padding: 0 .813em;
+	}
+	&--small {
+		font-size: 0.875em;
+	}
+	&--medium {
+		font-size: 1.000em;
+	}
+	&--large {
+		font-size: 1.375em;
+	}
+	&--xlarge {
+		font-size: 1.750em;
+	}
+	&--underline {
+		&-thin {
+			&:hover {
+				box-shadow: inset 0 -1px 1px -1px transparentize(#000, .7);
+			}
+		}
+		&-thick {
+			box-shadow: inset 0 -1px 1px -1px transparentize(#00a651, .7);
+			&:hover {
+				box-shadow: inset 0 -8px 1px -1px transparentize(#000, .9);
+			}
+		}
+	}
+	&--with-icon {
+		>span {
+			position: relative;
+		}
+		span {
+			display: block;
+			height: 1em;
+			line-height: 1;
+		}
+		i {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 1em;
+			height: 1em;
+			line-height: 1;
+			&::before {
+				display: block;
+				width: inherit;
+				height: inherit;
+				line-height: inherit;
+			}
+			&.left {
+				left: 0;
+			}
+			&.right {
+				right: 0;
+			}
+		}
+	}
+	&.disabled {
+		opacity: .5;
+	}
+	>* {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+.uk-button:not(:disabled) {
+	background: transparent;
+	border: 1px solid;
+}

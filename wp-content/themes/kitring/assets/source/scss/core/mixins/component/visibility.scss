@@ -1,0 +1,27 @@
+.de-hidden {
+	&\@s {
+		@media (max-width: $breakpoint-medium - 1) {
+			display: none;
+		}
+	}
+	&\@m {
+		@media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large - 1) {
+			display: none;
+		}
+	}
+	&\@l {
+		@media (min-width: $breakpoint-large) {
+			display: none;
+		}
+	}
+}
+
+.de-invisible {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.de-visible {
+	opacity: 1;
+	visibility: visible;
+}

@@ -1,0 +1,25 @@
+.comments-area {
+	.comment {
+		list-style: none;
+	}
+	.uk-comment-title {
+		margin-bottom: .3em;
+	}
+	.comment-form {
+		>[class*='uk-width'] {
+			margin-bottom: 16px;
+			&.comment-form-url {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	label {
+		margin-bottom: 10px;
+		display: block;
+	}
+	@media (max-width: $breakpoint-medium) {
+		.avatar {
+			width: 40px;
+		}
+	}
+}

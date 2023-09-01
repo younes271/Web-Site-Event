@@ -1,0 +1,201 @@
+// Name:            Form Range
+// Description:     Styles for the range input type
+//
+// Component:       `uk-range`
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+$form-range-thumb-height:                        15px !default;
+$form-range-thumb-border-radius:                 var(--form-range-thumb-border-radius);
+$form-range-thumb-background:                    var(--form-range-thumb-background);
+
+$form-range-track-height:                        var(--form-range-track-height);
+$form-range-track-background:                    var(--form-range-track-background);
+$form-range-track-focus-background:              var(--form-range-track-focus-background);
+
+
+/* ========================================================================
+   Component: Form Range
+ ========================================================================== */
+
+/*
+ * 1. Normalize and defaults
+ * 2. Prevent content overflow if a fixed width is used
+ * 3. Take the full width
+ * 4. Remove default style
+ * 5. Remove white background in Chrome
+ * 6. Remove padding in IE11
+ */
+input[type=range],
+.uk-range {
+    /* 1 */
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: middle;
+    /* 2 */
+    max-width: 100%;
+    /* 3 */
+    width: 100%;
+    /* 4 */
+    -webkit-appearance: none;
+    /* 5 */
+    background: transparent;
+    /* 6 */
+    padding: 0;
+    @if(mixin-exists(hook-form-range)) {@include hook-form-range();}
+}
+
+/* Focus */
+input[type=range]:focus,
+.uk-range:focus { outline: none; }
+input[type=range]::-moz-focus-outer,
+.uk-range::-moz-focus-outer { border: none; }
+
+/* IE11 Reset */
+input[type=range]::-ms-track,
+.uk-range::-ms-track {
+    height: $form-range-thumb-height;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+/*
+ * Improves consistency of cursor style for clickable elements
+ */
+input[type=range]:not(:disabled)::-webkit-slider-thumb,
+.uk-range:not(:disabled)::-webkit-slider-thumb { cursor: pointer; }
+input[type=range]:not(:disabled)::-moz-range-thumb,
+.uk-range:not(:disabled)::-moz-range-thumb { cursor: pointer; }
+input[type=range]:not(:disabled)::-ms-thumb,
+.uk-range:not(:disabled)::-ms-thumb { cursor: pointer; }
+
+
+/* Thumb
+ ========================================================================== */
+
+/*
+ * 1. Reset
+ * 2. Style
+ */
+
+/* Webkit */
+input[type=range]::-webkit-slider-thumb,
+.uk-range::-webkit-slider-thumb {
+    /* 1 */
+    -webkit-appearance: none;
+    margin-top: (floor($form-range-thumb-height / 2) * -1);
+    /* 2 */
+    height: $form-range-thumb-height;
+    width: $form-range-thumb-height;
+    border-radius: $form-range-thumb-border-radius;
+    background: $form-range-thumb-background;
+    @if(mixin-exists(hook-form-range-thumb)) {@include hook-form-range-thumb();}
+}
+
+/* Firefox */
+input[type=range]::-moz-range-thumb,
+.uk-range::-moz-range-thumb {
+    /* 1 */
+    border: none;
+    /* 2 */
+    height: $form-range-thumb-height;
+    width: $form-range-thumb-height;
+    border-radius: $form-range-thumb-border-radius;
+    background: $form-range-thumb-background;
+    @if(mixin-exists(hook-form-range-thumb)) {@include hook-form-range-thumb();}
+}
+
+/* Edge */
+input[type=range]::-ms-thumb,
+.uk-range::-ms-thumb {
+    /* 1 */
+    margin-top: 0;
+}
+
+/* IE11 */
+input[type=range]::-ms-thumb,
+.uk-range::-ms-thumb {
+    /* 1 */
+    border: none;
+    /* 2 */
+    height: $form-range-thumb-height;
+    width: $form-range-thumb-height;
+    border-radius: $form-range-thumb-border-radius;
+    background: $form-range-thumb-background;
+    @if(mixin-exists(hook-form-range-thumb)) {@include hook-form-range-thumb();}
+}
+
+/* Edge + IE11 */
+input[type=range]::-ms-tooltip,
+.uk-range::-ms-tooltip { display: none; }
+
+
+/* Track
+ ========================================================================== */
+
+/*
+ * 1. Safari doesn't have a focus state. Using active instead.
+ */
+
+/* Webkit */
+input[type=range]::-webkit-slider-runnable-track,
+.uk-range::-webkit-slider-runnable-track {
+    height: $form-range-track-height;
+    background: $form-range-track-background;
+    @if(mixin-exists(hook-form-range-track)) {@include hook-form-range-track();}
+}
+input[type=range]:focus::-webkit-slider-runnable-track,
+.uk-range:focus::-webkit-slider-runnable-track,
+/* 1 */
+input[type=range]:active::-webkit-slider-runnable-track,
+.uk-range:active::-webkit-slider-runnable-track {
+    background: $form-range-track-focus-background;
+    @if(mixin-exists(hook-form-range-track-focus)) {@include hook-form-range-track-focus();}
+}
+
+/* Firefox */
+input[type=range]::-moz-range-track,
+.uk-range::-moz-range-track {
+    height: $form-range-track-height;
+    background: $form-range-track-background;
+    @if(mixin-exists(hook-form-range-track)) {@include hook-form-range-track();}
+}
+input[type=range]:focus::-moz-range-track,
+.uk-range:focus::-moz-range-track {
+    background: $form-range-track-focus-background;
+    @if(mixin-exists(hook-form-range-track-focus)) {@include hook-form-range-track-focus();}
+}
+
+/* Edge */
+input[type=range]::-ms-fill-lower,
+input[type=range]::-ms-fill-upper,
+.uk-range::-ms-fill-lower,
+.uk-range::-ms-fill-upper {
+    height: $form-range-track-height;
+    background: $form-range-track-background;
+    @if(mixin-exists(hook-form-range-track)) {@include hook-form-range-track();}
+}
+input[type=range]:focus::-ms-fill-lower,
+input[type=range]:focus::-ms-fill-upper,
+.uk-range:focus::-ms-fill-lower,
+.uk-range:focus::-ms-fill-upper {
+    background: $form-range-track-focus-background;
+    @if(mixin-exists(hook-form-range-track-focus)) {@include hook-form-range-track-focus();}
+}
+
+
+// Hooks
+// ========================================================================
+
+@if(mixin-exists(hook-form-range-misc)) {@include hook-form-range-misc();}
+
+// @mixin hook-form-range(){}
+// @mixin hook-form-range-thumb(){}
+// @mixin hook-form-range-track(){}
+// @mixin hook-form-range-track-focus(){}
+// @mixin hook-form-range-misc(){}

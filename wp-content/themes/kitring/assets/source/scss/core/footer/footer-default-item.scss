@@ -1,0 +1,39 @@
+.de-footer--default {
+	a {
+		transition: .3s;
+	}
+	.de-footer {
+		&__footer-description {
+			p {
+				margin: 0;
+			}
+		}
+		&__site-info {
+			font-size: .875em;
+			line-height: 1.75;
+			p {
+				margin: 0;
+			}
+		}
+	}
+}
+
+@media (max-width: $breakpoint-small-max) {
+	.de-footer {
+		.de-social-accounts--horizontal {
+			flex-direction: row;
+			a.de-social-accounts__icon {
+				&:hover {
+					&:after,
+					&:before {
+						background: inherit !important;
+						color: inherit !important;
+					}
+					&:before {
+						content: none;
+					}
+				}
+			}
+		}
+	}
+}

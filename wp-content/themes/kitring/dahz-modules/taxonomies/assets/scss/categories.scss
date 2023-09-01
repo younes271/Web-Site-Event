@@ -1,0 +1,4 @@
+
+.de-post-meta__categories > a:not(:last-child)::after{
+    content:",";
+}
